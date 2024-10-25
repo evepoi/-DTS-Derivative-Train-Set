@@ -233,6 +233,11 @@ STR_Shinkansen_N700S_16Car_NAME                        :[DTS/16량] 신칸센 N7
 # Virtual / locomotive's name
 STR_DFX_10Car_NAME                                     :[DTS/10량] DFX
 STR_DPX_14Car_NAME                                     :[DTS/14량] DPX
+STR_Group_DTX_Koryo_NAME                               :[DTS] DTX-고려
+STR_DTX_Koryo_8Car_NAME                                :[DTS/8량] DTX-고려
+STR_DTX_Koryo_10Car_NAME                               :[DTS/10량] DTX-고려
+STR_DTX_Koryo_16Car_NAME                               :[DTS/16량] DTX-고려
+STR_DTX_Koryo_20Car_NAME                               :[DTS/20량] DTX-고려
 STR_HYEL_15_NAME                                       :[DTS/단량] HYEL-15
 STR_HYEL_100_NAME                                      :[DTS/단량] HYEL-100
 STR_HYEL_150_NAME                                      :[DTS/단량] HYEL-150

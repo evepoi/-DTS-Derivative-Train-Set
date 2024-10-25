@@ -2,6 +2,9 @@
 #include "wagon/Coach_2F_wagon/Coach_2F_wagon.pnml"
 
 //locomotive
+#include "locomotive/DFX/DFX.pnml"
+#include "locomotive/DPX/DPX.pnml"
+#include "locomotive/DTX_Koryo/DTX_Koryo.pnml"
 #include "locomotive/HYEL/HYEL_15/HYEL_15.pnml"
 #include "locomotive/HYEL/HYEL_100/HYEL_100.pnml"
 #include "locomotive/HYEL/HYEL_150/HYEL_150.pnml"
@@ -11,5 +14,3 @@
 #include "locomotive/HYEL/HYEL_400/HYEL_400.pnml"
 #include "locomotive/HYEL/HYEL_Constrck/HYEL_Constrck.pnml"
 #include "locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.pnml"
-#include "locomotive/DFX/DFX.pnml"
-#include "locomotive/DPX/DPX.pnml"

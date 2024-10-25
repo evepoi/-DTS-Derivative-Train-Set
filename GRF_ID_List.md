@@ -501,7 +501,12 @@
 |2482|KTX_Taegeuk_20Car|
 |2483|HYEL_300|
 |2484|HYEL_300_10Car|
-|2485~2999|공백|
+|2485|DTX_Koryo|
+|2486|DTX_Koryo_8Car|
+|2487|DTX_Koryo_10Car|
+|2488|DTX_Koryo_16Car|
+|2489|DTX_Koryo_20Car|
+|2490~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|
