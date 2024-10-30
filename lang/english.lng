@@ -1332,6 +1332,7 @@ STR_REFIT_LIVERY_Luggage_Real_MP                       : EXPRESS POST
 STR_REFIT_LIVERY_Luggage_Real_EA                       : ECO RAIL New livery A
 STR_REFIT_LIVERY_Luggage_Real_EB                       : ECO RAIL New livery B
 STR_REFIT_LIVERY_Luggage_Real_WN                       : Chungbuk Yeongdong Gugak & Wine Train
+STR_REFIT_LIVERY_Luggage_Real_GL                       : Logistics Train
 STR_REFIT_LIVERY_Post_Car_POST_1973                    : Post car exclusive use livery
 STR_REFIT_LIVERY_Post_Car_POST_1994                    : Post car standard livery
 STR_REFIT_LIVERY_Express_Post_Car_POST_M_1993          : Mugunghwa Old livery

@@ -12,6 +12,9 @@ spriteset(set_HYEL_Constrck_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_
     engine_r(80, 0)
 }
 
+/*--------------------------------------------------------------------
+숨김 작업
+
 spriteset(set_HYEL_Constrck_wagon, "src\wagon\SPassenger_wagon\PEX\PEX_SN_wagon.png") {
     wagon_1F_F(80, 0)
 }
@@ -19,13 +22,14 @@ spriteset(set_HYEL_Constrck_wagon, "src\wagon\SPassenger_wagon\PEX\PEX_SN_wagon.
 spriteset(set_HYEL_Constrck_wagon_r, "src\wagon\SPassenger_wagon\PEX\PEX_SN_wagon.png") {
     wagon_1F_F_r(80, 0)
 }
+--------------------------------------------------------------------*/
 
-spriteset(set_HYEL_Constrck_Luggage, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
-    wagon_1F_F(80, 0)
+spriteset(set_HYEL_Constrck_Luggage, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 567)
 }
 
-spriteset(set_HYEL_Constrck_Luggage_r, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
-    wagon_1F_F_r(80, 0)
+spriteset(set_HYEL_Constrck_Luggage_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F_r(80, 567)
 }
 
 spriteset(set_HYEL_Constrck_FLAT_CAR, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_Constrck/HYEL_Constrck.png") {

@@ -50,7 +50,7 @@ item(FEAT_TRAINS, HYEL_Constrck, 2320){
         }
         
     graphics {
-        default:                        sw_HYEL_Constrck_6car_reversed;
+        default:                        sw_HYEL_Constrck_12car_reversed;
         articulated_part:               sw_articulated_HYEL_Constrck;
         purchase:                       sw_HYEL_Constrck_purchase;
         cargo_capacity:                 0;
