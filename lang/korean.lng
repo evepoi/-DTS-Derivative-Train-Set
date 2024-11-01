@@ -71,6 +71,9 @@ STR_HMX_10Car_NAME                                     :[DTS/10량] HMX
 STR_Group_HSR_350X_NAME                                :[DTS] HSR-350X
 STR_HSR_350X_7Car_NAME                                 :[DTS/7량] HSR-350X
 STR_HSR_350X_14Car_NAME                                :[DTS/14량] HSR-350X
+STR_Group_ITX_CheongChan_NAME                          :[DTS] ITX-청천
+STR_ITX_CheongChan_6Car_NAME                           :[DTS/6량] ITX-청천
+STR_ITX_CheongChan_8Car_NAME                           :[DTS/8량] ITX-청천
 STR_Group_ITX_CheongChun_NAME                          :[DTS] ITX-청춘
 STR_ITX_CheongChun_6Car_NAME                           :[DTS/6량] ITX-청춘
 STR_ITX_CheongChun_8Car_NAME                           :[DTS/8량] ITX-청춘

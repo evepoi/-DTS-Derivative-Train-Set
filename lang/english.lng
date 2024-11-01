@@ -71,6 +71,9 @@ STR_HMX_10Car_NAME                                     :[DTS/10Car] HMX
 STR_Group_HSR_350X_NAME                                :[DTS] HSR-350X
 STR_HSR_350X_7Car_NAME                                 :[DTS/7Car] HSR-350X
 STR_HSR_350X_14Car_NAME                                :[DTS/14Car] HSR-350X
+STR_Group_ITX_CheongChan_NAME                          :[DTS] ITX-CheongChan
+STR_ITX_CheongChan_6Car_NAME                           :[DTS/6Car] ITX-CheongChan
+STR_ITX_CheongChan_8Car_NAME                           :[DTS/8Car] ITX-CheongChan
 STR_Group_ITX_CheongChun_NAME                          :[DTS] ITX-CheongChun
 STR_ITX_CheongChun_6Car_NAME                           :[DTS/6Car] ITX-CheongChun
 STR_ITX_CheongChun_8Car_NAME                           :[DTS/8Car] ITX-CheongChun

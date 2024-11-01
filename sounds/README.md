@@ -92,6 +92,7 @@
 - 부산교통공사 3000호대
 - 대구교통공사 2000호대
 - KTX-초월
+- ITX-청천
 
 ### HYUNDAIROTEMIGBTIPM1start.wav
 - 서울교통공사 2000호대 1·2세대 3VF

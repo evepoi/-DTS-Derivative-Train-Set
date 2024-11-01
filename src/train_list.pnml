@@ -20,6 +20,7 @@
 #include "locomotive/FEL_8500/FEL_8500.pnml"
 #include "locomotive/Glory_430/Glory_430.pnml"
 #include "locomotive/Glory_600/Glory_600.pnml"
+#include "locomotive/ITX_CheongChan/ITX_CheongChan.pnml"
 #include "locomotive/ITX_CheongChun/ITX_CheongChun.pnml"
 #include "locomotive/GT26CW/GT26CW.pnml"
 #include "locomotive/GTX/GTX.pnml"
