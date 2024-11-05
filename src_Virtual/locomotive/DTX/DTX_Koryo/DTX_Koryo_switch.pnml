@@ -60,14 +60,14 @@ switch (FEAT_TRAINS, SELF, sw_DTX_Koryo_10car_r, position_in_vehid_chain % 10) {
     set_DTX_Koryo_engineT_r; //default
     }
 
-switch(FEAT_TRAINS, SELF, sw_KDTX_Koryo_10car_flipped, vehicle_is_flipped){
+switch(FEAT_TRAINS, SELF, sw_DTX_Koryo_10car_flipped, vehicle_is_flipped){
     0: sw_DTX_Koryo_10car_r;
     sw_DTX_Koryo_10car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_DTX_Koryo_10car_reversed, vehicle_is_reversed){
     0: sw_DTX_Koryo_10car;
-    sw_KDTX_Koryo_10car_flipped;
+    sw_DTX_Koryo_10car_flipped;
 }
 
 switch (FEAT_TRAINS, SELF, sw_DTX_Koryo_16car, position_in_vehid_chain % 16) {

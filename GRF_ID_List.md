@@ -509,7 +509,15 @@
 |2490|ITX_CheongChan|
 |2491|ITX_CheongChan_6Car|
 |2492|ITX_CheongChan_8Car|
-|2403~2999|공백|
+|2493|DTX_Sejong|
+|2494|DTX_Sejong_10Car|
+|2495|DTX_Sejong_20Car|
+|2496|HYEL_350|
+|2497|HYEL_350_8Car|
+|2498|HYEL_350_10Car|
+|2499|HYEL_350_16Car|
+|2500|HYEL_350_20Car|
+|2501~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

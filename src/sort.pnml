@@ -396,6 +396,14 @@ sort(FEAT_TRAINS, [
     Shinkansen_E6_7Car,                      //2093
     Shinkansen_E6_E5_H5_17Car,               //2307
     Shinkansen_E8_7Car,                      //2095
+    DTX_Sejong,                              //2493
+    DTX_Sejong_10Car,                        //2494
+    DTX_Sejong_20Car,                        //2495
+    HYEL_350,                                //2496
+    HYEL_350_8Car,                           //2497
+    HYEL_350_10Car,                          //2498
+    HYEL_350_16Car,                          //2499
+    HYEL_350_20Car,                          //2500
     NHSRCL_E5_10Car,                         //2116
     THSR_700T_12Car,                         //2118
     Al_Boraq_10Car,                          //2120

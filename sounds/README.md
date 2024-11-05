@@ -225,6 +225,8 @@
 - 서울교통공사 6세대 7000호대
 - 한큐 7000형 VVVF
 - DTX-고려
+- DTX-세종
+- HYEL-350
 
 ### TOSHIBASicStart.wav
 - 니시테츠 9000형
