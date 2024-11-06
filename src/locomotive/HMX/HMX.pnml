@@ -30,7 +30,7 @@ item(FEAT_TRAINS, HMX, 2431){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HMX_6Car, 2462){
     property {
-        name:                           string(STR_NKX_6Car_NAME);
+        name:                           string(STR_HMX_6Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     RAIL;

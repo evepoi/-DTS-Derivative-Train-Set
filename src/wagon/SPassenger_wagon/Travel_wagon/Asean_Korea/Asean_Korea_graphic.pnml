@@ -4,33 +4,16 @@ Graphics
 /*--------------------------------------------------------------------
 한-아세안
 --------------------------------------------------------------------*/
-spriteset(set_Asean_Korea_1wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Asean_Korea/Asean_Korea.png") {
+spriteset(set_Asean_Korea_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Asean_Korea/Asean_Korea.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_Asean_Korea_2wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
-    wagon_1F_F(80, 0)
-}
-
-spriteset(set_Asean_Korea_3wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
-    wagon_1F_F(80, 27)
-}
-
-spriteset(set_Asean_Korea_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
-    wagon_1F_F(80, 54)
-}
-
-spriteset(set_Asean_Korea_5wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
-    wagon_1F_F(80, 81)
-}
-
-spriteset(set_Asean_Korea_6wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
-    wagon_1F_F(80, 108)
-}
-
-spriteset(set_Asean_Korea_7wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
-    wagon_1F_F(80, 135)
-}
+// 충북영동국악와인열차 객차귀속 사용주소 (set_CY_GW_6Car_1wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png")
+// 충북영동국악와인열차 객차귀속 사용주소 (set_CY_GW_6Car_2wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png")
+// 충북영동국악와인열차 객차귀속 사용주소 (set_CY_GW_6Car_3wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png")
+// 충북영동국악와인열차 객차귀속 사용주소 (set_CY_GW_6Car_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png")
+// 충북영동국악와인열차 객차귀속 사용주소 (set_CY_GW_6Car_5wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png")
+// 충북영동국악와인열차 객차귀속 사용주소 (set_CY_GW_6Car_6wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png")
 
 /*--------------------------------------------------------------------
 구매정보

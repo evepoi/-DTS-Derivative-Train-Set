@@ -85,8 +85,13 @@ spriteset(set_Luggage_Real_WN, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Lu
     wagon_1F_F(80, 540)
 }
 
+// HYEL_Constrck 건설차량 차량차 디자인으로 공용사용
 spriteset(set_Luggage_Real_GL, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
     wagon_1F_F(80, 567)
+}
+
+spriteset(set_Luggage_Real_GL_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F_r(80, 567)
 }
 
 /*--------------------------------------------------------------------
