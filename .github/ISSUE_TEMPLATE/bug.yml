@@ -1,7 +1,7 @@
 name: "[버그사항]"
 description: DTS에 버그사항을 찾으셨습니까?
 title: "[버그]"
-labels: "bug"
+labels: "Bug"
 body:
   - type: markdown
     attributes:
