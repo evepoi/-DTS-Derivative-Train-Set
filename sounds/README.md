@@ -1,15 +1,10 @@
 # 열차 사운드 적용열차목록
 ## 열차 출발음
-### ABBGTOstart.wav
-- 서울교통공사 5000호대 1,2세대
-
-### ALSTOM_IGBT_Start.wav
-- 인천교통공사 1000호대 1세대 1GBT 1lv
-
-### ALSTOMGTOstart.wav
-- 서울교통공사 4000호대 2세대 GTO
-- 서울교통공사 7000, 8000호대
-- 부산교통공사 2000호대
+|사운드명.wav|적용열차명|
+|:---:|:---|
+|ABBGTOstart.wav|서울교통공사 5000호대 1,2세대|
+|ALSTOM_IGBT_Start.wav|인천교통공사 1000호대 1세대 1GBT 1lv|
+|ALSTOMGTOstart.wav|서울교통공사 4000호대 2세대 GTO <br> 서울교통공사 7000, 8000호대 <br> 부산교통공사 2000호대|
 
 ### Cummins_DMU_start.wav
 - CDC
