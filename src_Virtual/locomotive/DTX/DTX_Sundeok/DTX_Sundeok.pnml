@@ -1,18 +1,18 @@
 /*--------------------------------------------------------------------
-DTX 고려
+DTX 선덕
 --------------------------------------------------------------------*/
 // Graphics
-#include "DTX_Koryo_graphic.pnml"
+#include "DTX_Sundeok_graphic.pnml"
 
 // Switch
-#include "DTX_Koryo_switch.pnml"
+#include "DTX_Sundeok_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Koryo, 2485){
+item(FEAT_TRAINS, DTX_Sundeok, 2503){
     property {
-        name:                           string(STR_Group_DTX_Koryo_NAME);
+        name:                           string(STR_Group_DTX_Sundeok_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -22,22 +22,22 @@ item(FEAT_TRAINS, DTX_Koryo, 2485){
         }
 
     graphics {
-        purchase:                       sw_DTX_Koryo_purchase;
+        purchase:                       sw_DTX_Sundeok_purchase;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Koryo_8Car, 2486){
+item(FEAT_TRAINS, DTX_Sundeok_8Car, 2504){
     property {
-        name:                           string(STR_DTX_Koryo_8Car_NAME);
+        name:                           string(STR_DTX_Sundeok_8Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2024, 1, 1);
+        introduction_date:              date(2025, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Koryo;
+        variant_group:                  DTX_Sundeok;
         
         //spec
         speed:                          430km/h;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, DTX_Koryo_8Car, 2486){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 140;
+        cargo_capacity:                 120;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -68,29 +68,29 @@ item(FEAT_TRAINS, DTX_Koryo_8Car, 2486){
         }
         
 	graphics {
-        default:                        sw_DTX_Koryo_8car_reversed;
-        articulated_part:               sw_articulated_DTX_Koryo_8car;
-        purchase:                       sw_DTX_Koryo_purchase;
-        speed:                          sw_DTX_Koryo_speed;
+        default:                        sw_DTX_Sundeok_8car_reversed;
+        articulated_part:               sw_articulated_DTX_Sundeok_8car;
+        purchase:                       sw_DTX_Sundeok_purchase;
+        speed:                          sw_DTX_Sundeok_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DTX_Koryo_sound;
+        sound_effect:                   sw_DTX_Sundeok_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Koryo_10Car, 2487){
+item(FEAT_TRAINS, DTX_Sundeok_10Car, 2505){
     property {
-        name:                           string(STR_DTX_Koryo_10Car_NAME);
+        name:                           string(STR_DTX_Sundeok_10Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2024, 1, 1);
+        introduction_date:              date(2025, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Koryo;
+        variant_group:                  DTX_Sundeok;
         
         //spec
         speed:                          430km/h;
@@ -105,7 +105,7 @@ item(FEAT_TRAINS, DTX_Koryo_10Car, 2487){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 140;
+        cargo_capacity:                 120;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -121,29 +121,29 @@ item(FEAT_TRAINS, DTX_Koryo_10Car, 2487){
         }
         
 	graphics {
-        default:                        sw_DTX_Koryo_10car_reversed;
-        articulated_part:               sw_articulated_DTX_Koryo_10car;
-        purchase:                       sw_DTX_Koryo_purchase;
-        speed:                          sw_DTX_Koryo_speed;
+        default:                        sw_DTX_Sundeok_10car_reversed;
+        articulated_part:               sw_articulated_DTX_Sundeok_10car;
+        purchase:                       sw_DTX_Sundeok_purchase;
+        speed:                          sw_DTX_Sundeok_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DTX_Koryo_sound;
+        sound_effect:                   sw_DTX_Sundeok_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Koryo_16Car, 2488){
+item(FEAT_TRAINS, DTX_Sundeok_16Car, 2506){
     property {
-        name:                           string(STR_DTX_Koryo_16Car_NAME);
+        name:                           string(STR_DTX_Sundeok_16Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2024, 1, 1);
+        introduction_date:              date(2025, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Koryo;
+        variant_group:                  DTX_Sundeok;
         
         //spec
         speed:                          430km/h;
@@ -158,7 +158,7 @@ item(FEAT_TRAINS, DTX_Koryo_16Car, 2488){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 140;
+        cargo_capacity:                 120;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -174,29 +174,29 @@ item(FEAT_TRAINS, DTX_Koryo_16Car, 2488){
         }
         
 	graphics {
-        default:                        sw_DTX_Koryo_16car_reversed;
-        articulated_part:               sw_articulated_DTX_Koryo_16car;
-        purchase:                       sw_DTX_Koryo_purchase;
-        speed:                          sw_DTX_Koryo_speed;
+        default:                        sw_DTX_Sundeok_16car_reversed;
+        articulated_part:               sw_articulated_DTX_Sundeok_16car;
+        purchase:                       sw_DTX_Sundeok_purchase;
+        speed:                          sw_DTX_Sundeok_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DTX_Koryo_sound;
+        sound_effect:                   sw_DTX_Sundeok_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Koryo_20Car, 2489){
+item(FEAT_TRAINS, DTX_Sundeok_20Car, 2507){
     property {
-        name:                           string(STR_DTX_Koryo_20Car_NAME);
+        name:                           string(STR_DTX_Sundeok_20Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2024, 1, 1);
+        introduction_date:              date(2025, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTX_Koryo;
+        variant_group:                  DTX_Sundeok;
         
         //spec
         speed:                          430km/h;
@@ -211,7 +211,7 @@ item(FEAT_TRAINS, DTX_Koryo_20Car, 2489){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 140;
+        cargo_capacity:                 120;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -227,13 +227,13 @@ item(FEAT_TRAINS, DTX_Koryo_20Car, 2489){
         }
         
 	graphics {
-        default:                        sw_DTX_Koryo_20car_reversed;
-        articulated_part:               sw_articulated_DTX_Koryo_20car;
-        purchase:                       sw_DTX_Koryo_purchase;
-        speed:                          sw_DTX_Koryo_speed;
+        default:                        sw_DTX_Sundeok_20car_reversed;
+        articulated_part:               sw_articulated_DTX_Sundeok_20car;
+        purchase:                       sw_DTX_Sundeok_purchase;
+        speed:                          sw_DTX_Sundeok_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_DTX_Koryo_sound;
+        sound_effect:                   sw_DTX_Sundeok_sound;
         }
         }

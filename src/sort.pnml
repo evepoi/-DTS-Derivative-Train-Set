@@ -2,6 +2,24 @@
 정렬
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
+    //DTX 열차 그룹
+    DTX,                                     //2501
+    DTX_Sejong,                              //2493
+    DTX_Sejong_10Car,                        //2494
+    DTX_Sejong_20Car,                        //2495
+    DTX_Koryo,                               //2485
+    DTX_Koryo_8Car,                          //2486
+    DTX_Koryo_10Car,                         //2487
+    DTX_Koryo_16Car,                         //2488
+    DTX_Koryo_20Car,                         //2489
+    DTX_Sundeok,                             //2503
+    DTX_Sundeok_8Car,                        //2504
+    DTX_Sundeok_10Car,                       //2505
+    DTX_Sundeok_16Car,                       //2506
+    DTX_Sundeok_20Car,                       //2507
+    HMX,                                     //2431
+    NKX,                                     //2429
+
     //지하철
     AUTS_6Car,                               //2007
     Busanmetro,                              //2242
@@ -258,7 +276,6 @@ sort(FEAT_TRAINS, [
     MEL_150_12Car,                           //2138
     NEL_8100,                                //2299
     NEL_8200,                                //2177
-    NKX,                                     //2429
     NKX_8Car,                                //2135
     NKX_10Car,                               //2430
     Nuriro,                                  //2323
@@ -301,7 +318,6 @@ sort(FEAT_TRAINS, [
     KTX_Eum_12Car,                           //2426
     KTX_Eum_Virtual_6Car,                    //2020
     KTX_Eum_DD_6Car,                         //2021
-    HMX,                                     //2431
     HMX_6Car,                                //2462
     HMX_8Car,                                //2134
     HMX_10Car,                               //2432
@@ -396,9 +412,6 @@ sort(FEAT_TRAINS, [
     Shinkansen_E6_7Car,                      //2093
     Shinkansen_E6_E5_H5_17Car,               //2307
     Shinkansen_E8_7Car,                      //2095
-    DTX_Sejong,                              //2493
-    DTX_Sejong_10Car,                        //2494
-    DTX_Sejong_20Car,                        //2495
     HYEL_350,                                //2496
     HYEL_350_8Car,                           //2497
     HYEL_350_10Car,                          //2498
@@ -411,11 +424,6 @@ sort(FEAT_TRAINS, [
     Avelia_Liberty_11Car,                    //2122
 
     //고속열차 430
-    DTX_Koryo,                               //2485
-    DTX_Koryo_8Car,                          //2486
-    DTX_Koryo_10Car,                         //2487
-    DTX_Koryo_16Car,                         //2488
-    DTX_Koryo_20Car,                         //2489
     Glory_430,                               //2367
     Glory_430_10Car,                         //2321
     Glory_430_16Car,                         //2368
@@ -459,6 +467,9 @@ sort(FEAT_TRAINS, [
     DFX_10Car,                               //2112
     DPX_14Car,                               //2351
 
+    //유지보수차량
+    MSB_Speeder,                             //2178
+    
     //객차
     Travel_wagon,                            //2210
     A_Train_Passenger_Car,                   //2164

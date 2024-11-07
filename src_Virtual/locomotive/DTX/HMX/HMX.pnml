@@ -18,6 +18,7 @@ item(FEAT_TRAINS, HMX, 2431){
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         power:                          10000 kW;
+        variant_group:                  DTX;
         }
 
     graphics {

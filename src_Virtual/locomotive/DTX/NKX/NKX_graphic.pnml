@@ -4,23 +4,23 @@ Graphics
 /*--------------------------------------------------------------------
 NKX
 --------------------------------------------------------------------*/
-spriteset(set_NKX_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/NKX/NKX.png"){
+spriteset(set_NKX_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DTX/NKX/NKX.png"){
     engine(80, 0)
 }
 
-spriteset(set_NKX_1wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/NKX/NKX.png") {
+spriteset(set_NKX_1wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DTX/NKX/NKX.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_NKX_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/NKX/NKX.png") {
+spriteset(set_NKX_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DTX/NKX/NKX.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_NKX_7wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/NKX/NKX.png") {
+spriteset(set_NKX_7wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DTX/NKX/NKX.png") {
     wagon_1F_F_r(80, 27)
 }
 
-spriteset(set_NKX_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/NKX/NKX.png"){
+spriteset(set_NKX_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DTX/NKX/NKX.png"){
     engine(80, 81)
 }
 
@@ -28,7 +28,7 @@ spriteset(set_NKX_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/N
 구매정보
 --------------------------------------------------------------------*/
 // 구매차량 그래픽
-spriteset(set_NKX_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/NKX/NKX.png"){
+spriteset(set_NKX_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DTX/NKX/NKX.png"){
     tmpl_purchase(0, 0)
 }
 

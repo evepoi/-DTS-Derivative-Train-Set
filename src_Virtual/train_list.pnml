@@ -4,8 +4,7 @@
 //locomotive
 #include "locomotive/DFX/DFX.pnml"
 #include "locomotive/DPX/DPX.pnml"
-#include "locomotive/DTX/DTX_Koryo/DTX_Koryo.pnml"
-#include "locomotive/DTX/DTX_Sejong/DTX_Sejong.pnml"
+#include "locomotive/DTX/DTX.pnml"
 #include "locomotive/HYEL/HYEL_15/HYEL_15.pnml"
 #include "locomotive/HYEL/HYEL_100/HYEL_100.pnml"
 #include "locomotive/HYEL/HYEL_150/HYEL_150.pnml"

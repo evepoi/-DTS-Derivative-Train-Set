@@ -517,7 +517,13 @@
 |2498|HYEL_350_10Car|
 |2499|HYEL_350_16Car|
 |2500|HYEL_350_20Car|
-|2501~2999|공백|
+|2501|DTX|
+|2502|DTX_Sundeok|
+|2503|DTX_Sundeok_8Car|
+|2504|DTX_Sundeok_10Car|
+|2505|DTX_Sundeok_16Car|
+|2506|DTX_Sundeok_20Car|
+|2507~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|
