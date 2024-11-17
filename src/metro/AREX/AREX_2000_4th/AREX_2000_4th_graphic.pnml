@@ -1,23 +1,24 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-/*--------------------------------------------------------------------
-APEX20005 회사색상
---------------------------------------------------------------------*/
 spriteset(set_AREX_2000_4th_engineH, "src/metro/AREX/AREX_2000_4th/AREX_2000_4th.png"){
     engine(80, 0)
 }
 
-spriteset(set_AREX_2000_4th_panto_wagon, "src/metro/AREX/AREX_2000_4th/AREX_2000_4th.png"){
-    wagon_1F_F(80, 27)
+spriteset(set_AREX_2000_4th_engineH_r, "src/metro/AREX/AREX_2000_4th/AREX_2000_4th.png"){
+    engine(80, 27)
 }
 
 spriteset(set_AREX_2000_4th_wagon, "src/metro/AREX/AREX_2000_4th/AREX_2000_4th.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_AREX_2000_4th_panto_wagon_r, "src/metro/AREX/AREX_2000_4th/AREX_2000_4th.png"){
-    wagon_1F_F(80, 81)
+spriteset(set_AREX_2000_4th_wagon_r, "src/metro/AREX/AREX_2000_4th/AREX_2000_4th.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_AREX_2000_4th_engineT_r, "src/metro/AREX/AREX_2000_4th/AREX_2000_4th.png"){
+    engine(80, 81)
 }
 
 spriteset(set_AREX_2000_4th_engineT, "src/metro/AREX/AREX_2000_4th/AREX_2000_4th.png"){
