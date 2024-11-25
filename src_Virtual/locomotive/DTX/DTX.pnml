@@ -7,9 +7,9 @@ DTX
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX, 2501){
+item(FEAT_TRAINS, DTX_Logo, 2501){
     property {
-        name:                           string(STR_Group_DTX_NAME);
+        name:                           string(STR_Group_DTX_Logo_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;

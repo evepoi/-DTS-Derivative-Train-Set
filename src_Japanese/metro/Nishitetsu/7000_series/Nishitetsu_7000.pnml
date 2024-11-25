@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------
-니시테츠 9000형
+니시테츠 7000형
 --------------------------------------------------------------------*/
 // Graphics
 #include "Nishitetsu_7000_graphic.pnml"
@@ -18,6 +18,7 @@ item(FEAT_TRAINS, Nishitetsu_7000_2Car, 2102){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Nishitetsu_Logo;
         
         //spec
         speed:                          110km/h;

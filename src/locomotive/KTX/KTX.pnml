@@ -1,0 +1,34 @@
+/*--------------------------------------------------------------------
+KTX
+--------------------------------------------------------------------*/
+// Graphics
+#include "KTX_graphic.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, KTX_Logo, 2511){
+    property {
+        name:                           string(STR_Group_KTX_Logo_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          2592 kW;
+        }
+
+    graphics {
+        purchase:                       set_KTX_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차 리스트
+--------------------------------------------------------------------*/
+#include "KTX_1/KTX_1.pnml"
+#include "KTX_Cheong_Ryong/KTX_Cheong_Ryong.pnml"
+#include "KTX_Chowol/KTX_Chowol.pnml"
+#include "KTX_Eum/KTX_Eum.pnml"
+#include "KTX_Onnuri/KTX_Onnuri.pnml"
+#include "KTX_Sancheon/KTX_Sancheon.pnml"
+#include "KTX_Taegeuk/KTX_Taegeuk.pnml"

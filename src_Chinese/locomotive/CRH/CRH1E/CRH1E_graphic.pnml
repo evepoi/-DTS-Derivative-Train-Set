@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_CRH1E_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Chinese/locomotive/CRH/CRH1E/CRH1E.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+CRH1E
+--------------------------------------------------------------------*/
+spriteset(set_CRH1E_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Chinese/locomotive/CRH/CRH1E/CRH1E.png"){
+    engine(80, 0)
+}
+
+spriteset(set_CRH1E_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Chinese/locomotive/CRH/CRH1E/CRH1E.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_CRH1E_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Chinese/locomotive/CRH/CRH1E/CRH1E.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_CRH1E_panto_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Chinese/locomotive/CRH/CRH1E/CRH1E.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_CRH1E_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Chinese/locomotive/CRH/CRH1E/CRH1E.png"){
+    engine(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_CRH1E_purchase, cargo_subtype) {
+    set_CRH1E_purchase;
+}

@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------
-EMU
+공항철도 1000호대 1세대 전동차
 --------------------------------------------------------------------*/
 // Graphics
 #include "AREX_1000_1st_graphic.pnml"
@@ -18,6 +18,7 @@ item(FEAT_TRAINS, APEX_1000_1st_6Car, 2340){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  AREX_Logo;
         
         //spec
         speed:                          165km/h;

@@ -10,7 +10,7 @@ grf {
     name :                             string(STR_GRF_NAME_WITH_VER);
     desc :                             string(STR_GRF_DESC);
     url :                              string(STR_GRF_URL);
-    version :                          20241115;
+    version :                          20241125;
     min_compatible_version :           20240618;
 	
 	// Parameters 매개변수
@@ -65,6 +65,7 @@ if (Chinese) {
     disable_item(FEAT_TRAINS, 2031); //CTS_SPassenger_Car
     disable_item(FEAT_TRAINS, 2032); //CGeneratar_Car
     disable_item(FEAT_TRAINS, 2033); //CLuggage_Car
+    disable_item(FEAT_TRAINS, 2518); //CRH_Logo
     disable_item(FEAT_TRAINS, 2034); //CRH1_8Car
     disable_item(FEAT_TRAINS, 2035); //CRH1E_16Car
     disable_item(FEAT_TRAINS, 2036); //CRH1A_A_8Car
@@ -95,6 +96,7 @@ if (Chinese) {
     }
 
 if (Hong_Kong) {
+    disable_item(FEAT_TRAINS, 2515); //MTR_Logo
     disable_item(FEAT_TRAINS, 2052); //AD_Tranz_CAF_A_8Car
     disable_item(FEAT_TRAINS, 2053); //MTR_AC_Cammall_8Car
     disable_item(FEAT_TRAINS, 2054); //MTR_DC_Cammall_8Car
@@ -150,6 +152,7 @@ if (Japanese) {
     disable_item(FEAT_TRAINS, 2093); //Shinkansen_E6_7Car
     disable_item(FEAT_TRAINS, 2094); //Shinkansen_E7_W7_12Car
     disable_item(FEAT_TRAINS, 2095); //Shinkansen_E8_7Car
+    disable_item(FEAT_TRAINS, 2517); //Nishitetsu_Logo
     disable_item(FEAT_TRAINS, 2097); //Nishitetsu_1000_4Car
     disable_item(FEAT_TRAINS, 2098); //Nishitetsu_2000_6Car
     disable_item(FEAT_TRAINS, 2099); //Nishitetsu_3000_2Car
@@ -165,16 +168,27 @@ if (Japanese) {
     disable_item(FEAT_TRAINS, 2103); //Nishitetsu_8000_6Car
     disable_item(FEAT_TRAINS, 2104); //Nishitetsu_9000_2Car
     disable_item(FEAT_TRAINS, 2113); //Nishitetsu_9000_3Car
+    disable_item(FEAT_TRAINS, 2516); //Hankyu_Logo
     disable_item(FEAT_TRAINS, 2263); //Hankyu_1000_8Car
     disable_item(FEAT_TRAINS, 2264); //Hankyu_1300_8Car
     disable_item(FEAT_TRAINS, 2169); //Hankyu_6000_2Car
     disable_item(FEAT_TRAINS, 2170); //Hankyu_6000_3Car
     disable_item(FEAT_TRAINS, 2171); //Hankyu_6000_4Car
+    disable_item(FEAT_TRAINS, 2446); //Hankyu_6000_6Car
     disable_item(FEAT_TRAINS, 2172); //Hankyu_6000_10Car
     disable_item(FEAT_TRAINS, 2179); //Hankyu_6300_4Car
     disable_item(FEAT_TRAINS, 2180); //Hankyu_6300_8Car
+    disable_item(FEAT_TRAINS, 2448); //Hankyu_7000_2Car
+    disable_item(FEAT_TRAINS, 2449); //Hankyu_7000_4Car
+    disable_item(FEAT_TRAINS, 2450); //Hankyu_7000_6Car
+    disable_item(FEAT_TRAINS, 2451); //Hankyu_7000_8Car
+    disable_item(FEAT_TRAINS, 2453); //Hankyu_7300_2Car
+    disable_item(FEAT_TRAINS, 2454); //Hankyu_7300_6Car
+    disable_item(FEAT_TRAINS, 2455); //Hankyu_7300_7Car
+    disable_item(FEAT_TRAINS, 2456); //Hankyu_7300_8Car
     disable_item(FEAT_TRAINS, 2212); //Hankyu_8000_2Car
     disable_item(FEAT_TRAINS, 2213); //Hankyu_8000_8Car
+    disable_item(FEAT_TRAINS, 2445); //Hankyu_8200_2Car
     disable_item(FEAT_TRAINS, 2215); //Hankyu_8300_2Car
     disable_item(FEAT_TRAINS, 2216); //Hankyu_8300_8Car
     disable_item(FEAT_TRAINS, 2246); //Hankyu_9000_8Car

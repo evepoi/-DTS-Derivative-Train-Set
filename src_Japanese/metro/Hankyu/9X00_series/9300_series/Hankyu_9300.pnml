@@ -18,6 +18,7 @@ item(FEAT_TRAINS, Hankyu_9300_8Car, 2247){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Hankyu_Logo;
         
         //spec
         speed:                          120km/h;

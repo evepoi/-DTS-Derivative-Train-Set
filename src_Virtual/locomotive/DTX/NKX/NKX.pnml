@@ -18,7 +18,7 @@ item(FEAT_TRAINS, NKX, 2429){
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         power:                          8000 kW;
-        variant_group:                  DTX;
+        variant_group:                  DTX_Logo;
         }
 
     graphics {

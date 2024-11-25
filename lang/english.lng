@@ -9,10 +9,23 @@ STR_GRF_URL                                            :https://github.com/DTS-N
 # Deleted / locomotive's name
 STR_To_Be_Deleted_202403_NAME                          :[2024.3] {RED} To Be Deleted
 
+# locomotive's name / Logo
+STR_Group_DTX_Logo_NAME                                :[DTS] DTX
+STR_Group_KTX_Logo_NAME                                :[DTS] KTX
+STR_Group_ITX_Logo_NAME                                :[DTS] ITX
+STR_Group_Nuriro_Logo_NAME                             :[DTS] Nuriro
+STR_Group_AREX_Logo_NAME                               :[DTS] AREX
+STR_Group_Busanmetro_NAME                              :[DTS] Busan Metro
+STR_Group_Daegumetro_NAME                              :[DTS] Daegu Metro
+STR_Group_Incheonmetro_NAME                            :[DTS] Incheon Metro
+STR_Group_Korail_NAME                                  :[DTS] Korail Metro
+STR_Group_Seoulmetro_NAME                              :[DTS] Seoul Metro
+STR_Group_MTR_Logo_NAME                                :[DTS] Hong Kong MTR
+STR_Group_Hankyu_Logo_NAME                             :[DTS] Hankyu
+STR_Group_Nishitetsu_Logo_NAME                         :[DTS] Nishitetsu
+STR_Group_CRH_Logo_NAME                                :[DTS] CRH
+
 # Korea / locomotive's name
-STR_AREX_1000_1st_6Car_NAME                            :[DTS/6Car] AREX series 1000 1st
-STR_AREX_2000_1st_6Car_NAME                            :[DTS/6Car] AREX series 2000 1st
-STR_AREX_2000_4th_6Car_NAME                            :[DTS/6Car] AREX series 2000 4th
 STR_Group_CDC_NAME                                     :[DTS] CDC Diesel
 STR_CDC_3Car_NAME                                      :[DTS/3Car] CDC Diesel
 STR_CDC_4Car_NAME                                      :[DTS/4Car] CDC Diesel
@@ -109,6 +122,9 @@ STR_KTX_Eum_6Car_NAME                                  :[DTS/6Car] KTX-EUM
 STR_KTX_Eum_12Car_NAME                                 :[DTS/12Car] KTX-EUM
 STR_KTX_Eum_Virtual_6Car_NAME                          :[DTS/6Car]{GREEN}[Virtual] {BLACK} KTX-EUM
 STR_KTX_Eum_DD_6Car_NAME                               :[DTS/6Car] KTX-EUM DD
+STR_Group_KTX_Onnuri_NAME                              :[DTS] KTX-Onnuri
+STR_KTX_Onnuri_8Car_NAME                               :[DTS/8Car] KTX-Onnuri
+STR_KTX_Onnuri_10Car_NAME                              :[DTS/10Car] KTX-Onnuri
 STR_Group_KTX_Sancheon_NAME                            :[DTS] KTX-Sancheon
 STR_KTX_Sancheon_10Car_NAME                            :[DTS/10Car] KTX-Sancheon, SRT
 STR_KTX_Sancheon_20Car_NAME                            :[DTS/20Car] KTX-Sancheon
@@ -237,7 +253,6 @@ STR_Shinkansen_N700S_16Car_NAME                        :[DTS/16Car] Shinkansen N
 # Virtual / locomotive's name
 STR_DFX_10Car_NAME                                     :[DTS/10Car] DFX
 STR_DPX_14Car_NAME                                     :[DTS/14Car] DPX
-STR_Group_DTX_NAME                                     :[DTS] DTX
 STR_Group_DTX_Sejong_NAME                              :[DTS] DTX-Sejong
 STR_DTX_Sejong_10Car_NAME                              :[DTS/10량] DTX-Sejong
 STR_DTX_Sejong_20Car_NAME                              :[DTS/20량] DTX-Sejong
@@ -287,8 +302,10 @@ STR_Talgo_350_SRO_14Car_NAME                           :[DTS/14Car] Talgo 350 SR
 STR_THSR_700T_12Car_NAME                               :[DTS/12Car] THSR 700T
 
 # Korea / Metro's name
+STR_AREX_1000_1st_6Car_NAME                            :[DTS/6Car] AREX series 1000 1st
+STR_AREX_2000_1st_6Car_NAME                            :[DTS/6Car] AREX series 2000 1st
+STR_AREX_2000_4th_6Car_NAME                            :[DTS/6Car] AREX series 2000 4th
 STR_AUTS_6Car_NAME                                     :[DTS/6Car] AUTS
-STR_Group_Busanmetro_NAME                              :[DTS] Busan Metro
 STR_Busan_Gimhae_LRT_2Car_NAME                         :[DTS/2car] Busan-Gimhae LRT line
 STR_Group_Busanmetro_1st_1000_NAME                     :[DTS] Busanmetro 1st 1000
 STR_Busanmetro_1st_1000_6Car_NAME                      :[DTS/6car] Busanmetro 1st 1000
@@ -298,7 +315,6 @@ STR_Busanmetro_3rd_1000_8Car_NAME                      :[DTS/8car] Busanmetro 3r
 STR_Busanmetro_2000_6Car_NAME                          :[DTS/6car] Busanmetro 2000
 STR_Busanmetro_3000_4Car_NAME                          :[DTS/4car] Busanmetro 3000
 STR_Busanmetro_4000_6Car_NAME                          :[DTS/6car] Busanmetro 4000
-STR_Group_Daegumetro_NAME                              :[DTS] Daegu Metro
 STR_Daegumetro_1000_6Car_NAME                          :[DTS/6car] Daegumetro 1000
 STR_Daegumetro_2000_6Car_NAME                          :[DTS/6car] Daegumetro 2000
 STR_Daegumetro_3000_3Car_NAME                          :[DTS/3car] Daegumetro 3000
@@ -306,11 +322,9 @@ STR_Daejeonmetro_1000_4Car_NAME                        :[DTS/4Car] Daejeonmetro 
 STR_Dongbuk_2Car_NAME                                  :[DTS/2car] Dongbuk
 STR_Gimpo_Gold_2Car_NAME                               :[DTS/2car] Gimpo Gold Line
 STR_Gwangjumetro_1000_4Car_NAME                        :[DTS/4Car] Gwangjumetro 1000
-STR_Group_Incheonmetro_NAME                            :[DTS] Incheon Metro
 STR_Incheonmetro_1000_1st_8Car_NAME                    :[DTS/8car] Incheonmetro 1000 1st
 STR_Incheonmetro_1000_2nd_8Car_NAME                    :[DTS/8car] Incheonmetro 1000 2nd
 STR_Incheonmetro_2000_2Car_NAME                        :[DTS/2car] Incheonmetro 2000
-STR_Group_Korail_NAME                                  :[DTS] Korail Metro
 STR_Group_Korail_1st_NAME                              :[DTS] Korail 1st 
 STR_Korail_1st_4Car_NAME                               :[DTS/4Car] Korail 1st
 STR_Korail_1st_6Car_NAME                               :[DTS/6Car] Korail 1st
@@ -348,7 +362,6 @@ STR_Korail_Rheostatic_10Car_NAME                       :[DTS/10Car] Korail Rheos
 STR_Group_Nextrain_NAME                                :[DTS] Nextrain Metro
 STR_Nextrain_3Car_NAME                                 :[DTS/3Car] Nextrain
 STR_Nextrain_4Car_NAME                                 :[DTS/4Car] Nextrain
-STR_Group_Seoulmetro_NAME                              :[DTS] Seoul Metro
 STR_Group_Chopper_GEC_NAME                             :[DTS] Seoulmetro 2000 GEC chopper
 STR_Chopper_GEC_6Car_NAME                              :[DTS/6Car] Seoulmetro 2000 GEC chopper
 STR_Chopper_GEC_10Car_NAME                             :[DTS/10Car] Seoulmetro 2000 GEC chopper

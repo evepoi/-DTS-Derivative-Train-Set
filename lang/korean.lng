@@ -9,10 +9,23 @@ STR_GRF_URL                                            :https://github.com/DTS-N
 # Deleted / locomotive's name
 STR_To_Be_Deleted_202403_NAME                          :[2024.3] {RED}삭제예정
 
+# locomotive's name / Logo
+STR_Group_DTX_Logo_NAME                                :[DTS] DTX
+STR_Group_KTX_Logo_NAME                                :[DTS] KTX
+STR_Group_ITX_Logo_NAME                                :[DTS] ITX
+STR_Group_Nuriro_Logo_NAME                             :[DTS] 누리로
+STR_Group_AREX_Logo_NAME                               :[DTS] AREX
+STR_Group_Busanmetro_NAME                              :[DTS] 부산교통공사 전동차
+STR_Group_Daegumetro_NAME                              :[DTS] 대구교통공사 전동차
+STR_Group_Incheonmetro_NAME                            :[DTS] 인천교통공사 전동차
+STR_Group_Korail_NAME                                  :[DTS] 한국철도공사 통근형 전동차
+STR_Group_Seoulmetro_NAME                              :[DTS] 서울교통공사 전동차
+STR_Group_MTR_Logo_NAME                                :[DTS] 홍콩 MTR
+STR_Group_Hankyu_Logo_NAME                             :[DTS] 한큐전철
+STR_Group_Nishitetsu_Logo_NAME                         :[DTS] 니시테츠
+STR_Group_CRH_Logo_NAME                                :[DTS] CRH
+
 # Korea / locomotive's name
-STR_AREX_1000_1st_6Car_NAME                            :[DTS/6량] 공항철도 1000호대 1세대 전동차
-STR_AREX_2000_1st_6Car_NAME                            :[DTS/6량] 공항철도 2000호대 1세대 전동차
-STR_AREX_2000_4th_6Car_NAME                            :[DTS/6량] 공항철도 2000호대 4세대 전동차
 STR_Group_CDC_NAME                                     :[DTS] CDC 디젤동차
 STR_CDC_3Car_NAME                                      :[DTS/3량] CDC 디젤동차
 STR_CDC_4Car_NAME                                      :[DTS/4량] CDC 디젤동차
@@ -109,6 +122,9 @@ STR_KTX_Eum_6Car_NAME                                  :[DTS/6량] KTX-이음
 STR_KTX_Eum_12Car_NAME                                 :[DTS/12량] KTX-이음
 STR_KTX_Eum_Virtual_6Car_NAME                          :[DTS/6량]{GREEN}[가상] {BLACK} KTX-이음
 STR_KTX_Eum_DD_6Car_NAME                               :[DTS/6량]{GREEN}[가상] {BLACK} KTX-이음 DD
+STR_Group_KTX_Onnuri_NAME                              :[DTS] KTX-온누리
+STR_KTX_Onnuri_8Car_NAME                               :[DTS/8량] KTX-온누리
+STR_KTX_Onnuri_10Car_NAME                              :[DTS/10량] KTX-온누리
 STR_Group_KTX_Sancheon_NAME                            :[DTS] KTX-산천
 STR_KTX_Sancheon_10Car_NAME                            :[DTS/10량] KTX-산천, SRT
 STR_KTX_Sancheon_20Car_NAME                            :[DTS/20량] KTX-산천 중련
@@ -237,7 +253,6 @@ STR_Shinkansen_N700S_16Car_NAME                        :[DTS/16량] 신칸센 N7
 # Virtual / locomotive's name
 STR_DFX_10Car_NAME                                     :[DTS/10량] DFX
 STR_DPX_14Car_NAME                                     :[DTS/14량] DPX
-STR_Group_DTX_NAME                                     :[DTS] DTX
 STR_Group_DTX_Sejong_NAME                              :[DTS] DTX-세종
 STR_DTX_Sejong_10Car_NAME                              :[DTS/10량] DTX-세종
 STR_DTX_Sejong_20Car_NAME                              :[DTS/20량] DTX-세종
@@ -287,8 +302,10 @@ STR_THSR_700T_12Car_NAME                               :[DTS/12량] 타이완 �
 STR_Talgo_350_SRO_14Car_NAME                           :[DTS/14량] 탈고 350 SRO (하라마인 고속철도)
 
 # Korea / Metro's name
+STR_AREX_1000_1st_6Car_NAME                            :[DTS/6량] 공항철도 1000호대 1세대 전동차
+STR_AREX_2000_1st_6Car_NAME                            :[DTS/6량] 공항철도 2000호대 1세대 전동차
+STR_AREX_2000_4th_6Car_NAME                            :[DTS/6량] 공항철도 2000호대 4세대 전동차
 STR_AUTS_6Car_NAME                                     :[DTS/6량] 차세대전동차
-STR_Group_Busanmetro_NAME                              :[DTS] 부산교통공사 전동차
 STR_Busan_Gimhae_LRT_2Car_NAME                         :[DTS/2량] 부산김해경전철 전동차
 STR_Group_Busanmetro_1st_1000_NAME                     :[DTS] 부산교통공사 1세대 1000호대 전동차
 STR_Busanmetro_1st_1000_6Car_NAME                      :[DTS/6량] 부산교통공사 1세대 1000호대 전동차
@@ -298,7 +315,6 @@ STR_Busanmetro_3rd_1000_8Car_NAME                      :[DTS/8량] 부산교통�
 STR_Busanmetro_2000_6Car_NAME                          :[DTS/6량] 부산교통공사 2000호대 전동차
 STR_Busanmetro_3000_4Car_NAME                          :[DTS/4량] 부산교통공사 3000호대 전동차
 STR_Busanmetro_4000_6Car_NAME                          :[DTS/6량] 부산교통공사 4000호대 전동차
-STR_Group_Daegumetro_NAME                              :[DTS] 대구교통공사 전동차
 STR_Daegumetro_1000_6Car_NAME                          :[DTS/6량] 대구교통공사 1000호대 전동차
 STR_Daegumetro_2000_6Car_NAME                          :[DTS/6량] 대구교통공사 2000호대 전동차
 STR_Daegumetro_3000_3Car_NAME                          :[DTS/3량] 대구교통공사 3000호대 전동차
@@ -306,11 +322,9 @@ STR_Daejeonmetro_1000_4Car_NAME                        :[DTS/4량] 대전교통�
 STR_Dongbuk_2Car_NAME                                  :[DTS/2량] 동북선
 STR_Gimpo_Gold_2Car_NAME                               :[DTS/2량] 김포골드라인
 STR_Gwangjumetro_1000_4Car_NAME                        :[DTS/4량] 광주교통공사 1000호대 전동차
-STR_Group_Incheonmetro_NAME                            :[DTS] 인천교통공사 전동차
 STR_Incheonmetro_1000_1st_8Car_NAME                    :[DTS/8량] 인천교통공사 1000호대 1세대 전동차
 STR_Incheonmetro_1000_2nd_8Car_NAME                    :[DTS/8량] 인천교통공사 1000호대 2세대 전동차
 STR_Incheonmetro_2000_2Car_NAME                        :[DTS/2량] 인천교통공사 2000호대 전동차
-STR_Group_Korail_NAME                                  :[DTS] 한국철도공사 통근형 전동차
 STR_Group_Korail_1st_NAME                              :[DTS] 한국철도공사 1세대 전동차
 STR_Korail_1st_4Car_NAME                               :[DTS/4량] 한국철도공사 1세대
 STR_Korail_1st_6Car_NAME                               :[DTS/6량] 한국철도공사 1세대
@@ -348,7 +362,6 @@ STR_Korail_Rheostatic_10Car_NAME                       :[DTS/10량] 한국철도
 STR_Group_Nextrain_NAME                                :[DTS] 넥스트레인
 STR_Nextrain_3Car_NAME                                 :[DTS/3량] 넥스트레인 1000호대
 STR_Nextrain_4Car_NAME                                 :[DTS/4량] 넥스트레인 1000호대
-STR_Group_Seoulmetro_NAME                              :[DTS] 서울교통공사 전동차
 STR_Group_Chopper_GEC_NAME                             :[DTS] 서울교통공사 2000호대 GEC초퍼
 STR_Chopper_GEC_6Car_NAME                              :[DTS/6량] 서울교통공사 2000호대 GEC초퍼
 STR_Chopper_GEC_10Car_NAME                             :[DTS/10량] 서울교통공사 2000호대 GEC초퍼

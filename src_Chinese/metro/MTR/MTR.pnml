@@ -1,0 +1,35 @@
+/*--------------------------------------------------------------------
+MTR
+--------------------------------------------------------------------*/
+// Graphics
+#include "MTR_graphic.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, MTR_Logo, 2515){
+    property {
+        name:                           string(STR_Group_MTR_Logo_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          2592 kW;
+        }
+
+    graphics {
+        purchase:                       set_MTR_Logo_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차 리스트
+--------------------------------------------------------------------*/
+#include "AD_Tranz_CAF_A/AD_Tranz_CAF_A.pnml"
+#include "Cammall_AC/Cammall_AC.pnml"
+#include "Cammall_DC/Cammall_DC.pnml"
+#include "CNR_Changchun/CNR_Changchun.pnml"
+#include "CRRC/CRRC.pnml"
+#include "Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.pnml"
+#include "Hyundai_Rotem_R/Hyundai_Rotem_R.pnml"
+#include "IKK_SP_1900/IKK_SP_1900.pnml"

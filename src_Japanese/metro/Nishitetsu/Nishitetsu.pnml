@@ -1,0 +1,35 @@
+/*--------------------------------------------------------------------
+Nishtietsu
+--------------------------------------------------------------------*/
+// Graphics
+#include "Nishitetsu_graphic.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Nishitetsu_Logo, 2517){
+    property {
+        name:                           string(STR_Group_Nishitetsu_Logo_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          2592 kW;
+        }
+
+    graphics {
+        purchase:                       set_Nishitetsu_Logo_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차 리스트
+--------------------------------------------------------------------*/
+#include "1000_series/Nishitetsu_1000.pnml"
+#include "2000_series/Nishitetsu_2000.pnml"
+#include "3000_series/Nishitetsu_3000.pnml"
+#include "5000_series/Nishitetsu_5000.pnml"
+#include "6000_series/Nishitetsu_6000.pnml"
+#include "7000_series/Nishitetsu_7000.pnml"
+#include "8000_series/Nishitetsu_8000.pnml"
+#include "9000_series/Nishitetsu_9000.pnml"

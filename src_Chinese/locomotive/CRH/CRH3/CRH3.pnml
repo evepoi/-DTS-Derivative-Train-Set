@@ -1,0 +1,61 @@
+/*--------------------------------------------------------------------
+CRH3
+--------------------------------------------------------------------*/
+// Graphics
+#include "CRH3_graphic.pnml"
+
+// Switch
+#include "CRH3_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, CRH3_8Car, 2039){
+    property {
+        name:                           string(STR_CRH3_8Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2008, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  CRH_Logo;
+        
+        //spec
+        speed:                          350km/h;
+        power:                          8000 kW;
+        weight:                         40 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 75;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_CRH3_8car;
+        articulated_part:               sw_articulated_CRH3_8car;
+        purchase:                       sw_CRH3_purchase;
+        speed:                          sw_CRH3_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        }
+        }

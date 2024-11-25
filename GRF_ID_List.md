@@ -517,13 +517,25 @@
 |2498|HYEL_350_10Car|
 |2499|HYEL_350_16Car|
 |2500|HYEL_350_20Car|
-|2501|DTX|
+|2501|DTX_Logo|
 |2502|DTX_Sundeok|
 |2503|DTX_Sundeok_8Car|
 |2504|DTX_Sundeok_10Car|
 |2505|DTX_Sundeok_16Car|
 |2506|DTX_Sundeok_20Car|
-|2507~2999|공백|
+|2507|[사용불가]|
+|2508|KTX_Onnuri|
+|2509|KTX_Onnuri_8Car|
+|2510|KTX_Onnuri_10Car|
+|2511|[그룹명] KTX_Logo|
+|2512|[그룹명] ITX_Logo|
+|2513|[그룹명] Nuriro_Logo|
+|2514|[그룹명] AREX_Logo|
+|2515|[그룹명] MTR_Logo|
+|2516|[그룹명] Hankyu_Logo|
+|2517|[그룹명] Nishitetsu_Logo|
+|2518|[그룹명] CRH_Logo|
+|2519~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|
