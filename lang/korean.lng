@@ -24,6 +24,7 @@ STR_Group_MTR_Logo_NAME                                :[DTS] 홍콩 MTR
 STR_Group_Hankyu_Logo_NAME                             :[DTS] 한큐전철
 STR_Group_Nishitetsu_Logo_NAME                         :[DTS] 니시테츠
 STR_Group_CRH_Logo_NAME                                :[DTS] CRH
+STR_Group_HYEL_Logo_NAME                               :[DTS] HYEL
 
 # Korea / locomotive's name
 STR_Group_CDC_NAME                                     :[DTS] CDC 디젤동차

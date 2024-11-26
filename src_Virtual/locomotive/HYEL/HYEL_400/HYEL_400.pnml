@@ -19,6 +19,7 @@ item(FEAT_TRAINS, HYEL_400, 2341){
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         power:                          20000 kW;
+        variant_group:                  HYEL_Logo;
         }
 
     graphics {

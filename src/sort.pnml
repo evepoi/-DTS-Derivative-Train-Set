@@ -314,6 +314,33 @@ sort(FEAT_TRAINS, [
     CR400BF_Z_8Car,                          //2049
     CR400BF_Z_17Car,                         //2153
 
+    //HYEL 수소열차 컨셉
+    HYEL_Logo,                               //2519
+    HYEL_15,                                 //2115
+    HYEL_100,                                //2108
+    HYEL_200,                                //2194
+    HYEL_200_4Car,                           //2167
+    HYEL_200_6Car,                           //2168
+    HYEL_220_6Car,                           //2109
+    HYEL_150,                                //2141
+    HYEL_300,                                //2483
+    HYEL_300_8Car,                           //2110
+    HYEL_300_10Car,                          //2484
+    HYEL_Constrck,                           //2320
+    HYEL_PEX_Super,                          //2435
+    HYEL_PEX_Super_8Car,                     //2436
+    HYEL_PEX_Super_10Car,                    //2437
+    HYEL_PEX_Super_14Car,                    //2438
+    HYEL_350,                                //2496
+    HYEL_350_8Car,                           //2497
+    HYEL_350_10Car,                          //2498
+    HYEL_350_16Car,                          //2499
+    HYEL_350_20Car,                          //2500
+    HYEL_400,                                //2341
+    HYEL_400_8Car,                           //2111
+    HYEL_400_10Car,                          //2342
+    HYEL_400_16Car,                          //2343
+
     //지하철
     AUTS_6Car,                               //2007
     Daejeonmetro_1000_4Car,                  //2416
@@ -389,12 +416,6 @@ sort(FEAT_TRAINS, [
     NJ2,                                     //2051
     BB15000,                                 //2064
     Keisei_AE_series_8Car,                   //2084
-    HYEL_15,                                 //2115
-    HYEL_100,                                //2108
-    HYEL_200,                                //2194
-    HYEL_200_4Car,                           //2167
-    HYEL_200_6Car,                           //2168
-    HYEL_220_6Car,                           //2109
     NSW_TrainLink_D,                         //2195
     NSW_TrainLink_D_4Car,                    //2117
     NSW_TrainLink_D_6Car,                    //2142
@@ -419,15 +440,6 @@ sort(FEAT_TRAINS, [
     Shinkansen_800_6Car,                     //2088
     Shinkansen_E2_10Car,                     //2091
     Shinkansen_E7_W7_12Car,                  //2094
-    HYEL_150,                                //2141
-    HYEL_300,                                //2483
-    HYEL_300_8Car,                           //2110
-    HYEL_300_10Car,                          //2484
-    HYEL_Constrck,                           //2320
-    HYEL_PEX_Super,                          //2435
-    HYEL_PEX_Super_8Car,                     //2436
-    HYEL_PEX_Super_10Car,                    //2437
-    HYEL_PEX_Super_14Car,                    //2438
 
     //고속열차 331
     CTX,                                     //2199
@@ -469,11 +481,6 @@ sort(FEAT_TRAINS, [
     Shinkansen_E6_7Car,                      //2093
     Shinkansen_E6_E5_H5_17Car,               //2307
     Shinkansen_E8_7Car,                      //2095
-    HYEL_350,                                //2496
-    HYEL_350_8Car,                           //2497
-    HYEL_350_10Car,                          //2498
-    HYEL_350_16Car,                          //2499
-    HYEL_350_20Car,                          //2500
     NHSRCL_E5_10Car,                         //2116
     THSR_700T_12Car,                         //2118
     Al_Boraq_10Car,                          //2120
@@ -487,10 +494,6 @@ sort(FEAT_TRAINS, [
     HEMU_430X,                               //2205
     HEMU_430X_6Car,                          //2028
     HEMU_430X_8Car,                          //2127
-    HYEL_400,                                //2341
-    HYEL_400_8Car,                           //2111
-    HYEL_400_10Car,                          //2342
-    HYEL_400_16Car,                          //2343
 
     //고속열차 600
     Glory_600,                               //2369
