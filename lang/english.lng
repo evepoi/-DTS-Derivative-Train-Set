@@ -291,6 +291,7 @@ STR_Group_HYEL_PEX_Super_NAME                          :[DTS] HYEL PEX-SUPER (Pr
 STR_HYEL_PEX_Super_8Car_NAME                           :[DTS] HYEL PEX-SUPER 8Car
 STR_HYEL_PEX_Super_10Car_NAME                          :[DTS] HYEL PEX-SUPER 10Car
 STR_HYEL_PEX_Super_14Car_NAME                          :[DTS] HYEL PEX-SUPER 14Car
+STR_Transparency_NAME                                  :[DTS] Transparency Vehicle
 
 # World / locomotive's name
 STR_Al_Boraq_10Car_NAME                                :[DTS/10Car] Al-Boraq

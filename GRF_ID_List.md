@@ -536,7 +536,8 @@
 |2517|[그룹명] Nishitetsu_Logo|
 |2518|[그룹명] CRH_Logo|
 |2519|[그룹명] HYEL_Logo|
-|2520~2999|공백|
+|2520|[그룹명] Transparency|
+|2521~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

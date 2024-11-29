@@ -1,0 +1,14 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Transparency_engine, "src_Virtual/locomotive/Transparency/Transparency.png"){
+    engine(80, 0)
+}
+
+/*-------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Transparency_purchase, "src_Virtual/locomotive/Transparency/Transparency.png"){
+    tmpl_single_purchase(0, 0)
+}

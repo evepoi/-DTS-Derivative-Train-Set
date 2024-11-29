@@ -291,6 +291,7 @@ STR_Group_HYEL_PEX_Super_NAME                          :[DTS] HYEL PEX-SUPER (Pr
 STR_HYEL_PEX_Super_8Car_NAME                           :[DTS/8량] HYEL PEX-SUPER
 STR_HYEL_PEX_Super_10Car_NAME                          :[DTS/10량] HYEL PEX-SUPER
 STR_HYEL_PEX_Super_14Car_NAME                          :[DTS/14량] HYEL PEX-SUPER
+STR_Transparency_NAME                                  :[DTS/단량] 투명기관차
 
 # World / locomotive's name
 STR_Al_Boraq_10Car_NAME                                :[DTS/10량] 알 보라크
