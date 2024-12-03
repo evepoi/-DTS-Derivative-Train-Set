@@ -491,7 +491,7 @@
 |2472|Tong_il_Normal|
 |2473|Tong_il_Service|
 |2474|Tong_il_Special|
-|2475|Guoup_Post_Car|
+|2475|Group_Post_Car|
 |2476|Post_Car|
 |2477|Express_Post_Car|
 |2478|KTX_Taegeuk|
@@ -536,8 +536,11 @@
 |2517|[그룹명] Nishitetsu_Logo|
 |2518|[그룹명] CRH_Logo|
 |2519|[그룹명] HYEL_Logo|
-|2520|[그룹명] Transparency|
-|2521~2999|공백|
+|2520|Transparency|
+|2521|[그룹명] Group_Showcase|
+|2522|Showcase_Flat_1F|
+|2523|Showcase_Flat_2F|
+|2524~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

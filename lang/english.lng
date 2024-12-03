@@ -547,7 +547,7 @@ STR_Generatar_2cc_NAME                                 :[DTS] Korea Generatar 2c
 STR_Generatar_Real_OutLook_NAME                        :[DTS] Korea Outlook & Right Angle Shape Generator Car
 STR_Generatar_Real_Stream_lined_NAME                   :[DTS] Korea Stream lined & Long length Generator Car
 STR_Luggage_Real_NAME                                  :[DTS] Luggage Car
-STR_Guoup_Post_Car_NAME                                :[DTS] Post car
+STR_Group_Post_Car_NAME                                :[DTS] Post car
 STR_Post_Car_NAME                                      :[DTS] Post car
 STR_Express_Post_Car_NAME                              :[DTS] Express Post car
 STR_CTS_SPASS_NAME                                     :[DTS] Chinese carriage-type passenger car
@@ -558,8 +558,9 @@ STR_VTS_SPASS_NAME                                     :[DTS] Virtual carriage-t
 STR_FLAT_1F_NAME                                       :[DTS] Flat Car
 STR_FLAT_Tank_NAME                                     :[DTS] Flat Tank Car
 STR_FLAT_2F_NAME                                       :[DTS] Flat Car - American
-STR_KMetro_Pass_NAME                                   :[DTS] Korean Metro Passenger Car
-STR_EMU_Pass_NAME                                      :[DTS] EMU carriage-type passenger car
+STR_Group_Showcase_NAME                                :[DTS/Showcase] Flat Car
+STR_Showcase_Flat_1F_NAME                              :[DTS/Showcase] Flat Car
+STR_Showcase_Flat_2F_NAME                              :[DTS/Showcase] Flat Car - American
 
 # Object's name
 STR_OBJ_BUFFER                                         :[DTS] Buffers
@@ -1370,6 +1371,10 @@ STR_REFIT_LIVERY_Post_Car_POST_1973                    : Post car exclusive use 
 STR_REFIT_LIVERY_Post_Car_POST_1994                    : Post car standard livery
 STR_REFIT_LIVERY_Express_Post_Car_POST_M_1993          : Mugunghwa Old livery
 STR_REFIT_LIVERY_Express_Post_Car_POST_M_2005          : Mugunghwa New livery
+STR_REFIT_LIVERY_Express_Post_Car_1998_G               : 1998 GREEN
+STR_REFIT_LIVERY_Express_Post_Car_1999_G               : 1999 GREEN
+STR_REFIT_LIVERY_Express_Post_Car_1998_B               : 1998 BLUE
+STR_REFIT_LIVERY_Express_Post_Car_1999_B               : 1999 BLUE
 STR_REFIT_LIVERY_SWagon_1F_Red                         : 25 Type 1F Red Color Car
 STR_REFIT_LIVERY_SWagon_1F_Green                       : 25 Type 1F Green Color Car
 STR_REFIT_LIVERY_Swagon_1F_White                       : 25 Type 1F White Color Car

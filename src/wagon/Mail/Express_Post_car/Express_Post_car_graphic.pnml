@@ -9,12 +9,32 @@ spriteset(set_Express_Post_Car_POST_M_2005, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, 
     wagon_1F_F(80, 27)
 }
 
+spriteset(set_Express_Post_Car_1998_G, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Mail/Express_Post_car/Express_Post_car.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Express_Post_Car_1999_G, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Mail/Express_Post_car/Express_Post_car.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Express_Post_Car_1998_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Mail/Express_Post_car/Express_Post_car.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Express_Post_Car_1999_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Mail/Express_Post_car/Express_Post_car.png") {
+    wagon_1F_F(80, 135)
+}
+
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 // 구매차량 그래픽
 spriteset(set_Express_Post_Car_1993_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Mail/Express_Post_car/Express_Post_car.png"){
     tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_Express_Post_Car_1998_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Mail/Express_Post_car/Express_Post_car.png"){
+    tmpl_wagon_purchase(0, 54)
 }
 
 spriteset(set_Express_Post_Car_2005_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Mail/Express_Post_car/Express_Post_car.png"){
@@ -26,11 +46,16 @@ switch(FEAT_TRAINS, SELF, sw_Express_Post_Car_1993_purchase, cargo_subtype) {
     set_Express_Post_Car_1993_purchase;
 }
 
+switch(FEAT_TRAINS, SELF, sw_Express_Post_Car_1998_purchase, cargo_subtype) {
+    set_Express_Post_Car_1998_purchase;
+}
+
 switch(FEAT_TRAINS, SELF, sw_Express_Post_Car_2005_purchase, cargo_subtype) {
     set_Express_Post_Car_2005_purchase;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Express_Post_Car_purchase, current_year) {
-    0..2004: sw_Express_Post_Car_1993_purchase;
+    0..1997: sw_Express_Post_Car_1993_purchase;
+    1998..2004: sw_Express_Post_Car_1998_purchase;
     sw_Express_Post_Car_2005_purchase;
     }

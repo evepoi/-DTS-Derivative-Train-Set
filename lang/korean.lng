@@ -545,7 +545,7 @@ STR_Generatar_2cc_NAME                                 :[DTS/발전차] 한국 �
 STR_Generatar_Real_OutLook_NAME                        :[DTS/발전차] 한국 전망형 & 직각형 발전차
 STR_Generatar_Real_Stream_lined_NAME                   :[DTS/발전차] 한국 유선형, 고속일반 & 고속장대형 발전차
 STR_Luggage_Real_NAME                                  :[DTS/수화물차] 한국 수화물차
-STR_Guoup_Post_Car_NAME                                :[DTS/우편차] 한국 우편차
+STR_Group_Post_Car_NAME                                :[DTS/우편차] 한국 우편차
 STR_Post_Car_NAME                                      :[DTS/우편차] 한국 우편차
 STR_Express_Post_Car_NAME                              :[DTS/우편차] 한국 고속 우편차
 STR_CTS_SPASS_NAME                                     :[DTS/객차] 중국 객차 차량
@@ -556,6 +556,9 @@ STR_VTS_SPASS_NAME                                     :[DTS/객차] 가상 객�
 STR_FLAT_1F_NAME                                       :[DTS/화차] 평판화차
 STR_FLAT_Tank_NAME                                     :[DTS/화차] 평판유조 화차
 STR_FLAT_2F_NAME                                       :[DTS/화차] 평판화차 - 미국형
+STR_Group_Showcase_NAME                                :[DTS/진열용] 평판화차
+STR_Showcase_Flat_1F_NAME                              :[DTS/진열용] 평판화차
+STR_Showcase_Flat_2F_NAME                              :[DTS/진열용] 평판화차 - 미국형
 
 # Object's name
 STR_OBJ_BUFFER                                         :[DTS] 차막이
@@ -1366,6 +1369,10 @@ STR_REFIT_LIVERY_Post_Car_POST_1973                    : 우편차 전용도색
 STR_REFIT_LIVERY_Post_Car_POST_1994                    : 우편차 표준도색
 STR_REFIT_LIVERY_Express_Post_Car_POST_M_1993          : 무궁화 구도색
 STR_REFIT_LIVERY_Express_Post_Car_POST_M_2005          : 무궁화 신도색
+STR_REFIT_LIVERY_Express_Post_Car_1998_G               : 1998년식 (녹색)
+STR_REFIT_LIVERY_Express_Post_Car_1999_G               : 1999년식 (녹색)
+STR_REFIT_LIVERY_Express_Post_Car_1998_B               : 1998년식 (파랑)
+STR_REFIT_LIVERY_Express_Post_Car_1999_B               : 1999년식 (파랑)
 STR_REFIT_LIVERY_SWagon_1F_Red                         : 25형 1층 빨강 도색
 STR_REFIT_LIVERY_SWagon_1F_Green                       : 25형 1층 녹색 도색
 STR_REFIT_LIVERY_Swagon_1F_White                       : 25형 1층 흰색 도색

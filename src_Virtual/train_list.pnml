@@ -7,3 +7,6 @@
 #include "locomotive/DTX/DTX.pnml"
 #include "locomotive/HYEL/HYEL.pnml"
 #include "locomotive/Transparency/Transparency.pnml"
+
+//Showcase
+#include "Showcase/Showcase.pnml"

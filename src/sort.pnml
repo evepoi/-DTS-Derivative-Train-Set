@@ -566,13 +566,16 @@ sort(FEAT_TRAINS, [
     Generatar_Real_Stream_lined,             //2394
     CGeneratar_Car,                          //2032
     Luggage_Real,                            //2004
-    Guoup_Post_Car,                          //2475
+    Group_Post_Car,                          //2475
     Post_Car,                                //2476
     Express_Post_Car,                        //2477
     CLuggage_Car,                            //2033
     FLAT_1F,                                 //2129
     FLAT_2F,                                 //2114
     FLAT_TANK,                               //2130
+    Group_Showcase,                          //2521
+    Showcase_Flat_1F,                        //2522
+    Showcase_Flat_2F,                        //2523
 
     //경유지
     Waypoint_Hight_Staion_A,                 //2000
