@@ -2,7 +2,7 @@
 스위치
 --------------------------------------------------------------------*/
 //도색
-#include "Luggage_Real_switch_Year.pnml"
+#include "Luggage_Olny_switch_Year.pnml"
 
 //열차
-#include "Luggage_Real_switch_wagon.pnml"
+#include "Luggage_Olny_switch_wagon.pnml"

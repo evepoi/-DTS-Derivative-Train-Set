@@ -44,117 +44,117 @@ spriteset(set_Shinkansen_E6_engineT, "src_Japanese/locomotive/Shinkansen/Shinkan
     engine(80, 216)
 }
 
-spriteset(set_Shinkansen_E6_E5_H5_engineT, "src_Japanese/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
+spriteset(set_Shinkansen_E6_engineT_E5H5, "src_Japanese/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){
     engine(80, 243)
 }
 
 /*--------------------------------------------------------------------
 E6+E5
 --------------------------------------------------------------------*/
-spriteset(set_Shinkansen_E6_E5_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_E5.png"){
+spriteset(set_Shinkansen_E6_E5_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_E5.png"){
     engine(80, 0)
 }
 
-spriteset(set_Shinkansen_E6_E5_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_E5.png"){
+spriteset(set_Shinkansen_E6_E5_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_E5.png"){
     engine(80, 27)
 }
 
-spriteset(set_Shinkansen_E6_E5_panto_wagon_A_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_E5.png"){
+spriteset(set_Shinkansen_E6_E5_panto_wagon_A_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_E5.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Shinkansen_E6_E5_panto_wagon_A, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_E5.png"){
+spriteset(set_Shinkansen_E6_E5_panto_wagon_A, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_E5.png"){
     wagon_1F_F(80, 81)
 }
 
-spriteset(set_Shinkansen_E6_E5_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_E5.png") {
+spriteset(set_Shinkansen_E6_E5_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_E5.png") {
     wagon_1F_F(80, 108)
 }
 
-spriteset(set_Shinkansen_E6_E5_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_E5.png") {
+spriteset(set_Shinkansen_E6_E5_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_E5.png") {
     wagon_1F_F_r(80, 108)
 }
 
-spriteset(set_Shinkansen_E6_E5_green_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_E5.png"){
+spriteset(set_Shinkansen_E6_E5_green_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_E5.png"){
     wagon_1F_F(80, 135)
 }
 
-spriteset(set_Shinkansen_E6_E5_green_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_E5.png"){
+spriteset(set_Shinkansen_E6_E5_green_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_E5.png"){
     wagon_1F_F_r(80, 135)
 }
 
-spriteset(set_Shinkansen_E6_E5_panto_wagon_B_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_E5.png"){
+spriteset(set_Shinkansen_E6_E5_panto_wagon_B_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_E5.png"){
     wagon_1F_F(80, 162)
 }
 
-spriteset(set_Shinkansen_E6_E5_panto_wagon_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_E5.png"){
+spriteset(set_Shinkansen_E6_E5_panto_wagon_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_E5.png"){
     wagon_1F_F(80, 189)
 }
 
-spriteset(set_Shinkansen_E6_E5_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_E5.png"){
+spriteset(set_Shinkansen_E6_E5_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_E5.png"){
     engine(80, 216)
 }
 
-spriteset(set_Shinkansen_E6_E5_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_E5.png"){
+spriteset(set_Shinkansen_E6_E5_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_E5.png"){
     engine(80, 243)
 }
 
-spriteset(set_Shinkansen_E6_E5_engineT_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_E5.png"){
+spriteset(set_Shinkansen_E6_E5_engineT_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_E5.png"){
     engine(80, 297)
 }
 
 /*--------------------------------------------------------------------
 E6+H5
 --------------------------------------------------------------------*/
-spriteset(set_Shinkansen_E6_H5_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_H5.png"){
+spriteset(set_Shinkansen_E6_H5_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_H5.png"){
     engine(80, 0)
 }
 
-spriteset(set_Shinkansen_E6_H5_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_H5.png"){
+spriteset(set_Shinkansen_E6_H5_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_H5.png"){
     engine(80, 27)
 }
 
-spriteset(set_Shinkansen_E6_H5_panto_wagon_A_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_H5.png"){
+spriteset(set_Shinkansen_E6_H5_panto_wagon_A_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_H5.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Shinkansen_E6_H5_panto_wagon_A, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_H5.png"){
+spriteset(set_Shinkansen_E6_H5_panto_wagon_A, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_H5.png"){
     wagon_1F_F(80, 81)
 }
 
-spriteset(set_Shinkansen_E6_H5_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_H5.png") {
+spriteset(set_Shinkansen_E6_H5_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_H5.png") {
     wagon_1F_F(80, 108)
 }
 
-spriteset(set_Shinkansen_E6_H5_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_H5.png") {
+spriteset(set_Shinkansen_E6_H5_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_H5.png") {
     wagon_1F_F_r(80, 108)
 }
 
-spriteset(set_Shinkansen_E6_H5_green_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_H5.png"){
+spriteset(set_Shinkansen_E6_H5_green_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_H5.png"){
     wagon_1F_F(80, 135)
 }
 
-spriteset(set_Shinkansen_E6_H5_green_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_H5.png"){
+spriteset(set_Shinkansen_E6_H5_green_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_H5.png"){
     wagon_1F_F_r(80, 135)
 }
 
-spriteset(set_Shinkansen_E6_H5_panto_wagon_B_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_H5.png"){
+spriteset(set_Shinkansen_E6_H5_panto_wagon_B_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_H5.png"){
     wagon_1F_F(80, 162)
 }
 
-spriteset(set_Shinkansen_E6_H5_panto_wagon_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_H5.png"){
+spriteset(set_Shinkansen_E6_H5_panto_wagon_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_H5.png"){
     wagon_1F_F(80, 189)
 }
 
-spriteset(set_Shinkansen_E6_H5_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_H5.png"){
+spriteset(set_Shinkansen_E6_H5_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_H5.png"){
     engine(80, 216)
 }
 
-spriteset(set_Shinkansen_E6_H5_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_H5.png"){
+spriteset(set_Shinkansen_E6_H5_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_H5.png"){
     engine(80, 243)
 }
 
-spriteset(set_Shinkansen_E6_H5_engineT_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5_H5/Shinkansen_H5.png"){
+spriteset(set_Shinkansen_E6_H5_engineT_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_E5/Shinkansen_H5.png"){
     engine(80, 297)
 }
 

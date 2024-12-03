@@ -8,24 +8,6 @@
 #include "Shinkansen_E6_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보 그룹
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, Shinkansen_E6, 2306){
-    property {
-        name:                           string(STR_Group_Shinkansen_E6_NAME);
-        climates_available:             NO_CLIMATE;
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        power:                          9960 kW;
-        }
-
-    graphics {
-        purchase:                       sw_Shinkansen_E6_purchase;
-        }
-        }
-
-/*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Shinkansen_E6_7Car, 2093){
@@ -35,8 +17,7 @@ item(FEAT_TRAINS, Shinkansen_E6_7Car, 2093){
         introduction_date:              date(2013, 3, 16);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Shinkansen_E6;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;        
         
         //spec
         speed:                          320km/h;
@@ -84,12 +65,11 @@ item(FEAT_TRAINS, Shinkansen_E6_7Car, 2093){
 item(FEAT_TRAINS, Shinkansen_E6_E5_H5_17Car, 2307){
     property {
         name:                           string(STR_Shinkansen_E6_E5_H5_17Car_NAME);
-        climates_available:             ALL_CLIMATES;
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2013, 3, 16);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Shinkansen_E6;
         
         //spec
         speed:                          320km/h;

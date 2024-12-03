@@ -1,15 +1,15 @@
 /*--------------------------------------------------------------------
-우편차량
+수화물차
 --------------------------------------------------------------------*/
 // Switch
-#include "Mail_switch.pnml"
+#include "Luggage_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Group_Post_Car, 2475){
+item(FEAT_TRAINS, Group_Luggage, 2524){
     property {
-        name:                           string(STR_Group_Post_Car_NAME);
+        name:                           string(STR_Group_Luggage_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -17,12 +17,12 @@ item(FEAT_TRAINS, Group_Post_Car, 2475){
         }
 
     graphics {
-        purchase:                       sw_Group_Post_purchase;
+        purchase:                       sw_Group_Luggage_purchase;
         }
         }
 
 /*--------------------------------------------------------------------
-우편객차 리스트
+수화물차 리스트
 --------------------------------------------------------------------*/
-#include "Express_Post_car/Express_Post_car.pnml"
-#include "Post_car/Post_car.pnml"
+#include "Express_Luggage/Express_Luggage.pnml"
+#include "Luggage_Olny/Luggage_Olny.pnml"

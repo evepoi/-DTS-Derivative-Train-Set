@@ -20,7 +20,7 @@
 |2001|CY_GW_6Car|
 |2002|G_Train|
 |2003|Generatar_2cc|
-|2004|Luggage_Real|
+|2004|Express_Luggage|
 |2005|HSR_350X_14Car|
 |2006|Standard_Metro_4Car|
 |2007|AUTS_6Car|
@@ -322,8 +322,8 @@
 |2303|Seoulmetro_5th_7000_8Car|
 |2304|[그룹명] Shinkansen_E5_H5|
 |2305|Shinkansen_E5_H5_E6_17Car|
-|2306|[그룹명] Shinkansen_E6|
-|2307|Shinkansen_E6_E5_H5_17Car|
+|2306|[공백]|
+|2307|[삭제예정]Shinkansen_E6_E5_H5_17Car|
 |2308|Seoulmetro_1st_8000_6Car|
 |2309|Seoulmetro_1st_7000_8Car|
 |2310|Seoulmetro_1st_6000_8Car|
@@ -540,7 +540,10 @@
 |2521|[그룹명] Group_Showcase|
 |2522|Showcase_Flat_1F|
 |2523|Showcase_Flat_2F|
-|2524~2999|공백|
+|2524|[그룹명] Group_Luggage|
+|2525|Luggage_Olny|
+|2306|공백|
+|2526~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

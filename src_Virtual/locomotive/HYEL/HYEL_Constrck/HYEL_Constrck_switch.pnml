@@ -2,7 +2,7 @@
 스위치
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_HYEL_Constrck_12car, position_in_vehid_chain % 12) {
-     1:set_Luggage_Real_GL;
+     1:set_Express_Luggage_GL;
      2:set_HYEL_Constrck_FLAT_CAR;
      3:set_HYEL_Constrck_FLAT_CAR;
      4:set_HYEL_Constrck_FLAT_CAR;
@@ -27,7 +27,7 @@ switch (FEAT_TRAINS, SELF, sw_HYEL_Constrck_12car_r, position_in_vehid_chain % 1
      8:set_HYEL_Constrck_FLAT_CAR;
      9:set_HYEL_Constrck_FLAT_CAR;
     10:set_HYEL_Constrck_FLAT_CAR;
-    11:set_Luggage_Real_GL_r;
+    11:set_Express_Luggage_GL_r;
     set_HYEL_150_engine_r; //default
     }
 

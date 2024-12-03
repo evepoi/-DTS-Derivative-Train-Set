@@ -11,7 +11,7 @@ Shinkansen
 #include "Shinkansen_N700/Shinkansen_N700.pnml"
 #include "Shinkansen_N700_S/Shinkansen_N700_S.pnml"
 #include "Shinkansen_E2/Shinkansen_E2.pnml"
-#include "Shinkansen_E5_H5/Shinkansen_E5_H5.pnml"
+#include "Shinkansen_E5/Shinkansen_E5.pnml"
 #include "Shinkansen_E6/Shinkansen_E6.pnml"
 #include "Shinkansen_E7_W7/Shinkansen_E7_W7.pnml"
 #include "Shinkansen_E8/Shinkansen_E8.pnml"

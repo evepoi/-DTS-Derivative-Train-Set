@@ -1,0 +1,26 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Group_Post_1973_purchase, cargo_subtype) {
+    set_Post_Car_1973_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Group_Post_1993_purchase, cargo_subtype) {
+    set_Express_Post_Car_1993_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Group_Post_1994_purchase, cargo_subtype) {
+    set_Post_Car_1994_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Group_Post_2005_purchase, cargo_subtype) {
+    set_Express_Post_Car_2005_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Group_Post_purchase, current_year) {
+    0..1992: sw_Group_Post_1973_purchase;
+    1993: sw_Group_Post_1993_purchase;
+    1994..2004: sw_Group_Post_1994_purchase;
+    sw_Group_Post_2005_purchase;
+    }

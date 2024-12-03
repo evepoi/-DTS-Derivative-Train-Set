@@ -478,7 +478,6 @@ sort(FEAT_TRAINS, [
     Shinkansen_E5_H5,                        //2304
     Shinkansen_E5_H5_10Car,                  //2092
     Shinkansen_E5_H5_E6_17Car,               //2305
-    Shinkansen_E6,                           //2306
     Shinkansen_E6_7Car,                      //2093
     Shinkansen_E6_E5_H5_17Car,               //2307
     Shinkansen_E8_7Car,                      //2095
@@ -565,7 +564,9 @@ sort(FEAT_TRAINS, [
     Generatar_Real_OutLook,                  //2395
     Generatar_Real_Stream_lined,             //2394
     CGeneratar_Car,                          //2032
-    Luggage_Real,                            //2004
+    Group_Luggage,                           //2524
+    Express_Luggage,                         //2004
+    Luggage_Olny,                            //2525
     Group_Post_Car,                          //2475
     Post_Car,                                //2476
     Express_Post_Car,                        //2477
