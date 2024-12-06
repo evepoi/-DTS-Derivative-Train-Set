@@ -65,6 +65,11 @@ spriteset(set_Generatar_Real_OutLook_SNM, "src/wagon/Generatar/Generatar_Real/Ge
     wagon_1F_F_mini_6(80, 405)
 }
 
+// 교외선 뒤집힘 차량
+spriteset(set_Generatar_Real_OutLook_SNM_r, "src/wagon/Generatar/Generatar_Real/Generatar_Real_OutLook/Generatar_Real_OutLook.png") {
+    wagon_1F_F_r_mini_6(80, 405)
+}
+
 spriteset(set_Generatar_Real_OutLook_RSNM, "src/wagon/Generatar/Generatar_Real/Generatar_Real_OutLook/Generatar_Real_OutLook.png") {
     wagon_1F_F_mini_6(80, 432)
 }

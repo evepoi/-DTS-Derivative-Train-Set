@@ -57,6 +57,11 @@ spriteset(set_Mugunhwa_Real_Normal_NN1, "src/wagon/SPassenger_wagon/Mugunhwa/Mug
     wagon_1F_F(80, 351)
 }
 
+// 교외선 뒤집힘 열차
+spriteset(set_Mugunhwa_Real_Normal_NN1_r, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F_r(80, 351)
+}
+
 spriteset(set_Mugunhwa_Real_Normal_NN2, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
     wagon_1F_F(80, 378)
 }

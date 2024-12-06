@@ -543,6 +543,7 @@
 |2524|[그룹명] Group_Luggage|
 |2525|Luggage_Olny|
 |2306|공백|
+|2307|삭제예정|
 |2526~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
