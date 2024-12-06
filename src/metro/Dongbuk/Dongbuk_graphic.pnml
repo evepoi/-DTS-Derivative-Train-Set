@@ -5,11 +5,11 @@ Graphics
 동북선
 --------------------------------------------------------------------*/
 spriteset(set_Dongbuk_engineH, "src/metro/Dongbuk/Dongbuk.png"){
-    engine_mini_7(80, 0)
+    DTS_temp_mini_7(80, 0)
 }
 
 spriteset(set_Dongbuk_engineT, "src/metro/Dongbuk/Dongbuk.png"){
-    engine_mini_7(80, 27)
+    DTS_temp_mini_7(80, 27)
 }
 
 /*--------------------------------------------------------------------

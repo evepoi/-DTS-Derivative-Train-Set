@@ -2,63 +2,63 @@
 Graphics
 --------------------------------------------------------------------*/
 spriteset(set_GT26CW_engine_1971_F, "src/locomotive/GT26CW/GT26CW.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_GT26CW_engine_1971_K, "src/locomotive/GT26CW/GT26CW.png"){
-    engine(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_GT26CW_engine_1971_S, "src/locomotive/GT26CW/GT26CW.png"){
-    engine(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_GT26CW_engine_1995, "src/locomotive/GT26CW/GT26CW.png"){
-    engine(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_GT26CW_engine_2005, "src/locomotive/GT26CW/GT26CW.png"){
-    engine(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_GT26CW_engine_2006, "src/locomotive/GT26CW/GT26CW.png"){
-    engine(80, 135)
+    DTS_temp(80, 135)
 }
 
 spriteset(set_GT26CW_engine_2008, "src/locomotive/GT26CW/GT26CW.png"){
-    engine(80, 162)
+    DTS_temp(80, 162)
 }
 
 spriteset(set_GT26CW_engine_2012, "src/locomotive/GT26CW/GT26CW.png"){
-    engine(80, 189)
+    DTS_temp(80, 189)
 }
 
 spriteset(set_GT26CW_engine_2013, "src/locomotive/GT26CW/GT26CW.png"){
-    engine(80, 216)
+    DTS_temp(80, 216)
 }
 
 spriteset(set_GT26CW_engine_2015, "src/locomotive/GT26CW/GT26CW.png"){
-    engine(80, 243)
+    DTS_temp(80, 243)
 }
 
 spriteset(set_GT26CW_engine_2018, "src/locomotive/GT26CW/GT26CW.png"){
-    engine(80, 270)
+    DTS_temp(80, 270)
 }
 
 spriteset(set_GT26CW_engine_2019_1, "src/locomotive/GT26CW/GT26CW.png"){
-    engine(80, 297)
+    DTS_temp(80, 297)
 }
 
 spriteset(set_GT26CW_engine_2019_2, "src/locomotive/GT26CW/GT26CW.png"){
-    engine(80, 324)
+    DTS_temp(80, 324)
 }
 
 spriteset(set_GT26CW_engine_2020, "src/locomotive/GT26CW/GT26CW.png"){
-    engine(80, 351)
+    DTS_temp(80, 351)
 }
 
 spriteset(set_GT26CW_engine_2023, "src/locomotive/GT26CW/GT26CW.png"){
-    engine(80, 378)
+    DTS_temp(80, 378)
 }
 
 /*-------------------------------------------------------------------

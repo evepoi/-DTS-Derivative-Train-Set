@@ -10,7 +10,7 @@ HYEL Constrck
 // 차장차 뒤집힘 귀속 사용주소 (set_Luggage_Real_GL_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png")
 
 spriteset(set_HYEL_Constrck_FLAT_CAR, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_Constrck/HYEL_Constrck.png") {
-    flat_car_1f_container(80, 0)
+    DTS_temp(80, 0)
 }
 
 /*--------------------------------------------------------------------

@@ -5,7 +5,7 @@ Graphics
 한-아세안
 --------------------------------------------------------------------*/
 spriteset(set_Asean_Korea_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Asean_Korea/Asean_Korea.png") {
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 // 충북영동국악와인열차 객차귀속 사용주소 (set_CY_GW_6Car_1wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png")

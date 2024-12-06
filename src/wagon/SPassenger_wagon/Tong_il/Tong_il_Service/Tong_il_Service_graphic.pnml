@@ -2,31 +2,31 @@
 Graphics
 --------------------------------------------------------------------*/
 spriteset(set_Tong_il_Service_D_1966, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Service/Tong_il_Service.png") {
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Tong_il_Service_S_1966, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Service/Tong_il_Service.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Tong_il_Service_D_1968, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Service/Tong_il_Service.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Tong_il_Service_S_1975, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Service/Tong_il_Service.png") {
-    wagon_1F_F(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Tong_il_Service_S_1984, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Service/Tong_il_Service.png") {
-    wagon_1F_F(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_Tong_il_Service_S_1994, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Service/Tong_il_Service.png") {
-    wagon_1F_F(80, 135)
+    DTS_temp(80, 135)
 }
 
 spriteset(set_Tong_il_Service_S_1997, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Service/Tong_il_Service.png") {
-    wagon_1F_F(80, 162)
+    DTS_temp(80, 162)
 }
 
 /*--------------------------------------------------------------------

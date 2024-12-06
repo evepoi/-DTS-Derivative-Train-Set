@@ -68,7 +68,7 @@ item(FEAT_TRAINS, E8600_1Car, 2128){
         }
         
     graphics {
-        default:                        set_E8600_engine_A;
+        default:                        sw_E8600_1Car;
         purchase:                       sw_E8600_purchase;
         speed:                          sw_E8600_speed;
         cargo_capacity:                 0;

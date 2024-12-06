@@ -5,7 +5,7 @@ Graphics
 평판 차량
 --------------------------------------------------------------------*/
 spriteset(set_Showcase_Flat_1F_Poter2_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/Showcase/Showcase_Flat_1F_wagon/Showcase_Flat_1F_wagon_porter2.png"){
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 /*--------------------------------------------------------------------

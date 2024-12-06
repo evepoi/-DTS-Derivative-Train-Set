@@ -6,15 +6,15 @@ spriteset(set_DFX_purchase, "src_Virtual/locomotive/DFX/DFX.png"){
 }
 
 spriteset(set_DFX_engineH, "src_Virtual/locomotive/DFX/DFX.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_DFX_wagon, "src_Virtual/locomotive/DFX/DFX.png"){
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_DFX_engineT, "src_Virtual/locomotive/DFX/DFX.png"){
-    engine(80, 54)
+    DTS_temp(80, 54)
 }
 
 /*--------------------------------------------------------------------

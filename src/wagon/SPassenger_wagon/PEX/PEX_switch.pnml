@@ -11,9 +11,29 @@ switch(FEAT_TRAINS, SELF, sw_PEX_N_wagon, random_bits % 3) {
     set_PEX_wagon_NA;
 }
 
+switch (FEAT_TRAINS, SELF, sw_PEX_N_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_PEX_N_wagon; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_PEX_wagon_SN_1Car, position_in_vehid_chain % 1) {
+    set_PEX_wagon_SN; //default
+    }
+
 //D객차 랜덤
 switch(FEAT_TRAINS, SELF, sw_PEX_D_wagon, random_bits % 3) {
     1: set_PEX_wagon_DB;
     2: set_PEX_wagon_DC;
     set_PEX_wagon_DA;
 }
+
+switch (FEAT_TRAINS, SELF, sw_PEX_D_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_PEX_D_wagon; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_PEX_wagon_B_1Car, position_in_vehid_chain % 1) {
+    set_PEX_wagon_B; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_PEX_wagon_S_1Car, position_in_vehid_chain % 1) {
+    set_PEX_wagon_S; //default
+    }

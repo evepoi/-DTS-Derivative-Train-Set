@@ -5,57 +5,57 @@ Graphics
 A-Train 구도색
 --------------------------------------------------------------------*/
 spriteset(set_A_Train_Old_1wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_Old.png") {
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_A_Train_Old_2wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_Old.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_A_Train_Old_3wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_Old.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_A_Train_Old_4wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_Old.png") {
-    wagon_1F_F(80, 81)
+    DTS_temp(80, 81)
 }
 
 /*--------------------------------------------------------------------
 A-Train 신도색
 --------------------------------------------------------------------*/
 spriteset(set_A_Train_New_1wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New.png") {
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_A_Train_New_2wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_A_Train_New_3wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_A_Train_New_4wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New.png") {
-    wagon_1F_F(80, 81)
+    DTS_temp(80, 81)
 }
 
 /*--------------------------------------------------------------------
 A-Train 신도색 32bpp
 --------------------------------------------------------------------*/
 alternative_sprites(set_A_Train_New_1wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New_32bpp.png") {
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 alternative_sprites(set_A_Train_New_2wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New_32bpp.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 alternative_sprites(set_A_Train_New_3wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New_32bpp.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 alternative_sprites(set_A_Train_New_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New_32bpp.png") {
-    wagon_1F_F(80, 81)
+    DTS_temp(80, 81)
 }
 
 /*--------------------------------------------------------------------

@@ -5,82 +5,82 @@ Graphics
 미개조
 --------------------------------------------------------------------*/
 spriteset(set_Rheostatic_S2000_NoRheostatic_engineH, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_NoRheostatic.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Rheostatic_S2000_NoRheostatic_engineH_r, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_NoRheostatic.png"){
-    engine(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Rheostatic_S2000_NoRheostatic_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_NoRheostatic.png"){
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Rheostatic_S2000_NoRheostatic_panto_wagon_r, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_NoRheostatic.png"){
-    wagon_1F_F_r(80, 54)
+    DTS_temp_r(80, 54)
 }
 
 spriteset(set_Rheostatic_S2000_NoRheostatic_wagon, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_NoRheostatic.png"){
-    wagon_1F_F(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Rheostatic_S2000_NoRheostatic_wagon_r, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_NoRheostatic.png"){
-    wagon_1F_F_r(80, 81)
+    DTS_temp_r(80, 81)
 }
 
 spriteset(set_Rheostatic_S2000_NoRheostatic_engineT_r, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_NoRheostatic.png"){
-    engine(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_Rheostatic_S2000_NoRheostatic_engineT, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_NoRheostatic.png"){
-    engine(80, 135)
+    DTS_temp(80, 135)
 }
 
 /*--------------------------------------------------------------------
 개조
 --------------------------------------------------------------------*/
 spriteset(set_Rheostatic_S2000_Rheostatic_engineH_A, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Rheostatic_S2000_Rheostatic_engineH_A_r, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    engine(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Rheostatic_S2000_Rheostatic_engineH_B, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    engine(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Rheostatic_S2000_Rheostatic_engineH_B_r, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    engine(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Rheostatic_S2000_Rheostatic_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    wagon_1F_F(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_Rheostatic_S2000_Rheostatic_wagon_TA, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    wagon_1F_F(80, 135)
+    DTS_temp(80, 135)
 }
 
 spriteset(set_Rheostatic_S2000_Rheostatic_wagon_TB, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    wagon_1F_F(80, 162)
+    DTS_temp(80, 162)
 }
 
 spriteset(set_Rheostatic_S2000_Rheostatic_engineT_A_r, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    engine(80, 189)
+    DTS_temp(80, 189)
 }
 
 spriteset(set_Rheostatic_S2000_Rheostatic_engineT_A, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    engine(80, 216)
+    DTS_temp(80, 216)
 }
 
 spriteset(set_Rheostatic_S2000_Rheostatic_engineT_B_r, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    engine(80, 243)
+    DTS_temp(80, 243)
 }
 
 spriteset(set_Rheostatic_S2000_Rheostatic_engineT_B, "src/metro/Seoulmetro/Seoulmetro_Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    engine(80, 270)
+    DTS_temp(80, 270)
 }
 
 /*--------------------------------------------------------------------

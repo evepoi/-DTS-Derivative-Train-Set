@@ -2,15 +2,15 @@
 Graphics
 --------------------------------------------------------------------*/
 spriteset(set_Special_Diesel_engine_1969, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Special_Diesel_Car/Special_Diesel_Car.png") {
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Special_Diesel_engine_1986, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Special_Diesel_Car/Special_Diesel_Car.png") {
-    engine(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Special_Diesel_engine_1994, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Special_Diesel_Car/Special_Diesel_Car.png") {
-    engine(80, 54)
+    DTS_temp(80, 54)
 }
 
 /*-------------------------------------------------------------------

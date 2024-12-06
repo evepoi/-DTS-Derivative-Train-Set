@@ -1,67 +1,67 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Eurostar_E300_purchase, "src_European/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_Old.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
-1. 유로스타 E300 구도색
+유로스타 E300 구도색
 --------------------------------------------------------------------*/
 spriteset(set_Eurostar_E300_Old_engineH, "src_European/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_Old.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Eurostar_E300_Old_wagon_start, "src_European/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_Old.png"){
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Eurostar_E300_Old_wagon, "src_European/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_Old.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Eurostar_E300_Old_wagon_bar, "src_European/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_Old.png") {
-    wagon_1F_F(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Eurostar_E300_Old_wagon_end, "src_European/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_Old.png"){
-    wagon_1F_F(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_Eurostar_E300_Old_engineT, "src_European/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_Old.png"){
-    engine(80, 135)
+    DTS_temp(80, 135)
 }
 
 /*--------------------------------------------------------------------
-2. 유로스타 E300 신도색
+유로스타 E300 신도색
 --------------------------------------------------------------------*/
 spriteset(set_Eurostar_E300_New_engineH, "src_European/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_New.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Eurostar_E300_New_wagon_start, "src_European/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_New.png"){
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Eurostar_E300_New_wagon, "src_European/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_New.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Eurostar_E300_New_wagon_bar, "src_European/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_New.png") {
-    wagon_1F_F(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Eurostar_E300_New_wagon_end, "src_European/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_New.png"){
-    wagon_1F_F(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_Eurostar_E300_New_engineT, "src_European/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_New.png"){
-    engine(80, 135)
+    DTS_temp(80, 135)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+spriteset(set_Eurostar_E300_purchase, "src_European/locomotive/Eurostar/Eurostar_E300/Eurostar_E300_Old.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_purchase, cargo_subtype) {
     set_Eurostar_E300_purchase;
 }

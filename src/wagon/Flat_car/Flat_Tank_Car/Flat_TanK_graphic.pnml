@@ -1,24 +1,20 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_FLAT_TANK_CAR_purchase, "src\wagon\Flat_car\Flat_Tank_Car\Flat_Tank_Car.png") {
-    tmpl_wagon_purchase(0, 0)
-}
-
 spriteset(set_FLAT_TANK_CAR_empty_wagon, "src\wagon\Flat_car\Flat_Tank_Car\Flat_Tank_Car.png") {
-    flat_car_1f_container(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_FLAT_TANK_CAR_loaded_wagon, "src\wagon\Flat_car\Flat_Tank_Car\Flat_Tank_Car.png") {
-    flat_car_1f_container(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_FLAT_TANK_CAR_loading_01_wagon, "src\wagon\Flat_car\Flat_Tank_Car\Flat_Tank_Car.png") {
-    flat_car_1f_container(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_FLAT_TANK_CAR_loading_02_wagon, "src\wagon\Flat_car\Flat_Tank_Car\Flat_Tank_Car.png") {
-    flat_car_1f_container(80, 81)
+    DTS_temp(80, 81)
 }
 
 spritegroup sg_FLAT_TANK_CAR_01_wagon {
@@ -50,6 +46,10 @@ spritegroup sg_FLAT_TANK_CAR_02_wagon {
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+spriteset(set_FLAT_TANK_CAR_purchase, "src\wagon\Flat_car\Flat_Tank_Car\Flat_Tank_Car.png") {
+    tmpl_wagon_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_FLAT_Tank_purchase, cargo_subtype) {
     set_FLAT_TANK_CAR_purchase;
 }

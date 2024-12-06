@@ -49,7 +49,7 @@ item(FEAT_TRAINS, DEL7000, 2298){
         }
         
     graphics {
-        default:                        sw_DEL7000_engine;
+        default:                        sw_DEL7000_engine_1Car;
         purchase:                       sw_DEL7000_purchase;
         speed:                          sw_DEL7000_speed;
         cargo_capacity:                 0;

@@ -64,7 +64,7 @@ item (FEAT_TRAINS, PEX_N, 2334){
     }
 
     graphics {
-        default:                        sw_PEX_N_wagon;
+        default:                        sw_PEX_N_wagon_1Car;
         purchase:                       sw_PEX_N_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -113,7 +113,7 @@ item (FEAT_TRAINS, PEX_SN, 2335){
     }
 
     graphics {
-        default:                        set_PEX_wagon_SN;
+        default:                        sw_PEX_wagon_SN_1Car;
         purchase:                       sw_PEX_SN_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -162,7 +162,7 @@ item (FEAT_TRAINS, PEX_D, 2336){
     }
 
     graphics {
-        default:                        sw_PEX_D_wagon;
+        default:                        sw_PEX_D_wagon_1Car;
         purchase:                       sw_PEX_D_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -211,7 +211,7 @@ item (FEAT_TRAINS, PEX_B, 2337){
     }
 
     graphics {
-        default:                        set_PEX_wagon_B;
+        default:                        sw_PEX_wagon_B_1Car;
         purchase:                       sw_PEX_B_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -260,7 +260,7 @@ item (FEAT_TRAINS, PEX_S, 2338){
     }
 
     graphics {
-        default:                        set_PEX_wagon_S;
+        default:                        sw_PEX_wagon_S_1Car;
         purchase:                       sw_PEX_S_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;

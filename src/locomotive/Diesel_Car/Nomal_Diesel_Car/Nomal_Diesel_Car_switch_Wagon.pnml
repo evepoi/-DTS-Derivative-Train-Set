@@ -89,3 +89,7 @@ switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engine, current_year) {
     1985..1993: sw_Nomal_Diesel_engine_1985;
     sw_Nomal_Diesel_engine_1994;
     }
+
+switch (FEAT_TRAINS, SELF, sw_Nomal_Diesel_engine_1Car, position_in_vehid_chain % 1) {
+    sw_Nomal_Diesel_engine; //default
+    }

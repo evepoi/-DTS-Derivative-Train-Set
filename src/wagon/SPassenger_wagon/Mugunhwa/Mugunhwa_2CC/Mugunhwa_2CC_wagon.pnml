@@ -46,7 +46,7 @@ item (FEAT_TRAINS, Mugunhwa_2cc, 2245){
     }
 
     graphics {
-        default:                        sw_Mugunhwa_2CC;
+        default:                        sw_Mugunhwa_2CC_1Car;
         purchase:                       sw_Mugunghwa_2cc_purchase;
         cargo_capacity:                 sw_Mugunhwa_2CC_capacity_in_custom;
         loading_speed:                  25;

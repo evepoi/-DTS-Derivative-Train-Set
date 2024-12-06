@@ -5,11 +5,11 @@ Graphics
 김포골드
 --------------------------------------------------------------------*/
 spriteset(set_Gimpo_Gold_engineH, "src/metro/Gimpo_Gold/Gimpo_Gold.png"){
-    engine_mini_7(80, 0)
+    DTS_temp_mini_7(80, 0)
 }
 
 spriteset(set_Gimpo_Gold_engineT, "src/metro/Gimpo_Gold/Gimpo_Gold.png"){
-    engine_mini_7(80, 27)
+    DTS_temp_mini_7(80, 27)
 }
 
 /*--------------------------------------------------------------------

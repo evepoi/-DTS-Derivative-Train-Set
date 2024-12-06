@@ -2,11 +2,11 @@
 Graphics
 --------------------------------------------------------------------*/
 spriteset(set_Post_Car_POST_1973, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Mail/Post_car/Post_car.png") {
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Post_Car_POST_1994, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Mail/Post_car/Post_car.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 /*--------------------------------------------------------------------

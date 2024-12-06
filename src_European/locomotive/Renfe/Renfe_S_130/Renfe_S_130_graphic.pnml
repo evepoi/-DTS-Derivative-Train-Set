@@ -1,67 +1,67 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Renfe_S_130_purchase, "src_European/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Alvia.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
-1. Alvia
+Alvia
 --------------------------------------------------------------------*/
 spriteset(set_Renfe_S_130_Alvia_engineH, "src_European/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Alvia.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Renfe_S_130_Alvia_wagon_start, "src_European/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Alvia.png"){
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Renfe_S_130_Alvia_wagon, "src_European/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Alvia.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Renfe_S_130_Alvia_wagon_bar, "src_European/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Alvia.png") {
-    wagon_bar(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Renfe_S_130_Alvia_wagon_end, "src_European/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Alvia.png"){
-    wagon_1F_F(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_Renfe_S_130_Alvia_engineT, "src_European/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Alvia.png"){
-    engine(80, 135)
+    DTS_temp(80, 135)
 }
 
 /*--------------------------------------------------------------------
-2. Aprosiyob
+Aprosiyob
 --------------------------------------------------------------------*/
 spriteset(set_Renfe_S_130_Aprosiyob_engineH, "src_European/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Aprosiyob.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Renfe_S_130_Aprosiyob_wagon_start, "src_European/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Aprosiyob.png"){
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Renfe_S_130_Aprosiyob_wagon, "src_European/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Aprosiyob.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Renfe_S_130_Aprosiyob_wagon_bar, "src_European/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Aprosiyob.png") {
-    wagon_bar(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Renfe_S_130_Aprosiyob_wagon_end, "src_European/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Aprosiyob.png"){
-    wagon_1F_F(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_Renfe_S_130_Aprosiyob_engineT, "src_European/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Aprosiyob.png"){
-    engine(80, 135)
+    DTS_temp(80, 135)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+spriteset(set_Renfe_S_130_purchase, "src_European/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Alvia.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_purchase, cargo_subtype) {
     set_Renfe_S_130_purchase;
 }

@@ -2,123 +2,123 @@
 Graphics
 --------------------------------------------------------------------*/
 spriteset(set_Pidulgi_Normal_C_MADE_1922, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Pidulgi_Normal_C_MADE_1933, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Pidulgi_Normal_C_MADE_1938, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Pidulgi_Normal_C_MADE_1954, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Pidulgi_Normal_C_1962_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_Pidulgi_Normal_C_1962_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 135)
+    DTS_temp(80, 135)
 }
 
 spriteset(set_Pidulgi_Normal_L_1962, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 162)
+    DTS_temp(80, 162)
 }
 
 spriteset(set_Pidulgi_Normal_C_1963, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 189)
+    DTS_temp(80, 189)
 }
 
 spriteset(set_Pidulgi_Normal_C_1965, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 216)
+    DTS_temp(80, 216)
 }
 
 spriteset(set_Pidulgi_Normal_L_1965, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 243)
+    DTS_temp(80, 243)
 }
 
 spriteset(set_Pidulgi_Normal_DC_1966, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 270)
+    DTS_temp(80, 270)
 }
 
 spriteset(set_Pidulgi_Normal_C_1962_R, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 297)
+    DTS_temp(80, 297)
 }
 
 spriteset(set_Pidulgi_Normal_C_MADE_1954_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 324)
+    DTS_temp(80, 324)
 }
 
 spriteset(set_Pidulgi_Normal_C_1962_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 351)
+    DTS_temp(80, 351)
 }
 
 spriteset(set_Pidulgi_Normal_L_1962_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 378)
+    DTS_temp(80, 378)
 }
 
 spriteset(set_Pidulgi_Normal_T_1962_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 405)
+    DTS_temp(80, 405)
 }
 
 spriteset(set_Pidulgi_Normal_T_1963_B1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 432)
+    DTS_temp(80, 432)
 }
 
 spriteset(set_Pidulgi_Normal_T_1963_B2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 459)
+    DTS_temp(80, 459)
 }
 
 spriteset(set_Pidulgi_Normal_FD_1963_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 486)
+    DTS_temp(80, 486)
 }
 
 spriteset(set_Pidulgi_Normal_T_1965_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 513)
+    DTS_temp(80, 513)
 }
 
 spriteset(set_Pidulgi_Normal_L_1965_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 540)
+    DTS_temp(80, 540)
 }
 
 spriteset(set_Pidulgi_Normal_C_1962_B2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 567)
+    DTS_temp(80, 567)
 }
 
 spriteset(set_Pidulgi_Normal_L_1962_B2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 594)
+    DTS_temp(80, 594)
 }
 
 spriteset(set_Pidulgi_Normal_T_1962_B2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 621)
+    DTS_temp(80, 621)
 }
 
 spriteset(set_Pidulgi_Normal_T_1963_B3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 648)
+    DTS_temp(80, 648)
 }
 
 spriteset(set_Pidulgi_Normal_T_1963_B4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 675)
+    DTS_temp(80, 675)
 }
 
 spriteset(set_Pidulgi_Normal_T_1965_B2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 702)
+    DTS_temp(80, 702)
 }
 
 spriteset(set_Pidulgi_Normal_L_1965_B2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 729)
+    DTS_temp(80, 729)
 }
 
 spriteset(set_Pidulgi_Normal_L_1965_B3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 756)
+    DTS_temp(80, 756)
 }
 
 spriteset(set_Pidulgi_Normal_T_1965_B3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
-    wagon_1F_F(80, 783)
+    DTS_temp(80, 783)
 }
 
 /*--------------------------------------------------------------------

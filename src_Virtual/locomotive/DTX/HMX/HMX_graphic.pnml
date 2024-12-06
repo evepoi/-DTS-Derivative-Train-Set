@@ -5,15 +5,15 @@ Graphics
 HMX
 --------------------------------------------------------------------*/
 spriteset(set_HMX_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DTX/HMX/HMX.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_HMX_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DTX/HMX/HMX.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_HMX_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DTX/HMX/HMX.png"){
-    engine(80, 54)
+    DTS_temp(80, 54)
 }
 
 /*--------------------------------------------------------------------

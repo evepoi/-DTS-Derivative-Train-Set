@@ -49,7 +49,7 @@ item(FEAT_TRAINS, NEL_8100, 2299){
         }
         
     graphics {
-        default:                        sw_NEL_8100_engine;
+        default:                        sw_NEL_8100_engine_1Car;
         purchase:                       sw_NEL_8100_purchase;
         speed:                          sw_NEL_8100_speed;
         cargo_capacity:                 0;

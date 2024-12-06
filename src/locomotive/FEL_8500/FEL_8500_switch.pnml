@@ -25,6 +25,10 @@ switch(FEAT_TRAINS, SELF, sw_FEL_8500_engine, cargo_subtype) {
     set_FEL_8500_engine;
 }
 
+switch (FEAT_TRAINS, SELF, sw_FEL_8500_engine_1Car, position_in_vehid_chain % 1) {
+    sw_FEL_8500_engine; //default
+    }
+
 switch(FEAT_TRAINS, SELF, sw_FEL_8500_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/FEL8500Start.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");

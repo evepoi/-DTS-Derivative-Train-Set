@@ -1,3 +1,6 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_MSB_Speeder_engine_1Car, position_in_vehid_chain % 1) {
+    set_MSB_Speeder_engine; //default
+    }

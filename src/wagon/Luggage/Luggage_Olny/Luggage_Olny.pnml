@@ -46,7 +46,7 @@ item(FEAT_TRAINS, Luggage_Olny, 2525){
         }
 
 	graphics {
-        default:                        sw_Luggage_Olny_wagon;
+        default:                        sw_Luggage_Olny_wagon_1Car;
         purchase:                       sw_Luggage_Olny_purchase;
         loading_speed:                  25;
         cost_factor:                    10;

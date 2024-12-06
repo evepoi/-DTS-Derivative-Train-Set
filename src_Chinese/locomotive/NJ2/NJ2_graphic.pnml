@@ -6,7 +6,7 @@ spriteset(set_NJ2_purchase, "src_Chinese/locomotive/NJ2/NJ2.png"){
 }
 
 spriteset(set_NJ2_engine, "src_Chinese/locomotive/NJ2/NJ2.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 /*--------------------------------------------------------------------

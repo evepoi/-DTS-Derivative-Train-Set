@@ -49,7 +49,7 @@ item(FEAT_TRAINS, FEL_8500, 2016){
         }
         
     graphics {
-        default:                        sw_FEL_8500_engine;
+        default:                        sw_FEL_8500_engine_1Car;
         purchase:                       sw_FEL_8500_purchase;
         speed:                          sw_FEL_8500_speed;
         cargo_capacity:                 0;

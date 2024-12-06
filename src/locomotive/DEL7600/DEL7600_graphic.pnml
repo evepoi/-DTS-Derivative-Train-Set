@@ -2,15 +2,15 @@
 Graphics
 --------------------------------------------------------------------*/
 spriteset(set_DEL7600_engine, "src/locomotive/DEL7600/DEL7600.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_DEL7600_A_Train_Old_engine, "src/locomotive/DEL7600/DEL7600.png"){
-    engine(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_DEL7600_A_Train_New_engine, "src/locomotive/DEL7600/DEL7600.png"){
-    engine(80, 54)
+    DTS_temp(80, 54)
 }
 
 /*-------------------------------------------------------------------

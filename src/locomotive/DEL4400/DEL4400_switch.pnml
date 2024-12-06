@@ -19,6 +19,16 @@ switch(FEAT_TRAINS, SELF, sw_DEL4400_engine, cargo_subtype) {
     set_DEL4400_engine_A;
 }
 
+switch(FEAT_TRAINS, SELF, sw_DEL4400_engine_r, cargo_subtype) {
+    1: set_DEL4400_engine_B_r;
+    2: set_DEL4400_engine_C_r;
+    set_DEL4400_engine_A_r;
+}
+
+switch (FEAT_TRAINS, SELF, sw_DEL4400_1Car, position_in_vehid_chain % 1) {
+    sw_DEL4400_engine; //default
+    }
+
 switch(FEAT_TRAINS, SELF, sw_DEL4400_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/GT18BMstart.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");

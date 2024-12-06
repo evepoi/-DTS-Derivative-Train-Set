@@ -5,78 +5,78 @@ Graphics
 E-train 구도색
 --------------------------------------------------------------------*/
 spriteset(set_EDUCATION_Old_1wagon, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_Old.png") {
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_EDUCATION_Old_2wagon, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_Old.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_EDUCATION_Old_3wagon, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_Old.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_EDUCATION_Old_4wagon, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_Old.png") {
-    wagon_1F_F(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_EDUCATION_Old_5wagon, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_Old.png") {
-    wagon_1F_F(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_EDUCATION_Old_6wagon, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_Old.png") {
-    wagon_1F_F(80, 135)
+    DTS_temp(80, 135)
 }
 
 spriteset(set_EDUCATION_Old_7wagon, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_Old.png") {
-    wagon_1F_F(80, 162)
+    DTS_temp(80, 162)
 }
 
 spriteset(set_EDUCATION_Old_8wagon, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_Old.png") {
-    wagon_1F_F(80, 189)
+    DTS_temp(80, 189)
 }
 
 spriteset(set_EDUCATION_Old_9wagon, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_Old.png") {
-    wagon_1F_F(80, 216)
+    DTS_temp(80, 216)
 }
 
 /*--------------------------------------------------------------------
 E-train 신도색
 --------------------------------------------------------------------*/
 spriteset(set_EDUCATION_New_1wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_New.png") {
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_EDUCATION_New_2wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_New.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_EDUCATION_New_3wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_New.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_EDUCATION_New_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_New.png") {
-    wagon_1F_F(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_EDUCATION_New_5wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_New.png") {
-    wagon_1F_F(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_EDUCATION_New_6wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_New.png") {
-    wagon_1F_F(80, 135)
+    DTS_temp(80, 135)
 }
 
 spriteset(set_EDUCATION_New_7wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_New.png") {
-    wagon_1F_F(80, 162)
+    DTS_temp(80, 162)
 }
 
 spriteset(set_EDUCATION_New_8wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_New.png") {
-    wagon_1F_F(80, 189)
+    DTS_temp(80, 189)
 }
 
 spriteset(set_EDUCATION_New_9wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/E_Train/E_Train_New.png") {
-    wagon_1F_F(80, 216)
+    DTS_temp(80, 216)
 }
 
 /*--------------------------------------------------------------------

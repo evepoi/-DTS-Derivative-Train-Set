@@ -15,3 +15,7 @@ switch(FEAT_TRAINS, SELF, sw_Post_Car_wagon, current_year) {
     0..1993: sw_Post_Car_1973_wagon;
     sw_Post_Car_1994_wagon;
     }
+
+switch (FEAT_TRAINS, SELF, sw_Post_Car_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_Post_Car_wagon; //default
+    }

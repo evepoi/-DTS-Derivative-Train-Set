@@ -5,30 +5,30 @@ Graphics
 대구교통공사 3000호대
 --------------------------------------------------------------------*/
 spriteset(set_Daegumetro_3000_engineH, "src/metro/Daegumetro/Daegumetro_3000/Daegumetro_3000.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Daegumetro_3000_wagon, "src/metro/Daegumetro/Daegumetro_3000/Daegumetro_3000.png"){
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Daegumetro_3000_engineT, "src/metro/Daegumetro/Daegumetro_3000/Daegumetro_3000.png"){
-    engine(80, 54)
+    DTS_temp(80, 54)
 }
 
 /*--------------------------------------------------------------------
 대구교통공사 3000호대 Urban
 --------------------------------------------------------------------*/
 spriteset(set_Daegumetro_3000_Urban_engineH, "src/metro/Daegumetro/Daegumetro_3000/Daegumetro_3000_Urban.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Daegumetro_3000_Urban_wagon, "src/metro/Daegumetro/Daegumetro_3000/Daegumetro_3000_Urban.png"){
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Daegumetro_3000_Urban_engineT, "src/metro/Daegumetro/Daegumetro_3000/Daegumetro_3000_Urban.png"){
-    engine(80, 54)
+    DTS_temp(80, 54)
 }
 
 /*--------------------------------------------------------------------

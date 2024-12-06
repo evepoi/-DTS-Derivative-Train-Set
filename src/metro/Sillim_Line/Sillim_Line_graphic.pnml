@@ -5,27 +5,27 @@ Graphics
 신림선
 --------------------------------------------------------------------*/
 spriteset(set_Sillim_Line_engineH, "src/metro/Sillim_Line/Sillim_Line.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Sillim_Line_engineH_r, "src/metro/Sillim_Line/Sillim_Line.png"){
-    engine(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Sillim_Line_wagon, "src/metro/Sillim_Line/Sillim_Line.png"){
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Sillim_Line_wagon_r, "src/metro/Sillim_Line/Sillim_Line.png"){
-    wagon_1F_F(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Sillim_Line_engineT_r, "src/metro/Sillim_Line/Sillim_Line.png"){
-    engine(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_Sillim_Line_engineT, "src/metro/Sillim_Line/Sillim_Line.png"){
-    engine(80, 135)
+    DTS_temp(80, 135)
 }
 
 /*--------------------------------------------------------------------

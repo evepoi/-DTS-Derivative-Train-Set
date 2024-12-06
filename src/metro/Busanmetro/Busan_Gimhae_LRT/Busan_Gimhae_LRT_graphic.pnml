@@ -5,11 +5,11 @@ Graphics
 부산김해경전철
 --------------------------------------------------------------------*/
 spriteset(set_Busan_Gimhae_LRT_engineH, "src/metro/Busanmetro/Busan_Gimhae_LRT/Busan_Gimhae_LRT.png"){
-    engine_mini_7(80, 0)
+    DTS_temp_mini_7(80, 0)
 }
 
 spriteset(set_Busan_Gimhae_LRT_engineT, "src/metro/Busanmetro/Busan_Gimhae_LRT/Busan_Gimhae_LRT.png"){
-    engine_mini_7(80, 27)
+    DTS_temp_mini_7(80, 27)
 }
 
 /*--------------------------------------------------------------------

@@ -6,7 +6,7 @@ spriteset(set_HXD3C_purchase, "src_Chinese/locomotive/HXD3C/HXD3C.png"){
 }
 
 spriteset(set_HXD3C_engine, "src_Chinese/locomotive/HXD3C/HXD3C.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 /*--------------------------------------------------------------------

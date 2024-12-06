@@ -5,15 +5,15 @@ Graphics
 Glory 430
 --------------------------------------------------------------------*/
 spriteset(set_Glory_430_engineH, "src/locomotive/Glory/Glory_430/Glory_430.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Glory_430_wagon, "src/locomotive/Glory/Glory_430/Glory_430.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Glory_430_engineT, "src/locomotive/Glory/Glory_430/Glory_430.png"){
-    engine(80, 54)
+    DTS_temp(80, 54)
 }
 
 /*--------------------------------------------------------------------

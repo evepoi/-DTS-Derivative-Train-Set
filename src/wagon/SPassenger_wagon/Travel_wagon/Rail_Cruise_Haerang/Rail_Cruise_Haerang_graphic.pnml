@@ -5,15 +5,15 @@ Graphics
 해랑
 --------------------------------------------------------------------*/
 spriteset(set_Rail_Cruise_Haerang_1_3_6_8wagon, "src/wagon/SPassenger_wagon/Travel_wagon/Rail_Cruise_Haerang/Rail_Cruise_Haerang.png") {
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Rail_Cruise_Haerang_Cafe_wagon, "src/wagon/SPassenger_wagon/Travel_wagon/Rail_Cruise_Haerang/Rail_Cruise_Haerang.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Rail_Cruise_Haerang_5wagon, "src/wagon/SPassenger_wagon/Travel_wagon/Rail_Cruise_Haerang/Rail_Cruise_Haerang.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 /*--------------------------------------------------------------------

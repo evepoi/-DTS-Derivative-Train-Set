@@ -152,3 +152,7 @@ switch(FEAT_TRAINS, SELF, sw_Express_Luggage_wagon, current_year) {
     2022..2023: sw_Express_Luggage_2022_wagon;
     sw_Express_Luggage_2024_wagon;
     }
+
+switch (FEAT_TRAINS, SELF, sw_Express_Luggage_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_Express_Luggage_wagon; //default
+    }

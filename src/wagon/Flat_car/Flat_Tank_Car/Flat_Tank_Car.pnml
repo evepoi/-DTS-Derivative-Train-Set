@@ -46,7 +46,7 @@ item(FEAT_TRAINS, FLAT_TANK, 2130){
         }
 
 	graphics {
-        default:                        sg_FLAT_TANK_CAR_wagon;
+        default:                        sw_FLAT_TANK_CAR_wagon_1Car;
         purchase:                       sw_FLAT_Tank_purchase;
         }
         }

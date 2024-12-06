@@ -11,6 +11,10 @@ switch(FEAT_TRAINS, SELF, sw_NEL_8100_engine, cargo_subtype) {
     set_NEL_8100_engine_A;
 }
 
+switch (FEAT_TRAINS, SELF, sw_NEL_8100_engine_1Car, position_in_vehid_chain % 1) {
+    sw_NEL_8100_engine; //default
+    }
+
 switch(FEAT_TRAINS, SELF, sw_NEL_8100_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/SIEMENSGTO2locostart.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");

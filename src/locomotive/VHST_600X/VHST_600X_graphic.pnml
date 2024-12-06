@@ -2,15 +2,15 @@
 Graphics
 --------------------------------------------------------------------*/
 spriteset(set_VHST_600X_engineH, "src/locomotive/VHST_600X/VHST_600X.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_VHST_600X_wagon, "src/locomotive/VHST_600X/VHST_600X.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_VHST_600X_engineT, "src/locomotive/VHST_600X/VHST_600X.png"){
-    engine(80, 54)
+    DTS_temp(80, 54)
 }
 
 /*--------------------------------------------------------------------

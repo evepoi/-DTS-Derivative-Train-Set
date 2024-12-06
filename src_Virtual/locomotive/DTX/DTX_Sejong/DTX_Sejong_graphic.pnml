@@ -5,27 +5,27 @@ Graphics
 DTX_Sejong
 --------------------------------------------------------------------*/
 spriteset(set_DTX_Sejong_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DTX/DTX_Sejong/DTX_Sejong.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_DTX_Sejong_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DTX/DTX_Sejong/DTX_Sejong.png"){
-    engine_r(80, 0)
+    DTS_temp_r(80, 0)
 }
 
 spriteset(set_DTX_Sejong_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DTX/DTX_Sejong/DTX_Sejong.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_DTX_Sejong_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DTX/DTX_Sejong/DTX_Sejong.png") {
-    wagon_1F_F_r(80, 27)
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_DTX_Sejong_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DTX/DTX_Sejong/DTX_Sejong.png"){
-    engine(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_DTX_Sejong_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DTX/DTX_Sejong/DTX_Sejong.png"){
-    engine_r(80, 54)
+    DTS_temp_r(80, 54)
 }
 
 /*--------------------------------------------------------------------

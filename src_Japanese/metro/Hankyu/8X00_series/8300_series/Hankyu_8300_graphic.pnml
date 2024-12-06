@@ -5,35 +5,35 @@ Graphics
 한큐전철 8300형
 --------------------------------------------------------------------*/
 spriteset(set_Hankyu_8300_engineH, "src_Japanese/metro/Hankyu/8X00_series/8300_series/Hankyu_8300.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Hankyu_8300_engineH_r, "src_Japanese/metro/Hankyu/8X00_series/8300_series/Hankyu_8300.png"){
-    engine(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Hankyu_8300_wagon, "src_Japanese/metro/Hankyu/8X00_series/8300_series/Hankyu_8300.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Hankyu_8300_wagon_r, "src_Japanese/metro/Hankyu/8X00_series/8300_series/Hankyu_8300.png") {
-    wagon_1F_F_r(80, 54)
+    DTS_temp_r(80, 54)
 }
 
 spriteset(set_Hankyu_8300_panto_wagon, "src_Japanese/metro/Hankyu/8X00_series/8300_series/Hankyu_8300.png") {
-    wagon_1F_F(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Hankyu_8300_panto_wagon_r, "src_Japanese/metro/Hankyu/8X00_series/8300_series/Hankyu_8300.png") {
-    wagon_1F_F_r(80, 81)
+    DTS_temp_r(80, 81)
 }
 
 spriteset(set_Hankyu_8300_engineT_r, "src_Japanese/metro/Hankyu/8X00_series/8300_series/Hankyu_8300.png"){
-    engine(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_Hankyu_8300_engineT, "src_Japanese/metro/Hankyu/8X00_series/8300_series/Hankyu_8300.png"){
-    engine(80, 135)
+    DTS_temp(80, 135)
 }
 
 /*--------------------------------------------------------------------

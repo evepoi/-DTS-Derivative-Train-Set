@@ -2,67 +2,67 @@
 Graphics
 --------------------------------------------------------------------*/
 spriteset(set_Avelia_Liberty_engineH, "src_World/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Avelia_Liberty_engineH_r, "src_World/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    engine(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Avelia_Liberty_wagon_F1, "src_World/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Avelia_Liberty_wagon_F1_r, "src_World/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    wagon_1F_F_r(80, 54)
+    DTS_temp_r(80, 54)
 }
 
 spriteset(set_Avelia_Liberty_wagon_T2, "src_World/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    wagon_1F_F_mini_7_KTX_SC(80, 81)
+    DTS_temp_mini_7_Highspeed(80, 81)
 }
 
 spriteset(set_Avelia_Liberty_wagon_T2_r, "src_World/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
+    DTS_temp_mini_7_Highspeed_r(80, 81)
 }
 
 spriteset(set_Avelia_Liberty_wagon_T3, "src_World/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    wagon_1F_F_mini_7_KTX_SC(80, 108)
+    DTS_temp_mini_7_Highspeed(80, 108)
 }
 
 spriteset(set_Avelia_Liberty_wagon_T3_r, "src_World/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
+    DTS_temp_mini_7_Highspeed_r(80, 108)
 }
 
 spriteset(set_Avelia_Liberty_wagon_C, "src_World/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    wagon_1F_F_mini_7_KTX_SC(80, 135)
+    DTS_temp_mini_7_Highspeed(80, 135)
 }
 
 spriteset(set_Avelia_Liberty_wagon_C_r, "src_World/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    wagon_1F_F_r_mini_7_KTX_SC(80, 135)
+    DTS_temp_mini_7_Highspeed_r(80, 135)
 }
 
 spriteset(set_Avelia_Liberty_wagon_T4, "src_World/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    wagon_1F_F_mini_7_KTX_SC(80, 162)
+    DTS_temp_mini_7_Highspeed(80, 162)
 }
 
 spriteset(set_Avelia_Liberty_wagon_T4_r, "src_World/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    wagon_1F_F_r_mini_7_KTX_SC(80, 162)
+    DTS_temp_mini_7_Highspeed_r(80, 162)
 }
 
 spriteset(set_Avelia_Liberty_wagon_T5, "src_World/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    wagon_1F_F(80, 189)
+    DTS_temp(80, 189)
 }
 
 spriteset(set_Avelia_Liberty_wagon_T5_r, "src_World/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    wagon_1F_F_r(80, 189)
+    DTS_temp_r(80, 189)
 }
 
 spriteset(set_Avelia_Liberty_engineT_r, "src_World/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    engine(80, 216)
+    DTS_temp(80, 216)
 }
 
 spriteset(set_Avelia_Liberty_engineT, "src_World/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
-    engine(80, 243)
+    DTS_temp(80, 243)
 }
 
 /*--------------------------------------------------------------------

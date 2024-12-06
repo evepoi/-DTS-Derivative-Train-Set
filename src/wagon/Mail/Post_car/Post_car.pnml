@@ -47,7 +47,7 @@ item(FEAT_TRAINS, Post_Car, 2476){
         }
 
 	graphics {
-        default:                        sw_Post_Car_wagon;
+        default:                        sw_Post_Car_wagon_1Car;
         purchase:                       sw_Post_Car_purchase;
         speed:                          sw_Post_car_speed;
         loading_speed:                  25;

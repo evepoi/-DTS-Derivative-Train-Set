@@ -9,22 +9,22 @@ spriteset(set_Nishitetsu_7000_purchase, "src_Japanese/metro/Nishitetsu/7000_seri
 1. 니시테츠 7000형
 --------------------------------------------------------------------*/
 spriteset(set_Nishitetsu_7000_engineH, "src_Japanese/metro/Nishitetsu/7000_series/Nishitetsu_7000.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Nishitetsu_7000_engineT, "src_Japanese/metro/Nishitetsu/7000_series/Nishitetsu_7000.png"){
-    engine(80, 27)
+    DTS_temp(80, 27)
 }
 
 /*--------------------------------------------------------------------
 1. 니시테츠 7050형
 --------------------------------------------------------------------*/
 spriteset(set_Nishitetsu_7050_engineH, "src_Japanese/metro/Nishitetsu/7000_series/Nishitetsu_7050.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Nishitetsu_7050_engineT, "src_Japanese/metro/Nishitetsu/7000_series/Nishitetsu_7050.png"){
-    engine(80, 27)
+    DTS_temp(80, 27)
 }
 /*--------------------------------------------------------------------
 구매정보

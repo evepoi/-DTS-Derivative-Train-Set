@@ -5,15 +5,15 @@ Graphics
 1. NKX
 --------------------------------------------------------------------*/
 spriteset(set_H2_WJ_engineH, "src/locomotive/H2_WJ/H2_WJ.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_H2_WJ_wagon, "src/locomotive/H2_WJ/H2_WJ.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_H2_WJ_engineT, "src/locomotive/H2_WJ/H2_WJ.png"){
-    engine(80, 54)
+    DTS_temp(80, 54)
 }
 
 /*--------------------------------------------------------------------

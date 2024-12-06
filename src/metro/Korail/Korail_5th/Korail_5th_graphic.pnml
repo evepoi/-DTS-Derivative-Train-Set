@@ -5,27 +5,27 @@ Graphics
 Korail_5세대 전동차
 --------------------------------------------------------------------*/
 spriteset(set_Korail_5th_engineH, "src/metro/Korail/Korail_5th/Korail_5th_312K.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Korail_5th_engineH_r, "src/metro/Korail/Korail_5th/Korail_5th_312K.png"){
-    engine(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Korail_5th_wagon, "src/metro/Korail/Korail_5th/Korail_5th_312K.png"){
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Korail_5th_panto_wagon, "src/metro/Korail/Korail_5th/Korail_5th_312K.png"){
-    wagon_1F_F(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Korail_5th_engineT_r, "src/metro/Korail/Korail_5th/Korail_5th_312K.png"){
-    engine(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_Korail_5th_engineT, "src/metro/Korail/Korail_5th/Korail_5th_312K.png"){
-    engine(80, 135)
+    DTS_temp(80, 135)
 }
 
 /*--------------------------------------------------------------------

@@ -5,7 +5,7 @@ Graphics
 용인경전철
 --------------------------------------------------------------------*/
 spriteset(set_Yongin_EverLine_engineH, "src/metro/Yongin_EverLine/Yongin_EverLine.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 /*--------------------------------------------------------------------

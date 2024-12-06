@@ -2,47 +2,47 @@
 Graphics
 --------------------------------------------------------------------*/
 spriteset(set_PEX_Super_wagon_NA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_N_wagon.png") {
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_PEX_Super_wagon_NB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_N_wagon.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_PEX_Super_wagon_NC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_N_wagon.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_PEX_Super_wagon_ND, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_N_wagon.png") {
-    wagon_1F_F(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_PEX_Super_wagon_SNA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_SN_wagon.png") {
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_PEX_Super_wagon_SNB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_SN_wagon.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_PEX_Super_wagon_DA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_D_wagon.png") {
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_PEX_Super_wagon_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_D_wagon.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_PEX_Super_wagon_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_B_wagon.png") {
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_PEX_Super_wagon_SA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_S_wagon.png") {
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_PEX_Super_wagon_SB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_S_wagon.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 /*--------------------------------------------------------------------

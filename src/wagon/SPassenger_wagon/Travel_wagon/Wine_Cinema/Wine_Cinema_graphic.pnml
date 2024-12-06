@@ -2,27 +2,27 @@
 Graphics
 --------------------------------------------------------------------*/
 spriteset(set_wine_cinema_1wagon, "src/wagon/SPassenger_wagon/Travel_wagon/Wine_Cinema/Wine_Cinema.png") {
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_wine_cinema_2wagon, "src/wagon/SPassenger_wagon/Travel_wagon/Wine_Cinema/Wine_Cinema.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_wine_cinema_3wagon, "src/wagon/SPassenger_wagon/Travel_wagon/Wine_Cinema/Wine_Cinema.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_wine_cinema_4wagon, "src/wagon/SPassenger_wagon/Travel_wagon/Wine_Cinema/Wine_Cinema.png") {
-    wagon_1F_F(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_wine_cinema_5wagon, "src/wagon/SPassenger_wagon/Travel_wagon/Wine_Cinema/Wine_Cinema.png") {
-    wagon_1F_F(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_wine_cinema_6wagon, "src/wagon/SPassenger_wagon/Travel_wagon/Wine_Cinema/Wine_Cinema.png") {
-    wagon_1F_F(80, 135)
+    DTS_temp(80, 135)
 }
 
 /*--------------------------------------------------------------------

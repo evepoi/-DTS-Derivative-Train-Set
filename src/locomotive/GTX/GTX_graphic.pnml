@@ -5,23 +5,23 @@ Graphics
 GTX
 --------------------------------------------------------------------*/
 spriteset(set_GTX_engineH, "src/locomotive/GTX/GTX.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_GTX_panto_wagon, "src/locomotive/GTX/GTX.png"){
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_GTX_wagon, "src/locomotive/GTX/GTX.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_GTX_panto_wagon_r, "src/locomotive/GTX/GTX.png"){
-    wagon_1F_F(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_GTX_engineT, "src/locomotive/GTX/GTX.png"){
-    engine(80, 108)
+    DTS_temp(80, 108)
 }
 
 /*--------------------------------------------------------------------

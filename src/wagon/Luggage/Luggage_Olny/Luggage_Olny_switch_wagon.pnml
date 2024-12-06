@@ -23,3 +23,7 @@ switch(FEAT_TRAINS, SELF, sw_Luggage_Olny_wagon, current_year) {
     1999..2004: sw_Luggage_Olny_1999_wagon;
     sw_Luggage_Olny_2005_wagon;
     }
+
+switch (FEAT_TRAINS, SELF, sw_Luggage_Olny_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_Luggage_Olny_wagon; //default
+    }

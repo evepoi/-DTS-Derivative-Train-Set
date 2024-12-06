@@ -2,7 +2,7 @@
 Graphics
 --------------------------------------------------------------------*/
 spriteset(set_Transparency_engine, "src_Virtual/locomotive/Transparency/Transparency.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 /*-------------------------------------------------------------------

@@ -1,51 +1,51 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Standard_Metro_purchase, "src/metro/standard/Standard_Long.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
-1. 표준형 롱시트
+표준형 롱시트
 --------------------------------------------------------------------*/
 spriteset(set_Standard_Metro_L_engineH, "src/metro/standard/Standard_Long.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Standard_Metro_L_panto_wagon, "src\metro\standard\Standard_Long.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Standard_Metro_L_wagon, "src\metro\standard\Standard_Long.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Standard_Metro_L_engineT, "src/metro/standard/Standard_Long.png"){
-    engine(80, 81)
+    DTS_temp(80, 81)
 }
 
 /*--------------------------------------------------------------------
-2. 표준형 크로스시트
+표준형 크로스시트
 --------------------------------------------------------------------*/
 spriteset(set_Standard_Metro_C_engineH, "src/metro/standard/Standard_Cross.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Standard_Metro_C_panto_wagon, "src\metro\standard\Standard_Cross.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Standard_Metro_C_wagon, "src\metro\standard\Standard_Cross.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Standard_Metro_C_engineT, "src/metro/standard/Standard_Cross.png"){
-    engine(80, 81)
+    DTS_temp(80, 81)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
+spriteset(set_Standard_Metro_purchase, "src/metro/standard/Standard_Long.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_Standard_Metro_purchase, cargo_subtype) {
     set_Standard_Metro_purchase;
 }

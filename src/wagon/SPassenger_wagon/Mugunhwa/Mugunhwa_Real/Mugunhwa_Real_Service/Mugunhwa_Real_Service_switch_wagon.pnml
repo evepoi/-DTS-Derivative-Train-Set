@@ -351,4 +351,7 @@ switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_wagon, current_year) {
     2011..2013: sw_Mugunhwa_Real_Service_2011_wagon;
     sw_Mugunhwa_Real_Service_2014_wagon;
     }
-    
+
+switch (FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_Mugunhwa_Real_Service_wagon; //default
+    }

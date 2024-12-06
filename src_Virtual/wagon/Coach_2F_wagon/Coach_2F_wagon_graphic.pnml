@@ -1,27 +1,27 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Coach_2F_Wagon_purchase, "src_Virtual\wagon\Coach_2F_wagon\Coach_2F_wagon.png"){
-    tmpl_wagon_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
-1. 기본 도색
+기본 도색
 --------------------------------------------------------------------*/
 spriteset(set_Coach_2F_Wagon, "src_Virtual\wagon\Coach_2F_wagon\Coach_2F_wagon.png") {
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 /*--------------------------------------------------------------------
-2. 태극 도색
+태극 도색
 --------------------------------------------------------------------*/
 spriteset(set_Coach_2F_Taegeuk_Wagon, "src_Virtual\wagon\Coach_2F_wagon\Coach_2F_wagon.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+spriteset(set_Coach_2F_Wagon_purchase, "src_Virtual\wagon\Coach_2F_wagon\Coach_2F_wagon.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_Coach_2F_Wagon_purchase, cargo_subtype) {
     set_Coach_2F_Wagon_purchase;
 }

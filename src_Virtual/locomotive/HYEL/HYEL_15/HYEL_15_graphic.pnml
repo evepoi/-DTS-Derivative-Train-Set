@@ -6,7 +6,7 @@ spriteset(set_HYEL_15_purchase, "src_Virtual/locomotive/HYEL/HYEL_15/HYEL_15.png
 }
 
 spriteset(set_HYEL_15_engine, "src_Virtual/locomotive/HYEL/HYEL_15/HYEL_15.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 /*--------------------------------------------------------------------

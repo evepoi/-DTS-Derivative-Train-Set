@@ -2,15 +2,15 @@
 Graphics
 --------------------------------------------------------------------*/
 spriteset(set_DEL7000_engine_A, "src/locomotive/DEL7000/DEL7000.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_DEL7000_engine_B, "src/locomotive/DEL7000/DEL7000.png"){
-    engine(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_DEL7000_engine_C, "src/locomotive/DEL7000/DEL7000.png"){
-    engine(80, 54)
+    DTS_temp(80, 54)
 }
 
 /*-------------------------------------------------------------------

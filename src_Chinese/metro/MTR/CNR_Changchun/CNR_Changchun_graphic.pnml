@@ -1,51 +1,51 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_MTR_CNR_Changchun_purchase, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
-1. MTR CNR Changchun
+MTR CNR Changchun
 --------------------------------------------------------------------*/
 spriteset(set_MTR_CNR_Changchun_engineH, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_MTR_CNR_Changchun_panto_wagon, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun.png"){
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_MTR_CNR_Changchun_wagon, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_MTR_CNR_Changchun_engineT, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun.png"){
-    engine(80, 81)
+    DTS_temp(80, 81)
 }
 
 /*--------------------------------------------------------------------
-2. MTR CNR Changchun South Island Line
+MTR CNR Changchun South Island Line
 --------------------------------------------------------------------*/
 spriteset(set_TR_CNR_Changchun_South_Island_engineH, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_TR_CNR_Changchun_South_Island_panto_wagon, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png"){
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_TR_CNR_Changchun_South_Island_wagon, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_TR_CNR_Changchun_South_Island_engineT, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png"){
-    engine(80, 81)
+    DTS_temp(80, 81)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
+spriteset(set_MTR_CNR_Changchun_purchase, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_MTR_CNR_Changchun_purchase, cargo_subtype) {
     set_MTR_CNR_Changchun_purchase;
 }

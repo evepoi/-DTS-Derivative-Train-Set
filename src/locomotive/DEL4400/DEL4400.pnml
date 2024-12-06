@@ -22,7 +22,6 @@ item(FEAT_TRAINS, DEL4400, 2396){
         //spec
         speed:                          105km/h;
         power:                          1231 kW;
-        length:                         6;
         weight:                         132 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -50,9 +49,10 @@ item(FEAT_TRAINS, DEL4400, 2396){
         }
         
     graphics {
-        default:                        sw_DEL4400_engine;
+        default:                        sw_DEL4400_1Car;
         purchase:                       sw_DEL4400_purchase;
         speed:                          sw_DEL4400_speed;
+        length:                         6;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;

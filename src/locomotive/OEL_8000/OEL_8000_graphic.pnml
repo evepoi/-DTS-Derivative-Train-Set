@@ -2,27 +2,27 @@
 Graphics
 --------------------------------------------------------------------*/
 spriteset(set_OEL8000_engine_I1, "src/locomotive/OEL_8000/OEL_8000.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_OEL8000_engine_I2, "src/locomotive/OEL_8000/OEL_8000.png"){
-    engine(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_OEL8000_engine_O1, "src/locomotive/OEL_8000/OEL_8000.png"){
-    engine(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_OEL8000_engine_O2, "src/locomotive/OEL_8000/OEL_8000.png"){
-    engine(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_OEL8000_engine_N1, "src/locomotive/OEL_8000/OEL_8000.png"){
-    engine(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_OEL8000_engine_N2, "src/locomotive/OEL_8000/OEL_8000.png"){
-    engine(80, 135)
+    DTS_temp(80, 135)
 }
 
 /*-------------------------------------------------------------------

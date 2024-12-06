@@ -2,19 +2,19 @@
 Graphics
 --------------------------------------------------------------------*/
 spriteset(set_Luggage_Olny_1998_G, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Luggage_Olny/Luggage_Olny.png") {
-    wagon_1F_F(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Luggage_Olny_1999_G, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Luggage_Olny/Luggage_Olny.png") {
-    wagon_1F_F(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Luggage_Olny_1998_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Luggage_Olny/Luggage_Olny.png") {
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Luggage_Olny_1999_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Luggage_Olny/Luggage_Olny.png") {
-    wagon_1F_F(80, 81)
+    DTS_temp(80, 81)
 }
 
 /*--------------------------------------------------------------------

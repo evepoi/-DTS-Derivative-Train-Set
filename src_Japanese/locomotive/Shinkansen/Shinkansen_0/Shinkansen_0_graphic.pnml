@@ -5,70 +5,70 @@ Graphics
 신칸센 0계
 --------------------------------------------------------------------*/
 spriteset(set_Shinkansen_0_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Shinkansen_0_panto_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0.png"){
-    engine(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Shinkansen_0_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0.png"){
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Shinkansen_0_panto_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0.png"){
-    wagon_1F_F_r(80, 54)
+    DTS_temp_r(80, 54)
 }
 
 spriteset(set_Shinkansen_0_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0.png") {
-    wagon_1F(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Shinkansen_0_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0.png") {
-    wagon_1F_r(80, 81)
+    DTS_temp_r(80, 81)
 }
 
 spriteset(set_Shinkansen_0_panto_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0.png"){
-    engine(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_Shinkansen_0_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0.png"){
-    engine_r(80, 135)
+    DTS_temp_r(80, 135)
 }
 
 /*--------------------------------------------------------------------
 신칸센 0계 리뉴얼
 --------------------------------------------------------------------*/
 spriteset(set_Shinkansen_0_renewal_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0_renewal.png"){
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Shinkansen_0_renewal_panto_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0_renewal.png"){
-    engine(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Shinkansen_0_renewal_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0_renewal.png"){
-    wagon_1F_F(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Shinkansen_0_renewal_panto_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0_renewal.png"){
-    wagon_1F_F_r(80, 54)
+    DTS_temp_r(80, 54)
 }
 
 spriteset(set_Shinkansen_0_renewal_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0_renewal.png") {
-    wagon_1F(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Shinkansen_0_renewal_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0_renewal.png") {
-    wagon_1F_r(80, 81)
+    DTS_temp_r(80, 81)
 }
 
 spriteset(set_Shinkansen_0_renewal_panto_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0_renewal.png"){
-    engine(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_Shinkansen_0_renewal_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen/Shinkansen_0/Shinkansen_0_renewal.png"){
-    engine_r(80, 135)
+    DTS_temp_r(80, 135)
 }
 
 /*--------------------------------------------------------------------

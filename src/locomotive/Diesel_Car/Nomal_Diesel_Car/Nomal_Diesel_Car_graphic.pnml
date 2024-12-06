@@ -2,59 +2,59 @@
 Graphics
 --------------------------------------------------------------------*/
 spriteset(set_Nomal_Diesel_engine_1961, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
-    engine(80, 0)
+    DTS_temp(80, 0)
 }
 
 spriteset(set_Nomal_Diesel_engine_1966, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
-    engine(80, 27)
+    DTS_temp(80, 27)
 }
 
 spriteset(set_Nomal_Diesel_engine_1975, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
-    engine(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Nomal_Diesel_engine_1974_O, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
-    engine(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Nomal_Diesel_engine_1974_O1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
-    engine(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_Nomal_Diesel_engine_1994_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
-    engine(80, 135)
+    DTS_temp(80, 135)
 }
 
 spriteset(set_Nomal_Diesel_engine_1994_B1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
-    engine(80, 162)
+    DTS_temp(80, 162)
 }
 
 spriteset(set_Nomal_Diesel_engine_1980_B1, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car.png") {
-    engine(80, 54)
+    DTS_temp(80, 54)
 }
 
 spriteset(set_Nomal_Diesel_engine_1980_B2, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car.png") {
-    engine(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_Nomal_Diesel_engine_1984_B, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car.png") {
-    engine(80, 108)
+    DTS_temp(80, 108)
 }
 
 spriteset(set_Nomal_Diesel_engine_1985_T, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car.png") {
-    engine(80, 135)
+    DTS_temp(80, 135)
 }
 
 spriteset(set_Nomal_Diesel_engine_1985_T1, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car.png") {
-    engine(80, 162)
+    DTS_temp(80, 162)
 }
 
 spriteset(set_Nomal_Diesel_engine_1985_M, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car.png") {
-    engine(80, 189)
+    DTS_temp(80, 189)
 }
 
 spriteset(set_Nomal_Diesel_engine_1985_M1, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car.png") {
-    engine(80, 216)
+    DTS_temp(80, 216)
 }
 
 /*-------------------------------------------------------------------
