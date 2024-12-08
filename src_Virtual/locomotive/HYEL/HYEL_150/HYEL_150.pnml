@@ -51,7 +51,7 @@ item(FEAT_TRAINS, HYEL_150, 2141){
         }
         
     graphics {
-        default:                        sw_HYEL_150_engine;
+        default:                        sw_HYEL_150_engine_1Car;
         purchase:                       sw_HYEL_150_purchase;
         cargo_capacity:                 0;
         cost_factor:                    10;

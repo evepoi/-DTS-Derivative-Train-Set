@@ -333,6 +333,7 @@ switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2014_wagon, cargo_subtype) {
     set_Mugunhwa_Real_Service_SPR1;
 }
 
+// 등장년도
 switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_wagon, current_year) {
     0..1979: sw_Mugunhwa_Real_Service_1977_wagon;
     1980: sw_Mugunhwa_Real_Service_1980_wagon;
@@ -352,6 +353,7 @@ switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_wagon, current_year) {
     sw_Mugunhwa_Real_Service_2014_wagon;
     }
 
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_wagon_1Car, position_in_vehid_chain % 1) {
     sw_Mugunhwa_Real_Service_wagon; //default
     }

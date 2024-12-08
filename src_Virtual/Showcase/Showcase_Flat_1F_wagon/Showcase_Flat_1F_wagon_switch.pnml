@@ -58,6 +58,11 @@ switch(FEAT_TRAINS, SELF, sw_ShowCase_FLAT_1F_wagon, random_bits % 52) {
     set_FLAT_CAR_empty_wagon;
 }
 
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_ShowCase_FLAT_1F_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_ShowCase_FLAT_1F_wagon; //default
+    }
+
 switch(FEAT_TRAINS, SELF, sw_ShowCase_FLAT_1F_purchase, random_bits % 3) {
     0: set_FLAT_CAR_purchase;
     1: set_FLAT_TANK_CAR_purchase;

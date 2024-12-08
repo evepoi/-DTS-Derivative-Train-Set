@@ -55,6 +55,7 @@ switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_2007_wagon, cargo_subtype) {
     set_Saemaeul_Real_Service_SF1;
 }
 
+// 등장년도
 switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_wagon, current_year) {
     0..1985: sw_Saemaeul_Real_Service_1969_wagon;
     1986..1989: sw_Saemaeul_Real_Service_1986_wagon;
@@ -63,4 +64,8 @@ switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_wagon, current_year) {
     2006: sw_Saemaeul_Real_Service_2006_wagon;
     sw_Saemaeul_Real_Service_2007_wagon;
     }
-    
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_Saemaeul_Real_Service_wagon; //default
+    }

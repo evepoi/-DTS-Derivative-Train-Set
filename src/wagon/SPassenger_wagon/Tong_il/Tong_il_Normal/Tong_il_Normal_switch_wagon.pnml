@@ -74,6 +74,7 @@ switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1997_wagon, cargo_subtype) {
     set_Tong_il_Normal_T_1963;
 }
 
+// 등장년도
 switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_wagon, current_year) {
     0..1967: sw_Tong_il_Normal_1963_wagon;
     1968..1973: sw_Tong_il_Normal_1968_wagon;
@@ -82,4 +83,9 @@ switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_wagon, current_year) {
     1994..1995: sw_Tong_il_Normal_1994_wagon;
     1996: sw_Tong_il_Normal_1996_wagon;
     sw_Tong_il_Normal_1997_wagon;
+    }
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Tong_il_Normal_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_Tong_il_Normal_wagon; //default
     }

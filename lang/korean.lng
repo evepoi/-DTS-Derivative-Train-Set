@@ -666,9 +666,12 @@ STR_REFIT_LIVERY_CL_150_G2_B                           : 세미크로스시트
 STR_REFIT_LIVERY_CL_150_G2_B_2cc                       : 세미크로스시트 2cc
 STR_REFIT_LIVERY_CL_150_Premium                        : Premium
 STR_REFIT_LIVERY_CL_150_Premium_2cc                    : Premium 2cc
-STR_REFIT_LIVERY_DEL4400_A                             : 구도색
-STR_REFIT_LIVERY_DEL4400_B                             : 신도색
-STR_REFIT_LIVERY_DEL4400_C                             : V-Train
+STR_REFIT_LIVERY_DEL4400_A_Front                       : 구도색 정방향
+STR_REFIT_LIVERY_DEL4400_A_Back                        : 구도색 역방향
+STR_REFIT_LIVERY_DEL4400_B_Front                       : 신도색 정방향
+STR_REFIT_LIVERY_DEL4400_B_Back                        : 신도색 역방향
+STR_REFIT_LIVERY_DEL4400_C_Front                       : V-Train 정방향
+STR_REFIT_LIVERY_DEL4400_C_Back                        : V-Train 역방향
 STR_REFIT_LIVERY_DEL7000_A                             : 초기도색
 STR_REFIT_LIVERY_DEL7000_B                             : 구도색
 STR_REFIT_LIVERY_DEL7000_C                             : 신도색

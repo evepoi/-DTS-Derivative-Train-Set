@@ -37,7 +37,7 @@ item (FEAT_TRAINS, VTS_1F_Passenger_Car, 2105){
 	}
 
     graphics {
-		default:						sw_Passenge_1F_wagon;
+		default:						sw_Passenge_1F_wagon_1Car;
 		purchase:						set_1F_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;

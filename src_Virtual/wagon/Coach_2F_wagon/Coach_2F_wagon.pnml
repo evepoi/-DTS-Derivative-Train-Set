@@ -45,7 +45,7 @@ item(FEAT_TRAINS, Coach_2F, 2106){
         }
 
 	graphics {
-        default:                        sw_Coach_2F_Wagon;
+        default:                        sw_Coach_2F_Wagon_1Car;
         purchase:                       sw_Coach_2F_Wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;

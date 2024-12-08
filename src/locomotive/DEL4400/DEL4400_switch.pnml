@@ -7,28 +7,32 @@
 //열차
 #include "DEL4400_switch_wagon.pnml"
 --------------------------------------------------------------------*/
+// 도색명
 switch(FEAT_TRAINS, SELF, sw_DEL4400_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_DEL4400_B);
-    2: return string(STR_REFIT_LIVERY_DEL4400_C);
-    return string(STR_REFIT_LIVERY_DEL4400_A);
+    1: return string(STR_REFIT_LIVERY_DEL4400_A_Back);
+    2: return string(STR_REFIT_LIVERY_DEL4400_B_Front);
+    3: return string(STR_REFIT_LIVERY_DEL4400_B_Back);
+    4: return string(STR_REFIT_LIVERY_DEL4400_C_Front);
+    5: return string(STR_REFIT_LIVERY_DEL4400_C_Back);
+    return string(STR_REFIT_LIVERY_DEL4400_A_Front);
 }
 
+// 열차
 switch(FEAT_TRAINS, SELF, sw_DEL4400_engine, cargo_subtype) {
-    1: set_DEL4400_engine_B;
-    2: set_DEL4400_engine_C;
+    1: set_DEL4400_engine_A_r;
+    2: set_DEL4400_engine_B;
+    3: set_DEL4400_engine_B_r;
+    4: set_DEL4400_engine_C;
+    5: set_DEL4400_engine_C_r;
     set_DEL4400_engine_A;
 }
 
-switch(FEAT_TRAINS, SELF, sw_DEL4400_engine_r, cargo_subtype) {
-    1: set_DEL4400_engine_B_r;
-    2: set_DEL4400_engine_C_r;
-    set_DEL4400_engine_A_r;
-}
-
+// 편성 그래픽
 switch (FEAT_TRAINS, SELF, sw_DEL4400_1Car, position_in_vehid_chain % 1) {
     sw_DEL4400_engine; //default
     }
 
+// 사운드
 switch(FEAT_TRAINS, SELF, sw_DEL4400_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/GT18BMstart.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");

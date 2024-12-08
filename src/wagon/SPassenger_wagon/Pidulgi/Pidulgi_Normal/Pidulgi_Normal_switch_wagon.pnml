@@ -160,6 +160,7 @@ switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1997_wagon, cargo_subtype) {
     set_Pidulgi_Normal_C_MADE_1922;
 }
 
+// 등장년도
 switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_wagon, current_year) {
     0..1961: sw_Pidulgi_Normal_1960_wagon;
     1962: sw_Pidulgi_Normal_1962_wagon;
@@ -170,4 +171,9 @@ switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_wagon, current_year) {
     1984..1993: sw_Pidulgi_Normal_1984_wagon;
     1994..1996: sw_Pidulgi_Normal_1994_wagon;
     sw_Pidulgi_Normal_1997_wagon;
+    }
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Pidulgi_Normal_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_Pidulgi_Normal_wagon; //default
     }

@@ -45,7 +45,7 @@ item(FEAT_TRAINS, CTS_SPassenger_Car, 2031){
         }
 
 	graphics {
-        default:                        sw_SWagon;
+        default:                        sw_SWagon_1Car;
         purchase:                       sw_SWagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;

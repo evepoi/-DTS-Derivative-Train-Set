@@ -100,6 +100,7 @@ switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_2018_wagon, cargo_subt
     set_Saemaeul_Real_Normal_Special_KN1;
 }
 
+// 등장년도
 switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_wagon, current_year) {
     0..1978: sw_Saemaeul_Real_Normal_Special_1969_wagon;
     1979..1985: sw_Saemaeul_Real_Normal_Special_1979_wagon;
@@ -109,4 +110,8 @@ switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_wagon, current_year) {
     2006..2017: sw_Saemaeul_Real_Normal_Special_2006_wagon;
     sw_Saemaeul_Real_Normal_Special_2018_wagon;
     }
-    
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_wagon_1Car, position_in_vehid_chain % 1) {
+    sw_Saemaeul_Real_Normal_Special_wagon; //default
+    }

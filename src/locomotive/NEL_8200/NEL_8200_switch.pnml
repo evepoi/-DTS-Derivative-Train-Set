@@ -1,10 +1,12 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_NEL_8200_engine_1Car, position_in_vehid_chain % 1) {
     set_NEL_8200_engine; //default
     }
 
+// 사운드
 switch(FEAT_TRAINS, SELF, sw_NEL_8200_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/SIEMENSGTOlocostart.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");

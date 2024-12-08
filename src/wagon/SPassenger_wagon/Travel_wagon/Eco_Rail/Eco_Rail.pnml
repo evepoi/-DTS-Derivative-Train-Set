@@ -65,7 +65,7 @@ item (FEAT_TRAINS, Eco_Rail_Passenger_Car, 2157){
     }
 
     graphics {
-        default:                        set_Eco_Rail_wagon_A;
+        default:                        sw_Eco_Rail_1Car;
         purchase:                       set_Eco_Rail_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;

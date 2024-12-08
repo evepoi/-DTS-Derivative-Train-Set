@@ -10,3 +10,8 @@ switch(FEAT_TRAINS, SELF, sw_Coach_2F_Wagon, cargo_subtype) {
     1: set_Coach_2F_Taegeuk_Wagon;     // 태극 도색
     set_Coach_2F_Wagon;
 }
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Coach_2F_Wagon_1Car, position_in_vehid_chain % 1) {
+    sw_Coach_2F_Wagon; //default
+    }

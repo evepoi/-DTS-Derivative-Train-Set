@@ -668,9 +668,12 @@ STR_REFIT_LIVERY_CL_150_G2_B                           : B Type
 STR_REFIT_LIVERY_CL_150_G2_B_2cc                       : B Type 2cc
 STR_REFIT_LIVERY_CL_150_Premium                        : Premium
 STR_REFIT_LIVERY_CL_150_Premium_2cc                    : Premium 2cc
-STR_REFIT_LIVERY_DEL4400_A                             : Old
-STR_REFIT_LIVERY_DEL4400_B                             : New
-STR_REFIT_LIVERY_DEL4400_C                             : V-Train
+STR_REFIT_LIVERY_DEL4400_A_Front                       : Old Front
+STR_REFIT_LIVERY_DEL4400_A_Back                        : Old Back
+STR_REFIT_LIVERY_DEL4400_B_Front                       : New Front
+STR_REFIT_LIVERY_DEL4400_B_Back                        : New Back
+STR_REFIT_LIVERY_DEL4400_C_Front                       : V-Train Front
+STR_REFIT_LIVERY_DEL4400_C_Back                        : V-Train Back
 STR_REFIT_LIVERY_DEL7000_A                             : DEL7000_A
 STR_REFIT_LIVERY_DEL7000_B                             : DEL7000_B
 STR_REFIT_LIVERY_DEL7000_C                             : DEL7000_C

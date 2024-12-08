@@ -48,10 +48,12 @@ switch(FEAT_TRAINS, SELF, sw_DEL7600_engine, current_year) {
     sw_DEL7600_2022_engine;
     }
 
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_DEL7600_engine_1Car, position_in_vehid_chain % 1) {
     sw_DEL7600_engine; //default
     }
 
+// 사운드
 switch(FEAT_TRAINS, SELF, sw_DEL7600_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/DEL7600start.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");

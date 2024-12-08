@@ -1,6 +1,11 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Eco_Rail_1Car, position_in_vehid_chain % 1) {
+    set_Eco_Rail_wagon_A; //default
+    }
+
 switch (FEAT_TRAINS, SELF, sw_Eco_Rail_5Car, position_in_vehid_chain % 5) {
     1:set_Eco_Rail_wagon_A;
     2:set_Eco_Rail_wagon_C;

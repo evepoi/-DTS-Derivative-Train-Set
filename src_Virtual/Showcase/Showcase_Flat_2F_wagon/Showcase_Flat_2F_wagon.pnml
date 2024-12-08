@@ -48,7 +48,7 @@ item(FEAT_TRAINS, Showcase_Flat_2F, 2523){
         }
 
 	graphics {
-        default:                        sw_ShowCase_FLAT_2F_wagon;
+        default:                        sw_ShowCase_FLAT_2F_wagon_1Car;
         purchase:                       set_FLAT_2F_CAR_purchase;
         cargo_capacity:                 0;
         cost_factor:                    10;

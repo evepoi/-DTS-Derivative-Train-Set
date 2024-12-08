@@ -1,18 +1,26 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 도색
 switch(FEAT_TRAINS, SELF, sw_HYEL_100_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_HYEL_100_CI);        // CI
     2: return string(STR_REFIT_LIVERY_HYEL_100_original);  // 오리지널
     return string(STR_REFIT_LIVERY_HYEL_100);
 }
 
+// 열차
 switch(FEAT_TRAINS, SELF, sw_HYEL_100_engine, cargo_subtype) {
     1: set_HYEL_100_CI_engine;        // CI
     2: set_HYEL_100_engine;        // CI
     set_HYEL_100_H2_engine;
 }
 
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_HYEL_100_engine_1Car, position_in_vehid_chain % 1) {
+    sw_HYEL_100_engine; //default
+    }
+
+// 사운드
 switch(FEAT_TRAINS, SELF, sw_HYEL_100_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTPMSMstart.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");

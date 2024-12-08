@@ -158,6 +158,7 @@ switch(FEAT_TRAINS, SELF, sw_GT26CW_engine, current_year) {
     sw_GT26CW_enginee_2023;
     }
 
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_GT26CW_engine_1Car, position_in_vehid_chain % 1) {
     sw_GT26CW_engine; //default
     }

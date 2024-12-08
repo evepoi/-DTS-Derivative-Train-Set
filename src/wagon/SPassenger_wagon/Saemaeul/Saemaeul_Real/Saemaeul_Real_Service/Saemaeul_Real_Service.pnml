@@ -48,7 +48,7 @@ item (FEAT_TRAINS, Saemaeul_Real_Service, 2393){
     }
 
     graphics {
-        default:                        sw_Saemaeul_Real_Service_wagon;
+        default:                        sw_Saemaeul_Real_Service_wagon_1Car;
         purchase:                       sw_Saemaeul_Real_Service_purchase;
         speed:                          sw_Saemaeul_Real_Service_speed;
         loading_speed:                  25;

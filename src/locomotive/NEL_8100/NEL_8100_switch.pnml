@@ -1,20 +1,24 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 도색
 switch(FEAT_TRAINS, SELF, sw_NEL_8100_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_NEL_8100_B);
     return string(STR_REFIT_LIVERY_NEL_8100_A);
 }
 
+// 열차
 switch(FEAT_TRAINS, SELF, sw_NEL_8100_engine, cargo_subtype) {
     1: set_NEL_8100_engine_B;
     set_NEL_8100_engine_A;
 }
 
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_NEL_8100_engine_1Car, position_in_vehid_chain % 1) {
     sw_NEL_8100_engine; //default
     }
 
+// 사운드
 switch(FEAT_TRAINS, SELF, sw_NEL_8100_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/SIEMENSGTO2locostart.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");

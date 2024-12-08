@@ -50,7 +50,7 @@ item(FEAT_TRAINS, Transparency, 2520){
         }
         
     graphics {
-        default:                        set_Transparency_engine;
+        default:                        sw_Transparency_engine_1Car;
         purchase:                       set_Transparency_purchase;
         cargo_capacity:                 0;
         cost_factor:                    10;

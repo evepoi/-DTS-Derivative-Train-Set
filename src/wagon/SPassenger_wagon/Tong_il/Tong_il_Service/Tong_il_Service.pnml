@@ -47,7 +47,7 @@ item (FEAT_TRAINS, Tong_il_Service, 2473){
     }
 
     graphics {
-        default:                        sw_Tong_il_Service_wagon;
+        default:                        sw_Tong_il_Service_wagon_1Car;
         purchase:                       sw_Tong_il_Service_purchase;
         cargo_capacity:                 sw_Tong_il_Service_capacity_in_custom;
         speed:                          sw_Tong_il_Service_speed;

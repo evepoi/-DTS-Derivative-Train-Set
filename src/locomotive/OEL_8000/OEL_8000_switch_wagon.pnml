@@ -33,3 +33,8 @@ switch(FEAT_TRAINS, SELF, sw_OEL8000_engine, current_year) {
     1995..2004: sw_OEL8000_1995_engine;
     sw_OEL8000_2005_engine;
     }
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_OEL8000_engine_1Car, position_in_vehid_chain % 1) {
+    sw_OEL8000_engine; //default
+    }

@@ -49,7 +49,7 @@ item(FEAT_TRAINS, NJ2, 2051){
         }
 
 	graphics {
-        default:                        set_NJ2_engine;
+        default:                        sw_NJ2_engine_1Car;
         purchase:                       sw_NJ2_purchase;
         speed:                          sw_NJ2_speed;
         cost_factor:                    10;

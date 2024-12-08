@@ -23,6 +23,7 @@ switch(FEAT_TRAINS, SELF, sw_DEL7000_engine, current_year) {
     sw_DEL7000_2005_engine;
     }
 
+// 편성 그래픽
 switch (FEAT_TRAINS, SELF, sw_DEL7000_engine_1Car, position_in_vehid_chain % 1) {
     sw_DEL7000_engine; //default
     }
