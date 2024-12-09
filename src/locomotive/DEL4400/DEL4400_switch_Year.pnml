@@ -2,26 +2,20 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_DEL4400_2001_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_DEL4400_A_Front);
-    1: return string(STR_REFIT_LIVERY_DEL4400_A_Back);
+    0: return string(STR_REFIT_LIVERY_DEL4400_A);
     return CB_RESULT_NO_TEXT;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DEL4400_2004_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_DEL4400_A_Front);
-    1: return string(STR_REFIT_LIVERY_DEL4400_A_Back);
-    2: return string(STR_REFIT_LIVERY_DEL4400_B_Front);
-    3: return string(STR_REFIT_LIVERY_DEL4400_B_Back);
+    0: return string(STR_REFIT_LIVERY_DEL4400_A);
+    1: return string(STR_REFIT_LIVERY_DEL4400_B);
     return CB_RESULT_NO_TEXT;
 }
 
 switch(FEAT_TRAINS, SELF, sw_DEL4400_2013_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_DEL4400_A_Front);
-    1: return string(STR_REFIT_LIVERY_DEL4400_A_Back);
-    2: return string(STR_REFIT_LIVERY_DEL4400_B_Front);
-    3: return string(STR_REFIT_LIVERY_DEL4400_B_Back);
-    4: return string(STR_REFIT_LIVERY_DEL4400_C_Front);
-    5: return string(STR_REFIT_LIVERY_DEL4400_C_Back);
+    0: return string(STR_REFIT_LIVERY_DEL4400_A);
+    1: return string(STR_REFIT_LIVERY_DEL4400_B);
+    2: return string(STR_REFIT_LIVERY_DEL4400_C);
     return CB_RESULT_NO_TEXT;
 }
 

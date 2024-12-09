@@ -5,24 +5,12 @@ spriteset(set_DEL4400_engine_A, "src/locomotive/DEL4400/DEL4400.png"){
     DTS_temp_mini_6(80, 0)
 }
 
-spriteset(set_DEL4400_engine_A_r, "src/locomotive/DEL4400/DEL4400.png"){
+spriteset(set_DEL4400_engine_B, "src/locomotive/DEL4400/DEL4400.png"){
     DTS_temp_mini_6(80, 27)
 }
 
-spriteset(set_DEL4400_engine_B, "src/locomotive/DEL4400/DEL4400.png"){
-    DTS_temp_mini_6(80, 54)
-}
-
-spriteset(set_DEL4400_engine_B_r, "src/locomotive/DEL4400/DEL4400.png"){
-    DTS_temp_mini_6(80, 81)
-}
-
 spriteset(set_DEL4400_engine_C, "src/locomotive/DEL4400/DEL4400.png"){
-    DTS_temp_mini_6(80, 108)
-}
-
-spriteset(set_DEL4400_engine_C_r, "src/locomotive/DEL4400/DEL4400.png"){
-    DTS_temp_mini_6(80, 135)
+    DTS_temp_mini_6(80, 54)
 }
 
 /*-------------------------------------------------------------------
