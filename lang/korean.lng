@@ -79,10 +79,6 @@ STR_H2_WJ_4Car_NAME                                    :[DTS/4량] 우진산전 
 STR_Group_HEMU_430X_NAME                               :[DTS] HEMU-430X
 STR_HEMU_430X_6Car_NAME                                :[DTS/6량] HEMU-430X
 STR_HEMU_430X_8Car_NAME                                :[DTS/8량] HEMU-430X
-STR_Group_HMX_NAME                                     :[DTS] DTX-?? (구 HMX)
-STR_HMX_6Car_NAME                                      :[DTS/6량] DTX-?? (구 HMX)
-STR_HMX_8Car_NAME                                      :[DTS/8량] DTX-?? (구 HMX)
-STR_HMX_10Car_NAME                                     :[DTS/10량] DTX-?? (구 HMX)
 STR_Group_HSR_350X_NAME                                :[DTS] HSR-350X
 STR_HSR_350X_7Car_NAME                                 :[DTS/7량] HSR-350X
 STR_HSR_350X_14Car_NAME                                :[DTS/14량] HSR-350X
@@ -144,10 +140,6 @@ STR_MEL_150_12Car_NAME                                 :[DTS/12량] MEL-150
 STR_MSB_Speeder_NAME                                   :[DTS/단량] MSB 모터카
 STR_NEL_8100_NAME                                      :[DTS/단량] 8100호대 전기기관차
 STR_NEL_8200_NAME                                      :[DTS/단량] 8200호대 전기기관차
-STR_Group_NKX_NAME                                     :[DTS] DTX-?? (구 NKX)
-STR_NKX_6Car_NAME                                      :[DTS/6량] DTX-?? (구 NKX)
-STR_NKX_8Car_NAME                                      :[DTS/8량] DTX-?? (구 NKX)
-STR_NKX_10Car_NAME                                     :[DTS/10량] DTX-?? (구 NKX)
 STR_Group_Nuriro_NAME                                  :[DTS] 한국철도공사 200000호대 전동차 (누리로)
 STR_Nuriro_4Car_NAME                                   :[DTS/4량] 한국철도공사 200000호대 전동차 (누리로)
 STR_Nuriro_8Car_NAME                                   :[DTS/8량] 한국철도공사 200000호대 전동차 (누리로)
@@ -266,6 +258,15 @@ STR_DTX_Sundeok_8Car_NAME                              :[DTS/8량] DTX-선덕
 STR_DTX_Sundeok_10Car_NAME                             :[DTS/10량] DTX-선덕
 STR_DTX_Sundeok_16Car_NAME                             :[DTS/16량] DTX-선덕
 STR_DTX_Sundeok_20Car_NAME                             :[DTS/20량] DTX-선덕
+STR_Group_DTX_Sobaek_NAME                              :[DTS] DTX-소백
+STR_DTX_Sobaek_4Car_NAME                               :[DTS/4량] DTX-소백
+STR_DTX_Sobaek_6Car_NAME                               :[DTS/6량] DTX-소백
+STR_DTX_Sobaek_8Car_NAME                               :[DTS/8량] DTX-소백
+STR_DTX_Sobaek_10Car_NAME                              :[DTS/10량] DTX-소백
+STR_Group_DTX_Taebaek_NAME                             :[DTS] DTX-태백
+STR_DTX_Taebaek_6Car_NAME                              :[DTS/6량] DTX-태백
+STR_DTX_Taebaek_8Car_NAME                              :[DTS/8량] DTX-태백
+STR_DTX_Taebaek_10Car_NAME                             :[DTS/10량] DTX-태백
 STR_HYEL_15_NAME                                       :[DTS/단량] HYEL-15
 STR_HYEL_100_NAME                                      :[DTS/단량] HYEL-100
 STR_HYEL_150_NAME                                      :[DTS/단량] HYEL-150
@@ -887,6 +888,8 @@ STR_REFIT_LIVERY_Shinkansen_E5_E6                      : 신칸센 E5+E6계
 STR_REFIT_LIVERY_Shinkansen_E5_E8                      : 신칸센 E5+E8계
 STR_REFIT_LIVERY_Shinkansen_H5_E6                      : 신칸센 H5+E6계
 STR_REFIT_LIVERY_Shinkansen_H5_E8                      : 신칸센 H5+E8계
+STR_REFIT_LIVERY_DTX_Sobaek_150                        : 151km/h
+STR_REFIT_LIVERY_DTX_Sobaek_260                        : 260km/h
 STR_REFIT_LIVERY_HYEL_100                              : 수소열차
 STR_REFIT_LIVERY_HYEL_100_CI                           : 한국철도공사 CI
 STR_REFIT_LIVERY_HYEL_100_original                     : 오리지널

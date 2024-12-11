@@ -4,6 +4,15 @@
 sort(FEAT_TRAINS, [
     //DTX 열차 그룹
     DTX_Logo,                                //2501
+    DTX_Sobaek,                              //2429
+    DTX_Sobaek_4Car,                         //2526
+    DTX_Sobaek_6Car,                         //2527
+    DTX_Sobaek_8Car,                         //2135
+    DTX_Sobaek_10Car,                        //2430
+    DTX_Taebaek,                             //2431
+    DTX_Taebaek_6Car,                        //2462
+    DTX_Taebaek_8Car,                        //2134
+    DTX_Taebaek_10Car,                       //2432
     DTX_Sejong,                              //2493
     DTX_Sejong_10Car,                        //2494
     DTX_Sejong_20Car,                        //2495
@@ -17,13 +26,6 @@ sort(FEAT_TRAINS, [
     DTX_Sundeok_10Car,                       //2505
     DTX_Sundeok_16Car,                       //2506
     DTX_Sundeok_20Car,                       //2507
-    HMX,                                     //2431
-    HMX_6Car,                                //2462
-    HMX_8Car,                                //2134
-    HMX_10Car,                               //2432
-    NKX,                                     //2429
-    NKX_8Car,                                //2135
-    NKX_10Car,                               //2430
 
     //ITX 열차 그룹
     ITX_Logo,                                //2512

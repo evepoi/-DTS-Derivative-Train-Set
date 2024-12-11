@@ -1,18 +1,18 @@
 /*--------------------------------------------------------------------
-HMX
+DTX-태백
 --------------------------------------------------------------------*/
 // Graphics
-#include "HMX_graphic.pnml"
+#include "DTX_Taebaek_graphic.pnml"
 
 // Switch
-#include "HMX_switch.pnml"
+#include "DTX_Taebaek_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HMX, 2431){
+item(FEAT_TRAINS, DTX_Taebaek, 2431){
     property {
-        name:                           string(STR_Group_HMX_NAME);
+        name:                           string(STR_Group_DTX_Taebaek_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -22,22 +22,22 @@ item(FEAT_TRAINS, HMX, 2431){
         }
 
     graphics {
-        purchase:                       sw_HMX_purchase;
+        purchase:                       sw_DTX_Taebaek_purchase;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 6량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HMX_6Car, 2462){
+item(FEAT_TRAINS, DTX_Taebaek_6Car, 2462){
     property {
-        name:                           string(STR_HMX_6Car_NAME);
+        name:                           string(STR_DTX_Taebaek_6Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HMX;
+        variant_group:                  DTX_Taebaek;
         
         //spec
         speed:                          260km/h;
@@ -69,28 +69,28 @@ item(FEAT_TRAINS, HMX_6Car, 2462){
         }
     
     graphics {
-        default:                        sw_HMX_6car;
-        articulated_part:               sw_articulated_HMX_6car;
-        purchase:                       sw_HMX_purchase;
+        default:                        sw_DTX_Taebaek_6car;
+        articulated_part:               sw_articulated_DTX_Taebaek_6car;
+        purchase:                       sw_DTX_Taebaek_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_HMX_sound;
+        sound_effect:                   sw_DTX_Taebaek_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 8량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HMX_8Car, 2134){
+item(FEAT_TRAINS, DTX_Taebaek_8Car, 2134){
     property {
-        name:                           string(STR_HMX_8Car_NAME);
+        name:                           string(STR_DTX_Taebaek_8Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HMX;
+        variant_group:                  DTX_Taebaek;
         
         //spec
         speed:                          260km/h;
@@ -122,28 +122,28 @@ item(FEAT_TRAINS, HMX_8Car, 2134){
         }
     
     graphics {
-        default:                        sw_HMX_8car;
-        articulated_part:               sw_articulated_HMX_8car;
-        purchase:                       sw_HMX_purchase;
+        default:                        sw_DTX_Taebaek_8car;
+        articulated_part:               sw_articulated_DTX_Taebaek_8car;
+        purchase:                       sw_DTX_Taebaek_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_HMX_sound;
+        sound_effect:                   sw_DTX_Taebaek_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HMX_10Car, 2432){
+item(FEAT_TRAINS, DTX_Taebaek_10Car, 2432){
     property {
-        name:                           string(STR_HMX_10Car_NAME);
+        name:                           string(STR_DTX_Taebaek_10Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HMX;
+        variant_group:                  DTX_Taebaek;
         
         //spec
         speed:                          260km/h;
@@ -175,12 +175,12 @@ item(FEAT_TRAINS, HMX_10Car, 2432){
         }
     
     graphics {
-        default:                        sw_HMX_10car;
-        articulated_part:               sw_articulated_HMX_10car;
-        purchase:                       sw_HMX_purchase;
+        default:                        sw_DTX_Taebaek_10car;
+        articulated_part:               sw_articulated_DTX_Taebaek_10car;
+        purchase:                       sw_DTX_Taebaek_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_HMX_sound;
+        sound_effect:                   sw_DTX_Taebaek_sound;
         }
         }

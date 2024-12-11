@@ -79,10 +79,6 @@ STR_H2_WJ_4Car_NAME                                    :[DTS/4Car] H2 by WOOJIN
 STR_Group_HEMU_430X_NAME                               :[DTS] HEMU-430X
 STR_HEMU_430X_6Car_NAME                                :[DTS/6Car] HEMU-430X
 STR_HEMU_430X_8Car_NAME                                :[DTS/8Car] HEMU-430X
-STR_Group_HMX_NAME                                     :[DTS] DTX-?? (Old HMX)
-STR_HMX_6Car_NAME                                      :[DTS/6Car] DTX-?? (Old HMX)
-STR_HMX_8Car_NAME                                      :[DTS/8Car] DTX-?? (Old HMX)
-STR_HMX_10Car_NAME                                     :[DTS/10Car] DTX-?? (Old HMX)
 STR_Group_HSR_350X_NAME                                :[DTS] HSR-350X
 STR_HSR_350X_7Car_NAME                                 :[DTS/7Car] HSR-350X
 STR_HSR_350X_14Car_NAME                                :[DTS/14Car] HSR-350X
@@ -144,10 +140,6 @@ STR_MEL_150_12Car_NAME                                 :[DTS/12Car] MEL-150
 STR_MSB_Speeder_NAME                                   :[DTS] MSB Speeder
 STR_NEL_8100_NAME                                      :[DTS] NEL 8100
 STR_NEL_8200_NAME                                      :[DTS] NEL 8200
-STR_Group_NKX_NAME                                     :[DTS] DTX-?? (Old NKX)
-STR_NKX_6Car_NAME                                      :[DTS/6Car] DTX-?? (Old NKX)
-STR_NKX_8Car_NAME                                      :[DTS/8Car] DTX-?? (Old NKX)
-STR_NKX_10Car_NAME                                     :[DTS/10Car] DTX-?? (Old NKX)
 STR_Group_Nuriro_NAME                                  :[DTS] Korail 200000 series EMU (NURIRO)
 STR_Nuriro_4Car_NAME                                   :[DTS/4Car] Korail 200000 series EMU (NURIRO)
 STR_Nuriro_8Car_NAME                                   :[DTS/8Car] Korail 200000 series EMU (NURIRO)
@@ -266,6 +258,15 @@ STR_DTX_Sundeok_8Car_NAME                              :[DTS/8Car] DTX-Sundeok
 STR_DTX_Sundeok_10Car_NAME                             :[DTS/10Car] DTX-Sundeok
 STR_DTX_Sundeok_16Car_NAME                             :[DTS/16Car] DTX-Sundeok
 STR_DTX_Sundeok_20Car_NAME                             :[DTS/20Car] DTX-Sundeok
+STR_Group_DTX_Sobaek_NAME                              :[DTS] DTX-Sobaek
+STR_DTX_Sobaek_4Car_NAME                               :[DTS/4Car] DTX-Sobaek
+STR_DTX_Sobaek_6Car_NAME                               :[DTS/6Car] DTX-Sobaek
+STR_DTX_Sobaek_8Car_NAME                               :[DTS/8Car] DTX-Sobaek
+STR_DTX_Sobaek_10Car_NAME                              :[DTS/10Car] DTX-Sobaek
+STR_Group_DTX_Taebaek_NAME                             :[DTS] DTX-Taebaek
+STR_DTX_Taebaek_6Car_NAME                              :[DTS/6Car] DTX-Taebaek
+STR_DTX_Taebaek_8Car_NAME                              :[DTS/8Car] DTX-Taebaek
+STR_DTX_Taebaek_10Car_NAME                             :[DTS/10Car] DTX-Taebaek
 STR_HYEL_15_NAME                                       :[DTS] HYEL-15
 STR_HYEL_100_NAME                                      :[DTS] HYEL-100
 STR_HYEL_150_NAME                                      :[DTS] HYEL-150
@@ -889,6 +890,8 @@ STR_REFIT_LIVERY_Shinkansen_E5_E6                      : Shinkansen E5+E6
 STR_REFIT_LIVERY_Shinkansen_E5_E8                      : Shinkansen E5+E8
 STR_REFIT_LIVERY_Shinkansen_H5_E6                      : Shinkansen H5+E6
 STR_REFIT_LIVERY_Shinkansen_H5_E8                      : Shinkansen H5+E8
+STR_REFIT_LIVERY_DTX_Sobaek_150                        : 151km/h
+STR_REFIT_LIVERY_DTX_Sobaek_260                        : 260km/h
 STR_REFIT_LIVERY_HYEL_100                              : Hydrogen Train
 STR_REFIT_LIVERY_HYEL_100_CI                           : Korail CI
 STR_REFIT_LIVERY_HYEL_100_original                     : Original

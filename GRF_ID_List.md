@@ -150,8 +150,8 @@
 |2131|ITX_Maum_8Car|
 |2132|Saemaeul_2cc|
 |2133|Glory_600_8Car|
-|2134|HMX_8Car|
-|2135|NKX_8Car|
+|2134|DTX_Taebaek_8Car|
+|2135|DTX_Sobaek_8Car|
 |2136|MEL_150_4Car|
 |2137|MEL_150_10Car|
 |2138|MEL_150_12Car|
@@ -445,10 +445,10 @@
 |2426|KTX_Eum_12Car|
 |2427|[그룹명] KTX_Cheong_Ryong|
 |2428|KTX_Cheong_Ryong_16Car|
-|2429|[그룹명] NKX|
-|2430|NKX_10Car|
-|2431|[그룹명] HMX|
-|2432|HMX_10Car|
+|2429|[그룹명] DTX_Sobaek|
+|2430|DTX_Sobaek_10Car|
+|2431|[그룹명] DTX_Taebaek|
+|2432|DTX_Taebaek_10Car|
 |2433|Dongbuk_2Car|
 |2434|Jakarta_LRT_2Car|
 |2435|[그룹명] HYEL_PEX_Super|
@@ -478,7 +478,7 @@
 |2459|CL_150_G2_8Car|
 |2460|CL_180_G2_8Car|
 |2461|Korail_4th_8Car|
-|2462|HMX_6Car|
+|2462|DTX_Taebaek_6Car|
 |2463|CL_150_Premium_10Car|
 |2464|CL_180_Premium_10Car|
 |2465|Group_Diesel_Car|
@@ -544,7 +544,9 @@
 |2525|Luggage_Olny|
 |2306|공백|
 |2307|삭제예정|
-|2526~2999|공백|
+|2526|DTX_Sobaek_4Car|
+|2527|DTX_Sobaek_6Car|
+|2528~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|
