@@ -111,7 +111,9 @@ STR_KTX_1_20Car_NAME                                   :[DTS/20Car] TGV-K
 STR_Group_KTX_Cheong_Ryong_NAME                        :[DTS] KTX-Cheong Ryong
 STR_KTX_Cheong_Ryong_8Car_NAME                         :[DTS/8Car] KTX-Cheong Ryong
 STR_KTX_Cheong_Ryong_16Car_NAME                        :[DTS/16Car] KTX-Cheong Ryong
+STR_Group_KTX_Cheong_Ryong_Virtual_NAME                :[DTS] [Virtual] KTX-Cheong Ryong
 STR_KTX_Cheong_Ryong_Virtual_8Car_NAME                 :[DTS/8Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong
+STR_KTX_Cheong_Ryong_Virtual_16Car_NAME                :[DTS/16Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong
 STR_KTX_Cheong_Ryong_DD_8Car_NAME                      :[DTS/8Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong DD
 STR_KTX_Chowol_8Car_NAME                               :[DTS/8Car] KTX-Chowol
 STR_Group_KTX_Eum_NAME                                 :[DTS] KTX-EUM
@@ -122,6 +124,7 @@ STR_KTX_Eum_DD_6Car_NAME                               :[DTS/6Car] KTX-EUM DD
 STR_Group_KTX_Onnuri_NAME                              :[DTS] KTX-Onnuri
 STR_KTX_Onnuri_8Car_NAME                               :[DTS/8Car] KTX-Onnuri
 STR_KTX_Onnuri_10Car_NAME                              :[DTS/10Car] KTX-Onnuri
+STR_KTX_Onnuri_16Car_NAME                              :[DTS/16Car] KTX-Onnuri
 STR_Group_KTX_Sancheon_NAME                            :[DTS] KTX-Sancheon
 STR_KTX_Sancheon_10Car_NAME                            :[DTS/10Car] KTX-Sancheon, SRT
 STR_KTX_Sancheon_20Car_NAME                            :[DTS/20Car] KTX-Sancheon

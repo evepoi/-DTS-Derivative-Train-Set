@@ -587,23 +587,20 @@ spriteset(set_KTX_Cheong_Ryong_JR_engineT, "src/locomotive/KTX/KTX_Cheong_Ryong/
 }
 
 /*--------------------------------------------------------------------
-KTX_Cheong_Ryong
---------------------------------------------------------------------*/
-spriteset(set_DeleteA, "Deleted_Train_Image.png"){
-    DTS_temp(80, 0)
-}
-
-spriteset(set_DeleteB, "Deleted_Train_Image.png"){
-    DTS_temp(80, 27)
-}
-
-/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 spriteset(set_KTX_Cheong_Ryong_Virtual_purchase, "src/locomotive/KTX/KTX_Cheong_Ryong/KTX_Cheong_Ryong_Virtual/KTX_Cheong_Ryong_CC.png"){
     tmpl_purchase(0, 0)
 }
 
+spriteset(set_KTX_Cheong_Ryong_Virtual_JR_purchase, "src/locomotive/KTX/KTX_Cheong_Ryong/KTX_Cheong_Ryong_Virtual/KTX_Cheong_Ryong_JR.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_Virtual_purchase, cargo_subtype) {
     set_KTX_Cheong_Ryong_Virtual_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_Virtual_JR_purchase, cargo_subtype) {
+    set_KTX_Cheong_Ryong_Virtual_JR_purchase;
 }

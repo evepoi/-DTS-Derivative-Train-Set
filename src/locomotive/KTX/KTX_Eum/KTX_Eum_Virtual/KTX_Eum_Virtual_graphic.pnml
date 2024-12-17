@@ -260,17 +260,6 @@ spriteset(set_KTX_Eum_SM3_engineT, "src/locomotive/KTX/KTX_Eum/KTX_Eum_Virtual/K
 }
 
 /*--------------------------------------------------------------------
-KTX_Eum
---------------------------------------------------------------------*/
-spriteset(set_KTX_Eum_DeleteA, "Deleted_Train_Image.png"){
-    DTS_temp(80, 0)
-}
-
-spriteset(set_KTX_Eum_DeleteB, "Deleted_Train_Image.png"){
-    DTS_temp(80, 27)
-}
-
-/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 // 구매차량 그래픽

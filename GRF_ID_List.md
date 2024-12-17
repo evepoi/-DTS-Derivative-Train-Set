@@ -542,11 +542,13 @@
 |2523|Showcase_Flat_2F|
 |2524|[그룹명] Group_Luggage|
 |2525|Luggage_Olny|
-|2306|공백|
+|2306|KTX_Cheong_Ryong_Virtual|
 |2307|삭제예정|
 |2526|DTX_Sobaek_4Car|
 |2527|DTX_Sobaek_6Car|
-|2528~2999|공백|
+|2528|KTX_Cheong_Ryong_Virtual_16Car|
+|2529|KTX_Onnuri_16Car|
+|2530~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

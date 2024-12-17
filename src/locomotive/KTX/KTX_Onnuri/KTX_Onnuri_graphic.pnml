@@ -52,28 +52,36 @@ spriteset(set_KTX_Onnuri_wagon_DUP1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/
     DTS_temp_r(80, 189)
 }
 
-spriteset(set_KTX_Onnuri_wagon_DUP2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Onnuri/KTX_Onnuri.png") {
+spriteset(set_KTX_Onnuri_wagon_DUP, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Onnuri/KTX_Onnuri.png") {
     DTS_temp(80, 216)
 }
 
-spriteset(set_KTX_Onnuri_wagon_DUP2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Onnuri/KTX_Onnuri.png") {
+spriteset(set_KTX_Onnuri_wagon_DUP_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Onnuri/KTX_Onnuri.png") {
     DTS_temp_r(80, 216)
 }
 
-spriteset(set_KTX_Onnuri_wagon_M4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Onnuri/KTX_Onnuri.png") {
+spriteset(set_KTX_Onnuri_wagon_DUP2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Onnuri/KTX_Onnuri.png") {
     DTS_temp(80, 243)
 }
 
-spriteset(set_KTX_Onnuri_wagon_M4_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Onnuri/KTX_Onnuri.png") {
+spriteset(set_KTX_Onnuri_wagon_DUP2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Onnuri/KTX_Onnuri.png") {
+    DTS_temp_r(80, 243)
+}
+
+spriteset(set_KTX_Onnuri_wagon_M4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Onnuri/KTX_Onnuri.png") {
     DTS_temp(80, 270)
 }
 
-spriteset(set_KTX_Onnuri_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Onnuri/KTX_Onnuri.png"){
+spriteset(set_KTX_Onnuri_wagon_M4_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Onnuri/KTX_Onnuri.png") {
     DTS_temp(80, 297)
 }
 
-spriteset(set_KTX_Onnuri_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Onnuri/KTX_Onnuri.png"){
+spriteset(set_KTX_Onnuri_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Onnuri/KTX_Onnuri.png"){
     DTS_temp(80, 324)
+}
+
+spriteset(set_KTX_Onnuri_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX/KTX_Onnuri/KTX_Onnuri.png"){
+    DTS_temp(80, 351)
 }
 
 /*--------------------------------------------------------------------
