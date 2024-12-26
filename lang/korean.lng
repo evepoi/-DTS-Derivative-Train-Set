@@ -273,10 +273,6 @@ STR_DTX_Taebaek_10Car_NAME                             :[DTS/10량] DTX-태백
 STR_HYEL_15_NAME                                       :[DTS/단량] HYEL-15
 STR_HYEL_100_NAME                                      :[DTS/단량] HYEL-100
 STR_HYEL_150_NAME                                      :[DTS/단량] HYEL-150
-STR_Group_HYEL_200_NAME                                :[DTS] HYEL-200
-STR_HYEL_200_4Car_NAME                                 :[DTS/4량] HYEL-200
-STR_HYEL_200_6Car_NAME                                 :[DTS/6량] HYEL-200
-STR_HYEL_220_6Car_NAME                                 :[DTS/6량] HYEL-220
 STR_Group_HYEL_300_NAME                                :[DTS] HYEL-300
 STR_HYEL_300_8Car_NAME                                 :[DTS/8량] HYEL-300
 STR_HYEL_300_10Car_NAME                                :[DTS/10량] HYEL-300
@@ -289,7 +285,11 @@ STR_Group_HYEL_400_NAME                                :[DTS] HYEL-400
 STR_HYEL_400_8Car_NAME                                 :[DTS/8량] HYEL-400
 STR_HYEL_400_10Car_NAME                                :[DTS/10량] HYEL-400
 STR_HYEL_400_16Car_NAME                                :[DTS/16량] HYEL-400
-STR_HYEL_Constrck_NAME                                 :[DTS/4량] 건설차량
+STR_HYEL_Constrck_NAME                                 :[DTS/12량] 건설차량
+STR_Group_HYEL_Mugunhwa_NAME                           :[DTS] HYEL-무궁화
+STR_HYEL_Mugunhwa_4Car_NAME                            :[DTS/4량] HYEL-무궁화
+STR_HYEL_Mugunhwa_6Car_NAME                            :[DTS/6량] HYEL-무궁화
+STR_HYEL_Mugunhwa_DD_6Car_NAME                         :[DTS/6량] HYEL-무궁화 DD
 STR_Group_HYEL_PEX_Super_NAME                          :[DTS] HYEL PEX-SUPER (Premium EXpress Super)
 STR_HYEL_PEX_Super_8Car_NAME                           :[DTS/8량] HYEL PEX-SUPER
 STR_HYEL_PEX_Super_10Car_NAME                          :[DTS/10량] HYEL PEX-SUPER
@@ -673,6 +673,7 @@ STR_REFIT_LIVERY_CL_150_Premium_2cc                    : Premium 2cc
 STR_REFIT_LIVERY_DEL4400_A                             : 구도색
 STR_REFIT_LIVERY_DEL4400_B                             : 신도색
 STR_REFIT_LIVERY_DEL4400_C                             : V-Train
+STR_REFIT_LIVERY_DEL4400_D                             : 교외선
 STR_REFIT_LIVERY_DEL7000_A                             : 초기도색
 STR_REFIT_LIVERY_DEL7000_B                             : 구도색
 STR_REFIT_LIVERY_DEL7000_C                             : 신도색

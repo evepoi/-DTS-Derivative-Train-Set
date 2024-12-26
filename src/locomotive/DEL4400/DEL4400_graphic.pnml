@@ -13,6 +13,10 @@ spriteset(set_DEL4400_engine_C, "src/locomotive/DEL4400/DEL4400.png"){
     DTS_temp_mini_6(80, 54)
 }
 
+spriteset(set_DEL4400_engine_D, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DEL4400/DEL4400_32bpp.png"){
+    DTS_temp_mini_6(80, 0)
+}
+
 /*-------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/

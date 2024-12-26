@@ -1,18 +1,18 @@
 /*--------------------------------------------------------------------
-HYEL-220
+HYEL-무궁화 DD
 --------------------------------------------------------------------*/
 // Graphics
-#include "HYEL_220_graphic.pnml"
+#include "HYEL_Mugunhwa_DD_graphic.pnml"
 
 // Switch
-#include "HYEL_220_switch.pnml"
+#include "HYEL_Mugunhwa_DD_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HYEL_220_6Car, 2109){
+item(FEAT_TRAINS, HYEL_Mugunhwa_DD_6Car, 2109){
     property {
-        name:                           string(STR_HYEL_220_6Car_NAME);
+        name:                           string(STR_HYEL_Mugunhwa_DD_6Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2035, 1, 1);
         track_type:                     RAIL;
@@ -51,13 +51,13 @@ item(FEAT_TRAINS, HYEL_220_6Car, 2109){
         }
         
     graphics {
-        default:                        sw_HYEL_220_6car;
-        articulated_part:               sw_articulated_HYEL_220_6car;
-        purchase:                       sw_HYEL_220_purchase;
+        default:                        sw_HYEL_Mugunhwa_DD_6car;
+        articulated_part:               sw_articulated_HYEL_Mugunhwa_DD_6car;
+        purchase:                       sw_HYEL_Mugunhwa_DD_purchase;
         speed:                          Regular_Speed_Train;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
-        sound_effect:                   sw_HYEL_220_sound;
+        sound_effect:                   sw_HYEL_Mugunhwa_DD_sound;
         }
         }

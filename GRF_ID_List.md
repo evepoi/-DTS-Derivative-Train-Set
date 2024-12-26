@@ -125,7 +125,7 @@
 |2106|Coach_2F|
 |2107|Nishitetsu_5000_4Car|
 |2108|HYEL_100|
-|2109|HYEL_220_6Car|
+|2109|HYEL_Mugunhwa_DD_6Car|
 |2110|HYEL_300_8Car|
 |2111|HYEL_400_8Car|
 |2112|DFX_10Car|
@@ -183,8 +183,8 @@
 |2164|A_Train_Passenger_Car|
 |2165|MEL_150_8Car|
 |2166|ITX_Maum_4Car|
-|2167|HYEL_200_4Car|
-|2168|HYEL_200_6Car|
+|2167|HYEL_Mugunhwa_4Car|
+|2168|HYEL_Mugunhwa_6Car|
 |2169|Hankyu_6000_2Car|
 |2170|Hankyu_6000_3Car|
 |2171|Hankyu_6000_4Car|
@@ -210,7 +210,7 @@
 |2191|[그룹명] MEL_150|
 |2192|[그룹명] CL_150|
 |2193|[그룹명] ITX_Maum|
-|2194|[그룹명] HYEL_200|
+|2194|[그룹명] HYEL_Mugunhwa|
 |2195|[그룹명] NSW_TrainLink_D|
 |2196|[그룹명] ICE4|
 |2197|[그룹명] Shinkansen_0|

@@ -323,15 +323,15 @@ sort(FEAT_TRAINS, [
     HYEL_Logo,                               //2519
     HYEL_15,                                 //2115
     HYEL_100,                                //2108
-    HYEL_200,                                //2194
-    HYEL_200_4Car,                           //2167
-    HYEL_200_6Car,                           //2168
-    HYEL_220_6Car,                           //2109
     HYEL_150,                                //2141
     HYEL_300,                                //2483
     HYEL_300_8Car,                           //2110
     HYEL_300_10Car,                          //2484
     HYEL_Constrck,                           //2320
+    HYEL_Mugunhwa,                           //2194
+    HYEL_Mugunhwa_4Car,                      //2167
+    HYEL_Mugunhwa_6Car,                      //2168
+    HYEL_Mugunhwa_DD_6Car,                   //2109
     HYEL_PEX_Super,                          //2435
     HYEL_PEX_Super_8Car,                     //2436
     HYEL_PEX_Super_10Car,                    //2437
