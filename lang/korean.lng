@@ -1141,6 +1141,8 @@ STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SA               : 새마을호 격하 유
 STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SB               : 새마을호 격하 유선형 신도색 B형
 STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN1              : 리미트객차 신도색 일반실
 STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN2              : 리미트객차 신도색 방송실 (휠체어석)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_GN1              : 리미트객차 교외선도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_GN2              : 리미트객차 교외선도색 방송실 (휠체어석)
 STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPR1            : 우등열차 일반 침대객차
 STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPC1            : 우등열차 별실 침대객차
 STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPR2            : 일반 침대객차 초기도색
@@ -1356,6 +1358,7 @@ STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WN        : 충북영동국악와�
 STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NS        : 남도해양관광열차 신도색
 STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NA        : 정선아리랑열차 신도색
 STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NG        : 서해금빛열차 신도색
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_GY        : 교외선 도색
 STR_REFIT_LIVERY_Express_Luggage_VA                    : 소화물차 A (가상도색)
 STR_REFIT_LIVERY_Express_Luggage_VB                    : 소화물차 B (가상도색)
 STR_REFIT_LIVERY_Express_Luggage_LOM                   : 무궁화호 구도색

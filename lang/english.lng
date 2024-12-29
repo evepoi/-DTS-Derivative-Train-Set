@@ -1143,6 +1143,8 @@ STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SA               : Saemaul downgrade A typ
 STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SB               : Saemaul downgrade B type
 STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN1              : Rimiteu New livery regular class
 STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN2              : Rimiteu New livery studio (Wheelchair seat)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_GN1              : Rimiteu Gyooe line livery regular class
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_GN2              : Rimiteu Gyooe line livery studio (Wheelchair seat)
 STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPR1            : Superiority Roomette sleeping car
 STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPC1            : Superiority Compartment sleeping car
 STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPR2            : Early livery Roomette sleeping car
@@ -1358,6 +1360,7 @@ STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WN        : Chungbuk Yeongdong Guga
 STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NS        : New livery S-train
 STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NA        : New livery A-train
 STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NG        : New livery G-train
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_GY        : Rimiteu Gyooe line livery
 STR_REFIT_LIVERY_Express_Luggage_VA                    : Virtual A
 STR_REFIT_LIVERY_Express_Luggage_VB                    : Virtual B
 STR_REFIT_LIVERY_Express_Luggage_LOM                   : Mugunghwa Old livery

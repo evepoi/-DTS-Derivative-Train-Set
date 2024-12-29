@@ -81,6 +81,10 @@ spriteset(set_Generatar_Real_Stream_lined_NG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP
     DTS_temp_mini_7(80, 81)
 }
 
+spriteset(set_Generatar_Real_Stream_lined_GY, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined_32bpp.png") {
+    DTS_temp_mini_7(80, 108)
+}
+
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
@@ -101,6 +105,10 @@ spriteset(set_Generatar_Real_Stream_lined_2006_purchase, "src/wagon/Generatar/Ge
     tmpl_wagon_purchase(0, 162)
 }
 
+spriteset(set_Generatar_Real_Stream_lined_2024_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined_32bpp.png"){
+    tmpl_wagon_purchase(0, 108)
+}
+
 // 구매차량 등장년도
 switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_1990_purchase, cargo_subtype) {
     set_Generatar_Real_Stream_lined_1990_purchase;
@@ -118,9 +126,14 @@ switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2006_purchase, cargo_su
     set_Generatar_Real_Stream_lined_2006_purchase;
 }
 
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2024_purchase, cargo_subtype) {
+    set_Generatar_Real_Stream_lined_2024_purchase;
+}
+
 switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_purchase, current_year) {
     0..1990: sw_Generatar_Real_Stream_lined_1990_purchase;
     1991..1995: sw_Generatar_Real_Stream_lined_1991_purchase;
     1996..2005: sw_Generatar_Real_Stream_lined_1996_purchase;
-    sw_Generatar_Real_Stream_lined_2006_purchase;
+    2006..2023: sw_Generatar_Real_Stream_lined_2006_purchase;
+    sw_Generatar_Real_Stream_lined_2024_purchase;
     }
