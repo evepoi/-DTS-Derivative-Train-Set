@@ -548,7 +548,12 @@
 |2527|DTX_Sobaek_6Car|
 |2528|KTX_Cheong_Ryong_Virtual_16Car|
 |2529|KTX_Onnuri_16Car|
-|2530~2999|공백|
+|2530|Korail_6th|
+|2531|Korail_6th_4Car|
+|2532|Korail_6th_6Car|
+|2533|Korail_6th_8Car|
+|2534|Incheonmetro_1000_3rd_8Car|
+|2535~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

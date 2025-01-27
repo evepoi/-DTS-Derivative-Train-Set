@@ -329,6 +329,7 @@ STR_Gimpo_Gold_2Car_NAME                               :[DTS/2량] 김포골드�
 STR_Gwangjumetro_1000_4Car_NAME                        :[DTS/4량] 광주교통공사 1000호대 전동차
 STR_Incheonmetro_1000_1st_8Car_NAME                    :[DTS/8량] 인천교통공사 1000호대 1세대 전동차
 STR_Incheonmetro_1000_2nd_8Car_NAME                    :[DTS/8량] 인천교통공사 1000호대 2세대 전동차
+STR_Incheonmetro_1000_3rd_8Car_NAME                    :[DTS/8량] 인천교통공사 1000호대 3세대 전동차
 STR_Incheonmetro_2000_2Car_NAME                        :[DTS/2량] 인천교통공사 2000호대 전동차
 STR_Group_Korail_1st_NAME                              :[DTS] 한국철도공사 1세대 전동차
 STR_Korail_1st_4Car_NAME                               :[DTS/4량] 한국철도공사 1세대
@@ -347,11 +348,15 @@ STR_Group_Korail_4th_NAME                              :[DTS] 한국철도공사
 STR_Korail_392000_2Car_NAME                            :[DTS/2량] 한국철도공사 392000호대 전동차
 STR_Korail_392000_4Car_NAME                            :[DTS/4량] 한국철도공사 392000호대 전동차
 STR_Korail_4th_G1_4Car_NAME                            :[DTS/4량] 한국철도공사 4세대 초기도입분
-STR_Korail_4th_4Car_NAME                               :[DTS/4량] 한국철도공사 4세대 2차 도입분
+STR_Korail_4th_4Car_NAME                               :[DTS/4량] 한국철도공사 4세대 2차도입분
 STR_Korail_4th_6Car_NAME                               :[DTS/6량] 한국철도공사 4세대 1·2차 도입분
-STR_Korail_4th_8Car_NAME                               :[DTS/8량] 한국철도공사 4세대 2차 도입분
+STR_Korail_4th_8Car_NAME                               :[DTS/8량] 한국철도공사 4세대 2차도입분
 STR_Korail_4th_10Car_NAME                              :[DTS/10량] 한국철도공사 4세대 1·2차 도입분
 STR_Korail_5th_10Car_NAME                              :[DTS/10량] 한국철도공사 5세대 전동차
+STR_Group_Korail_6th_NAME                              :[DTS] 한국철도공사 6세대 전동차
+STR_Korail_6th_4Car_NAME                               :[DTS/4량] 한국철도공사 6세대 전동차
+STR_Korail_6th_6Car_NAME                               :[DTS/6량] 한국철도공사 6세대 전동차
+STR_Korail_6th_8Car_NAME                               :[DTS/8량] 한국철도공사 6세대 전동차
 STR_Group_Korail_First_NAME                            :[DTS] 한국철도공사 저항제어 전동차 [초기저항]
 STR_Korail_First_4Car_NAME                             :[DTS/4량] 한국철도공사 저항제어 전동차 [초기저항]
 STR_Korail_First_6Car_NAME                             :[DTS/6량] 한국철도공사 저항제어 전동차 [초기저항]
@@ -977,7 +982,7 @@ STR_REFIT_LIVERY_Korail_4th_G3_SI                      : 2차분
 STR_REFIT_LIVERY_Korail_4th_G3_SI1                     : 2차분 싱글암1개
 STR_REFIT_LIVERY_Korail_4th_G3_SI2                     : 2차분 싱글암2개
 STR_REFIT_LIVERY_Korail_4th_G3_DOB                     : 2차분 더블암
-STR_REFIT_LIVERY_Korail_4th_G3_PMSM                    : PMSM
+STR_REFIT_LIVERY_Korail_4th_G3_PMSM                    : {GREEN}[가상] {BLACK}PMSM
 STR_REFIT_LIVERY_Korail_5th_Nomal                      : 기본형
 STR_REFIT_LIVERY_Korail_5th_Update_software            : 소프트웨어개선
 STR_REFIT_LIVERY_Korail_First_K1000_Initial            : 초기저항 철도청 초기도색 [비냉방]

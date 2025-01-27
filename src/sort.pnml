@@ -120,6 +120,7 @@ sort(FEAT_TRAINS, [
     Incheonmetro,                            //2386
     Incheonmetro_1000_1st_8Car,              //2387
     Incheonmetro_1000_2nd_8Car,              //2388
+    Incheonmetro_1000_3rd_8Car,              //2534
     Incheonmetro_2000_2Car,                  //2408
 
     //한국철도공사
@@ -146,6 +147,10 @@ sort(FEAT_TRAINS, [
     Korail_4th_8Car,                         //2461
     Korail_4th_10Car,                        //2218
     Korail_5th_10Car,                        //2239
+    Korail_6th,                              //2530
+    Korail_6th_4Car,                         //2531
+    Korail_6th_6Car,                         //2532
+    Korail_6th_8Car,                         //2533
     Korail_First,                            //3000
     Korail_First_4Car,                       //3001
     Korail_First_6Car,                       //3002

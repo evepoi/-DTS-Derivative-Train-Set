@@ -329,6 +329,7 @@ STR_Gimpo_Gold_2Car_NAME                               :[DTS/2car] Gimpo Gold Li
 STR_Gwangjumetro_1000_4Car_NAME                        :[DTS/4Car] Gwangjumetro 1000
 STR_Incheonmetro_1000_1st_8Car_NAME                    :[DTS/8car] Incheonmetro 1000 1st
 STR_Incheonmetro_1000_2nd_8Car_NAME                    :[DTS/8car] Incheonmetro 1000 2nd
+STR_Incheonmetro_1000_3rd_8Car_NAME                    :[DTS/8car] Incheonmetro 1000 3rd
 STR_Incheonmetro_2000_2Car_NAME                        :[DTS/2car] Incheonmetro 2000
 STR_Group_Korail_1st_NAME                              :[DTS] Korail 1st 
 STR_Korail_1st_4Car_NAME                               :[DTS/4Car] Korail 1st
@@ -352,6 +353,10 @@ STR_Korail_4th_6Car_NAME                               :[DTS/6Car] Korail 4th Ge
 STR_Korail_4th_8Car_NAME                               :[DTS/8Car] Korail 4th Generation 2nd
 STR_Korail_4th_10Car_NAME                              :[DTS/10Car] Korail 4th Generation 1nd, 2nd
 STR_Korail_5th_10Car_NAME                              :[DTS/10Car] Korail 5th
+STR_Group_Korail_6th_NAME                              :[DTS] Korail 6th
+STR_Korail_6th_4Car_NAME                               :[DTS/4Car] Korail 6th
+STR_Korail_6th_6Car_NAME                               :[DTS/6Car] Korail 6th
+STR_Korail_6th_8Car_NAME                               :[DTS/8Car] Korail 6th
 STR_Group_Korail_First_NAME                            :[DTS] Korail Rheostatic
 STR_Korail_First_4Car_NAME                             :[DTS/4Car] Korail Rheostatic
 STR_Korail_First_6Car_NAME                             :[DTS/6Car] Korail Rheostatic

@@ -27,4 +27,5 @@ item(FEAT_TRAINS, Incheonmetro, 2386){
 --------------------------------------------------------------------*/
 #include "Incheonmetro_1000_1st/Incheonmetro_1000_1st.pnml"
 #include "Incheonmetro_1000_2nd/Incheonmetro_1000_2nd.pnml"
+#include "Incheonmetro_1000_3rd/Incheonmetro_1000_3rd.pnml"
 #include "Incheonmetro_2000/Incheonmetro_2000.pnml"

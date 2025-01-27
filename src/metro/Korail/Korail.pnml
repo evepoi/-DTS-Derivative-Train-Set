@@ -30,4 +30,5 @@ item(FEAT_TRAINS, Korail, 2240){
 #include "Korail_3rd/Korail_3rd.pnml"
 #include "Korail_4th/Korail_4th.pnml"
 #include "Korail_5th/Korail_5th.pnml"
+#include "Korail_6th/Korail_6th.pnml"
 #include "Korail_Rheostatic/Korail_Rheostatic.pnml"

@@ -1,0 +1,49 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+인천교통공사 1000 3세대
+--------------------------------------------------------------------*/
+spriteset(set_Incheonmetro_1000_3rd_engineH, "src/metro/Incheonmetro/Incheonmetro_1000_3rd/Incheonmetro_1000_3rd.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Incheonmetro_1000_3rd_engineH_r, "src/metro/Incheonmetro/Incheonmetro_1000_3rd/Incheonmetro_1000_3rd.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Incheonmetro_1000_3rd_wagon, "src/metro/Incheonmetro/Incheonmetro_1000_3rd/Incheonmetro_1000_3rd.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Incheonmetro_1000_3rd_wagon_r, "src/metro/Incheonmetro/Incheonmetro_1000_3rd/Incheonmetro_1000_3rd.png"){
+    DTS_temp_r(80, 54)
+}
+
+spriteset(set_Incheonmetro_1000_3rd_panto_wagon, "src/metro/Incheonmetro/Incheonmetro_1000_3rd/Incheonmetro_1000_3rd.png"){
+    DTS_temp(80, 81)
+}
+
+spriteset(set_Incheonmetro_1000_3rd_panto_wagon_r, "src/metro/Incheonmetro/Incheonmetro_1000_3rd/Incheonmetro_1000_3rd.png"){
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_Incheonmetro_1000_3rd_engineT_r, "src/metro/Incheonmetro/Incheonmetro_1000_3rd/Incheonmetro_1000_3rd.png"){
+    DTS_temp(80, 108)
+}
+
+spriteset(set_Incheonmetro_1000_3rd_engineT, "src/metro/Incheonmetro/Incheonmetro_1000_3rd/Incheonmetro_1000_3rd.png"){
+    DTS_temp(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Incheonmetro_1000_3rd_purchase, "src/metro/Incheonmetro/Incheonmetro_1000_3rd/Incheonmetro_1000_3rd.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Incheonmetro_1000_3rd_purchase, cargo_subtype) {
+    set_Incheonmetro_1000_3rd_purchase;
+}
