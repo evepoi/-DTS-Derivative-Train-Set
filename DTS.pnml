@@ -10,7 +10,7 @@ grf {
     name :                             string(STR_GRF_NAME_WITH_VER);
     desc :                             string(STR_GRF_DESC);
     url :                              string(STR_GRF_URL);
-    version :                          20250127;
+    version :                          20250131;
     min_compatible_version :           20240618;
 	
 	// Parameters 매개변수
@@ -49,6 +49,7 @@ railtypetable {
 // Load trains
 #include "src/train_list.pnml"
 #include "src_Chinese/train_list.pnml"
+#include "src_Hong_Kong/train_list.pnml"
 #include "src_European/train_list.pnml"
 #include "src_Japanese/train_list.pnml"
 #include "src_Virtual/train_list.pnml"

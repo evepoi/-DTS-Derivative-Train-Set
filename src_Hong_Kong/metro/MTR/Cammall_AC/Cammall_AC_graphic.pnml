@@ -1,26 +1,26 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_MTR_AC_Cammall_engineH, "src_Chinese/metro/MTR/Cammall_AC/Cammall_AC.png"){
+spriteset(set_MTR_AC_Cammall_engineH, "src_Hong_Kong/metro/MTR/Cammall_AC/Cammall_AC.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_MTR_AC_Cammall_panto_wagon, "src_Chinese/metro/MTR/Cammall_AC/Cammall_AC.png"){
+spriteset(set_MTR_AC_Cammall_panto_wagon, "src_Hong_Kong/metro/MTR/Cammall_AC/Cammall_AC.png"){
     DTS_temp(80, 27)
 }
 
-spriteset(set_MTR_AC_Cammall_wagon, "src_Chinese/metro/MTR/Cammall_AC/Cammall_AC.png") {
+spriteset(set_MTR_AC_Cammall_wagon, "src_Hong_Kong/metro/MTR/Cammall_AC/Cammall_AC.png") {
     DTS_temp(80, 54)
 }
 
-spriteset(set_MTR_AC_Cammall_engineT, "src_Chinese/metro/MTR/Cammall_AC/Cammall_AC.png"){
+spriteset(set_MTR_AC_Cammall_engineT, "src_Hong_Kong/metro/MTR/Cammall_AC/Cammall_AC.png"){
     DTS_temp(80, 81)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-spriteset(set_MTR_AC_Cammall_purchase, "src_Chinese/metro/MTR/Cammall_AC/Cammall_AC.png"){
+spriteset(set_MTR_AC_Cammall_purchase, "src_Hong_Kong/metro/MTR/Cammall_AC/Cammall_AC.png"){
     tmpl_purchase(0, 0)
 }
 

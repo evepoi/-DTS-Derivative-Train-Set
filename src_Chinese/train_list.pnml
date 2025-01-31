@@ -6,6 +6,3 @@
 #include "locomotive/CRH/CRH.pnml"
 #include "locomotive/HXD3C/HXD3C.pnml"
 #include "locomotive/NJ2/NJ2.pnml"
-
-//Metro
-#include "metro/MTR/MTR.pnml"

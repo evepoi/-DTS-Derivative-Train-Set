@@ -4,43 +4,43 @@ Graphics
 /*--------------------------------------------------------------------
 MEL_150
 --------------------------------------------------------------------*/
-spriteset(set_MEL_150_engineH, "src/locomotive/MEL_150/MEL_150.png"){
+spriteset(set_MEL_150_engineH, "src/metro/MEL_150/MEL_150.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_MEL_150_engineH_r, "src/locomotive/MEL_150/MEL_150.png"){
+spriteset(set_MEL_150_engineH_r, "src/metro/MEL_150/MEL_150.png"){
     DTS_temp(80, 27)
 }
 
-spriteset(set_MEL_150_panto_wagon, "src/locomotive/MEL_150/MEL_150.png") {
+spriteset(set_MEL_150_panto_wagon, "src/metro/MEL_150/MEL_150.png") {
     DTS_temp(80, 54)
 }
 
-spriteset(set_MEL_150_panto_wagon_r, "src/locomotive/MEL_150/MEL_150.png") {
+spriteset(set_MEL_150_panto_wagon_r, "src/metro/MEL_150/MEL_150.png") {
     DTS_temp_r(80, 54)
 }
 
-spriteset(set_MEL_150_1F_wagon, "src/locomotive/MEL_150/MEL_150.png") {
+spriteset(set_MEL_150_1F_wagon, "src/metro/MEL_150/MEL_150.png") {
     DTS_temp(80, 81)
 }
 
-spriteset(set_MEL_150_1F_wagon_r, "src/locomotive/MEL_150/MEL_150.png") {
+spriteset(set_MEL_150_1F_wagon_r, "src/metro/MEL_150/MEL_150.png") {
     DTS_temp_r(80, 81)
 }
 
-spriteset(set_MEL_150_2F_wagon, "src/locomotive/MEL_150/MEL_150.png") {
+spriteset(set_MEL_150_2F_wagon, "src/metro/MEL_150/MEL_150.png") {
     DTS_temp(80, 108)
 }
 
-spriteset(set_MEL_150_2F_wagon_r, "src/locomotive/MEL_150/MEL_150.png") {
+spriteset(set_MEL_150_2F_wagon_r, "src/metro/MEL_150/MEL_150.png") {
     DTS_temp_r(80, 108)
 }
 
-spriteset(set_MEL_150_engineT_r, "src/locomotive/MEL_150/MEL_150.png"){
+spriteset(set_MEL_150_engineT_r, "src/metro/MEL_150/MEL_150.png"){
     DTS_temp(80, 135)
 }
 
-spriteset(set_MEL_150_engineT, "src/locomotive/MEL_150/MEL_150.png"){
+spriteset(set_MEL_150_engineT, "src/metro/MEL_150/MEL_150.png"){
     DTS_temp(80, 162)
 }
 
@@ -48,7 +48,7 @@ spriteset(set_MEL_150_engineT, "src/locomotive/MEL_150/MEL_150.png"){
 구매정보
 -------------------------------------------------------------------*/
 // 구매차량 그래픽
-spriteset(set_MEL_150_purchase, "src/locomotive/MEL_150/MEL_150.png"){
+spriteset(set_MEL_150_purchase, "src/metro/MEL_150/MEL_150.png"){
     tmpl_purchase(0, 0)
 }
 

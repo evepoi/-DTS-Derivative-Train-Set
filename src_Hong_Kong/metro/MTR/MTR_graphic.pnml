@@ -4,6 +4,6 @@ Graphics
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
-spriteset(set_MTR_Logo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Chinese/metro/MTR/MTR.png"){
+spriteset(set_MTR_Logo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Hong_Kong/metro/MTR/MTR.png"){
     tmpl_single_purchase(0, 0)
 }
