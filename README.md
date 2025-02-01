@@ -85,5 +85,5 @@
 ``make clean``을 입력하면 모든 생성된 파일이 초기화됩니다.
 
 ## 라이선스
-DTS는 크리에이티브 [커먼스 라이선스 v3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) (CC-BY-NC-SA v3.0)을 따릅니다.
+DTS는 크리에이티브 [커먼스 라이선스 v3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) (CC-BY-NC-SA v3.0)을 따릅니다.<br>
 DTS 프로젝트에 기여함은 라이선스에 동의함을 의미합니다.
