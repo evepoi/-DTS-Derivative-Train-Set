@@ -44,6 +44,7 @@
 #include "metro/Dongbuk/Dongbuk.pnml"
 #include "metro/Gimpo_Gold/Gimpo_Gold.pnml"
 #include "metro/Gwangjumetro/Gwangjumetro.pnml"
+#include "metro/IMR_001/IMR_001.pnml"
 #include "metro/Incheonmetro/Incheonmetro.pnml"
 #include "metro/Korail/Korail.pnml"
 #include "metro/MEL_150/MEL_150.pnml"

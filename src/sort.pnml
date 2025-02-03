@@ -357,6 +357,15 @@ sort(FEAT_TRAINS, [
     Dongbuk_2Car,                            //2433
     Gimpo_Gold_2Car,                         //2410
     Gwangjumetro_1000_4Car,                  //2415
+    IMR_001,                                 //2535
+    IMR_001_6Car,                            //2536
+    IMR_001_8Car,                            //2537
+    MEL_150,                                 //2191
+    MEL_150_4Car,                            //2136
+    MEL_150_6Car,                            //2236
+    MEL_150_8Car,                            //2165
+    MEL_150_10Car,                           //2137
+    MEL_150_12Car,                           //2138
     Group_Nextrain,                          //2420
     Nextrain_3Car,                           //2421
     Nextrain_4Car,                           //2422
@@ -410,12 +419,6 @@ sort(FEAT_TRAINS, [
     E8600_4Car,                              //2282
     FEL_8500,                                //2016
     GT26CW,                                  //2014
-    MEL_150,                                 //2191
-    MEL_150_4Car,                            //2136
-    MEL_150_6Car,                            //2236
-    MEL_150_8Car,                            //2165
-    MEL_150_10Car,                           //2137
-    MEL_150_12Car,                           //2138
     NEL_8100,                                //2299
     NEL_8200,                                //2177
     OEL8000,                                 //2417
@@ -489,7 +492,6 @@ sort(FEAT_TRAINS, [
     Shinkansen_E5_H5_10Car,                  //2092
     Shinkansen_E5_H5_E6_17Car,               //2305
     Shinkansen_E6_7Car,                      //2093
-    Shinkansen_E6_E5_H5_17Car,               //2307
     Shinkansen_E8_7Car,                      //2095
     NHSRCL_E5_10Car,                         //2116
     THSR_700T_12Car,                         //2118

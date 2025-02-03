@@ -49,17 +49,6 @@ spriteset(set_Shinkansen_E6_engineT_E5H5, "src_Japanese/locomotive/Shinkansen/Sh
 }
 
 /*--------------------------------------------------------------------
-E6+E5 삭제 그래픽 적용 /1.61 제거
---------------------------------------------------------------------*/
-spriteset(set_DeleteA, "Deleted_Train_Image.png"){
-    DTS_temp(80, 0)
-}
-
-spriteset(set_DeleteB, "Deleted_Train_Image.png"){
-    DTS_temp(80, 27)
-}
-
-/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 spriteset(set_Shinkansen_E6_purchase, "src_Japanese/locomotive/Shinkansen/Shinkansen_E6/Shinkansen_E6.png"){

@@ -34,26 +34,6 @@ switch(FEAT_TRAINS, PARENT, sw_Shinkansen_E6_7car_reversed, vehicle_is_reversed)
     sw_Shinkansen_E6_7car_flipped;
 }
 
-switch (FEAT_TRAINS, SELF, sw_Shinkansen_E6_Delete, position_in_vehid_chain % 17) {
-    1:set_DeleteB;
-    2:set_DeleteB;
-    3:set_DeleteB;
-    4:set_DeleteB;
-    5:set_DeleteB;
-    6:set_DeleteB;
-    7:set_DeleteB;
-    8:set_DeleteB;
-    9:set_DeleteB;
-    10:set_DeleteB;
-    11:set_DeleteB;
-    12:set_DeleteB;
-    13:set_DeleteB;
-    14:set_DeleteB;
-    15:set_DeleteB;
-    16:set_DeleteB;
-    set_DeleteA; //default
-    }
-
 switch (FEAT_TRAINS, SELF, sw_articulated_Shinkansen_E6_7car, extra_callback_info1) {
     1..6: Shinkansen_E6_7Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

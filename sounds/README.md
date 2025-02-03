@@ -222,6 +222,7 @@
 ### TOSHIBASicStart.wav
 - CL-150
 - GTX
+- IMR-001
 - KTX-온누리
 - PEX-SUPER
 - 공항철도 2000호대 4세대

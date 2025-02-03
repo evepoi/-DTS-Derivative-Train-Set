@@ -322,8 +322,8 @@
 |2303|Seoulmetro_5th_7000_8Car|
 |2304|[그룹명] Shinkansen_E5_H5|
 |2305|Shinkansen_E5_H5_E6_17Car|
-|2306|[공백]|
-|2307|[삭제예정]Shinkansen_E6_E5_H5_17Car|
+|2306|KTX_Cheong_Ryong_Virtual|
+|2307|[공백]|
 |2308|Seoulmetro_1st_8000_6Car|
 |2309|Seoulmetro_1st_7000_8Car|
 |2310|Seoulmetro_1st_6000_8Car|
@@ -542,8 +542,6 @@
 |2523|Showcase_Flat_2F|
 |2524|[그룹명] Group_Luggage|
 |2525|Luggage_Olny|
-|2306|KTX_Cheong_Ryong_Virtual|
-|2307|삭제예정|
 |2526|DTX_Sobaek_4Car|
 |2527|DTX_Sobaek_6Car|
 |2528|KTX_Cheong_Ryong_Virtual_16Car|
@@ -553,9 +551,15 @@
 |2532|Korail_6th_6Car|
 |2533|Korail_6th_8Car|
 |2534|Incheonmetro_1000_3rd_8Car|
-|2535~2999|공백|
+|2535|IMR_001|
+|2536|IMR_001_6Car|
+|2537|IMR_001_8Car|
+|2538~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|
 |3003|Korail_First_8Car|
 |3004|Korail_First_10Car|
+
+[공백]
+|2307|1.62 적용시 부여|
