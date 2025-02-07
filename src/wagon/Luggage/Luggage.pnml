@@ -26,3 +26,4 @@ item(FEAT_TRAINS, Group_Luggage, 2524){
 --------------------------------------------------------------------*/
 #include "Express_Luggage/Express_Luggage.pnml"
 #include "Luggage_Olny/Luggage_Olny.pnml"
+#include "Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.pnml"

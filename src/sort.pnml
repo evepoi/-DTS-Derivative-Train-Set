@@ -579,6 +579,7 @@ sort(FEAT_TRAINS, [
     Group_Luggage,                           //2524
     Express_Luggage,                         //2004
     Luggage_Olny,                            //2525
+    Pidulgi_Express_Luggage,                 //2538
     Group_Post_Car,                          //2475
     Post_Car,                                //2476
     Express_Post_Car,                        //2477

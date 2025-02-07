@@ -554,7 +554,8 @@
 |2535|IMR_001|
 |2536|IMR_001_6Car|
 |2537|IMR_001_8Car|
-|2538~2999|공백|
+|2538|Pidulgi_Express_Luggage|
+|2539~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

@@ -1,0 +1,92 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Pidulgi_Express_Luggage_MADE_1935_L, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png") {
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Pidulgi_Express_Luggage_MADE_1951_L, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png") {
+    DTS_temp(80, 27)
+}
+
+spriteset(set_Pidulgi_Express_Luggage_1962_L, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_Pidulgi_Express_Luggage_1968_L, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_Pidulgi_Express_Luggage_MADE_1951_LB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_Pidulgi_Express_Luggage_1962_LB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_Pidulgi_Express_Luggage_1968_LB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png") {
+    DTS_temp(80, 162)
+}
+
+spriteset(set_Pidulgi_Express_Luggage_1962_LB2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png") {
+    DTS_temp(80, 189)
+}
+
+spriteset(set_Pidulgi_Express_Luggage_1968_LB2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png") {
+    DTS_temp(80, 216)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Pidulgi_Express_Luggage_1960_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_Pidulgi_Express_Luggage_1962_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png"){
+    tmpl_wagon_purchase(0, 54)
+}
+
+spriteset(set_Pidulgi_Express_Luggage_1968_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png"){
+    tmpl_wagon_purchase(0, 81)
+}
+
+spriteset(set_Pidulgi_Express_Luggage_1984_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png"){
+    tmpl_wagon_purchase(0, 108)
+}
+
+spriteset(set_Pidulgi_Express_Luggage_1994_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Luggage/Pidulgi_Express_Luggage/Pidulgi_Express_Luggage.png"){
+    tmpl_wagon_purchase(0, 189)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Express_Luggage_1960_purchase, cargo_subtype) {
+    set_Pidulgi_Express_Luggage_1960_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Express_Luggage_1962_purchase, cargo_subtype) {
+    set_Pidulgi_Express_Luggage_1962_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Express_Luggage_1968_purchase, cargo_subtype) {
+    set_Pidulgi_Express_Luggage_1968_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Express_Luggage_1984_purchase, cargo_subtype) {
+    set_Pidulgi_Express_Luggage_1984_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Express_Luggage_1994_purchase, cargo_subtype) {
+    set_Pidulgi_Express_Luggage_1994_purchase;
+}
+
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Express_Luggage_purchase, current_year) {
+    0..1961: sw_Pidulgi_Express_Luggage_1960_purchase;
+    1962..1967: sw_Pidulgi_Express_Luggage_1962_purchase;
+    1968..1983: sw_Pidulgi_Express_Luggage_1968_purchase;
+    1984..1993: sw_Pidulgi_Express_Luggage_1984_purchase;
+    sw_Pidulgi_Express_Luggage_1994_purchase;
+    }

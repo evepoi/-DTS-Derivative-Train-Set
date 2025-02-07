@@ -1,0 +1,8 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//도색
+#include "Pidulgi_Express_Luggage_switch_Year.pnml"
+
+//열차
+#include "Pidulgi_Express_Luggage_switch_wagon.pnml"

@@ -557,6 +557,7 @@ STR_Generatar_Real_Stream_lined_NAME                   :한국 유선형, 고속
 STR_Group_Luggage_NAME                                 :한국 수화물차
 STR_Express_Luggage_NAME                               :고속수화물차
 STR_Luggage_Olny_NAME                                  :소화물 전용차
+STR_Pidulgi_Express_Luggage_NAME                       :비둘기호 소화물차
 STR_Group_Post_Car_NAME                                :한국 우편차
 STR_Post_Car_NAME                                      :한국 우편차
 STR_Express_Post_Car_NAME                              :한국 고속 우편차
@@ -649,6 +650,7 @@ STR_REFIT_train_configuration_Generatar_2cc            :{BLACK}열차구성 {}{G
 STR_REFIT_train_configuration_Generatar_Real           :{BLACK}열차구성 {}{GREEN}[기관차연결]{}한국형 발전차{}년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_Express_Luggage          :{BLACK}열차구성 {}{GREEN}[기관차열차]{}한국형 수화물차{}년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_Luggage_Olny             :{BLACK}열차구성 {}{GREEN}[기관차열차]{}한국형 수화물차{}년도와 실제 열차에 맞추어 적용됩니다.
+STR_REFIT_train_configuration_Pidulgi_Express_Luggage  :{BLACK}열차구성 {}{GREEN}[기관차열차]{}한국 비둘기호 수화물차{}년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_Post_Car                 :{BLACK}열차구성 {}{GREEN}[기관차열차]{}한국형 우편차{}년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_CSPassenger              :{BLACK}열차구성 {}{GREEN}[기관차열차] 중국 객차
 STR_REFIT_train_configuration_CGeneratar               :{BLACK}열차구성 {}{GREEN}[기관차열차] 중국 발전차
@@ -1392,6 +1394,15 @@ STR_REFIT_LIVERY_Luggage_Olny_1998_G                   : 1998년식 (녹색)
 STR_REFIT_LIVERY_Luggage_Olny_1999_G                   : 1999년식 (녹색)
 STR_REFIT_LIVERY_Luggage_Olny_1998_B                   : 1998년식 (파랑)
 STR_REFIT_LIVERY_Luggage_Olny_1999_B                   : 1999년식 (파랑)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_MADE_1935_L   : 3등열차 소화물 (1935)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_MADE_1951_L   : 3등열차 소화물 (1951)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1962_L        : 보통열차 소화물 (1962)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1968_L        : 보통열차 소화물 (1968)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_MADE_1951_LB  : 비둘기호 초기 소화물 (1951)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1962_LB       : 비둘기호 초기 소화물 (1962)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1968_LB       : 비둘기호 초기 소화물 (1968)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1962_LB2      : 비둘기호 구도색 소화물 (1962)
+STR_REFIT_LIVERY_Pidulgi_Express_Luggage_1968_LB2      : 비둘기호 구도색 소화물 (1968)
 STR_REFIT_LIVERY_Post_Car_POST_1973                    : 우편차 전용도색
 STR_REFIT_LIVERY_Post_Car_POST_1994                    : 우편차 표준도색
 STR_REFIT_LIVERY_Express_Post_Car_POST_M_1993          : 무궁화 구도색
