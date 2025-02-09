@@ -58,6 +58,8 @@ STR_DHC_PP_14Car_NAME                                  :[14Car] DHC PP Diesel
 STR_DHC_PP_16Car_NAME                                  :[16Car] DHC PP Diesel
 STR_Group_Diesel_Car_NAME                              :Diesel Car
 STR_Nomal_Diesel_Car_NAME                              :Diesel Car
+STR_Nomal_Diesel_2Car_addcar_NAME                      :[2car+add car] Diesel Car
+STR_Nomal_Diesel_2Car_NAME                             :[2Car] Diesel Car
 STR_Special_Diesel_Car_NAME                            :special car (Diesel Car)
 STR_Group_E8600_NAME                                   :E8600
 STR_E8600_NAME                                         :E8600
@@ -723,6 +725,15 @@ STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M1              : Mugunghwa Singie Cab
 STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B               : Bidulgi KNR 2
 STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1A             : Bidulgi Single Cab Semi cross seat KNR 2
 STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1B             : Bidulgi Single Cab Long seat KNR 2
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1966_2car_C          : 1966 C
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_2car_C          : 1974 C
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_2car_L          : 1975 L
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_C          : 1984 C
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_L          : 1984 L
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_T          : 1984 T
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_2car_M          : 1984 M
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_2car_C          : 1994 C
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_2car_L          : 1994 L
 STR_REFIT_LIVERY_Special_Diesel_Car_1969               : Special car first livery
 STR_REFIT_LIVERY_Special_Diesel_Car_1986               : Special car first livery (AIRCON)
 STR_REFIT_LIVERY_Special_Diesel_Car_1994               : Special car second livery

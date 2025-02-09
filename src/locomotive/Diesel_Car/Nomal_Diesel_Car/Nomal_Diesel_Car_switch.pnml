@@ -3,12 +3,15 @@
 --------------------------------------------------------------------*/
 //도색
 #include "Nomal_Diesel_Car_switch_Year.pnml"
+#include "Nomal_Diesel_Car_switch_Year_2car.pnml"
 
 //열차
 #include "Nomal_Diesel_Car_switch_Wagon.pnml"
+#include "Nomal_Diesel_Car_switch_Wagon_2car.pnml"
 
 //수송량
 #include "Nomal_Diesel_Car_switch_capacity.pnml"
+#include "Nomal_Diesel_Car_switch_capacity_2car.pnml"
 
 //사운드
 switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_Car_sound, extra_callback_info1) {

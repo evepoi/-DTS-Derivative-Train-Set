@@ -411,6 +411,8 @@ sort(FEAT_TRAINS, [
     DHC_PP_16Car,                            //2363
     Group_Diesel_Car,                        //2465
     Nomal_Diesel_Car,                        //2466
+    Nomal_Diesel_2Car_addcar,                //2539
+    Nomal_Diesel_2Car,                       //2540
     Special_Diesel_Car,                      //2467
     E8600,                                   //2279
     E8600_1Car,                              //2128

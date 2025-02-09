@@ -10,18 +10,18 @@ switch(FEAT_TRAINS, SELF, sw_MEL_150_cargo_subtype_text, cargo_subtype) {
 // 열차
 switch(FEAT_TRAINS, SELF, sw_MEL_150_wagon_T, cargo_subtype) {
     1: set_MEL_150_2F_wagon;
-    set_MEL_150_1F_wagon;
+    set_MEL_150_wagon_MTT1;
 }
 
 switch(FEAT_TRAINS, SELF, sw_MEL_150_wagon_T_r, cargo_subtype) {
     1: set_MEL_150_2F_wagon_r;
-    set_MEL_150_1F_wagon_r;
+    set_MEL_150_wagon_MTT1_r;
 }
 
 // 편성그래픽
 // 4량
 switch (FEAT_TRAINS, SELF, sw_MEL_150_4car, position_in_vehid_chain % 4) {
-    1:set_MEL_150_panto_wagon;
+    1:set_MEL_150_panto_wagon_only_4car;
     2:set_MEL_150_panto_wagon;
     3:set_MEL_150_engineT;
     set_MEL_150_engineH; //default
@@ -29,7 +29,7 @@ switch (FEAT_TRAINS, SELF, sw_MEL_150_4car, position_in_vehid_chain % 4) {
 
 switch (FEAT_TRAINS, SELF, sw_MEL_150_4car_r, position_in_vehid_chain % 4) {
     1:set_MEL_150_panto_wagon_r;
-    2:set_MEL_150_panto_wagon_r;
+    2:set_MEL_150_panto_wagon_only_4car_r;
     3:set_MEL_150_engineH_r;
     set_MEL_150_engineT_r; //default
     }
@@ -47,8 +47,8 @@ switch(FEAT_TRAINS, PARENT, sw_MEL_150_4car_reversed, vehicle_is_reversed){
 // 6량
 switch (FEAT_TRAINS, SELF, sw_MEL_150_6car, position_in_vehid_chain % 6) {
     1:set_MEL_150_panto_wagon;
-    2:set_MEL_150_1F_wagon;
-    3:set_MEL_150_1F_wagon;
+    2:set_MEL_150_wagon_MTT1;
+    3:set_MEL_150_wagon_MTT1;
     4:set_MEL_150_panto_wagon;
     5:set_MEL_150_engineT;
     set_MEL_150_engineH; //default
@@ -56,8 +56,8 @@ switch (FEAT_TRAINS, SELF, sw_MEL_150_6car, position_in_vehid_chain % 6) {
 
 switch (FEAT_TRAINS, SELF, sw_MEL_150_6car_r, position_in_vehid_chain % 6) {
     1:set_MEL_150_panto_wagon_r;
-    2:set_MEL_150_1F_wagon_r;
-    3:set_MEL_150_1F_wagon_r;
+    2:set_MEL_150_wagon_MTT1_r;
+    3:set_MEL_150_wagon_MTT1_r;
     4:set_MEL_150_panto_wagon_r;
     5:set_MEL_150_engineH_r;
     set_MEL_150_engineT_r; //default
@@ -76,10 +76,10 @@ switch(FEAT_TRAINS, PARENT, sw_MEL_150_6car_reversed, vehicle_is_reversed){
 // 8량
 switch (FEAT_TRAINS, SELF, sw_MEL_150_8car, position_in_vehid_chain % 8) {
     1:set_MEL_150_panto_wagon;
-    2:set_MEL_150_1F_wagon;
+    2:set_MEL_150_wagon_MTT1;
     3:sw_MEL_150_wagon_T;
     4:sw_MEL_150_wagon_T;
-    5:set_MEL_150_1F_wagon;
+    5:set_MEL_150_wagon_MTT1;
     6:set_MEL_150_panto_wagon;
     7:set_MEL_150_engineT;
     set_MEL_150_engineH; //default
@@ -87,10 +87,10 @@ switch (FEAT_TRAINS, SELF, sw_MEL_150_8car, position_in_vehid_chain % 8) {
 
 switch (FEAT_TRAINS, SELF, sw_MEL_150_8car_r, position_in_vehid_chain % 8) {
     1:set_MEL_150_panto_wagon_r;
-    2:set_MEL_150_1F_wagon_r;
+    2:set_MEL_150_wagon_MTT1_r;
     3:sw_MEL_150_wagon_T_r;
     4:sw_MEL_150_wagon_T_r;
-    5:set_MEL_150_1F_wagon_r;
+    5:set_MEL_150_wagon_MTT1_r;
     6:set_MEL_150_panto_wagon_r;
     7:set_MEL_150_engineH_r;
     set_MEL_150_engineT_r; //default
@@ -108,27 +108,27 @@ switch(FEAT_TRAINS, PARENT, sw_MEL_150_8car_reversed, vehicle_is_reversed){
 
 // 10량
 switch (FEAT_TRAINS, SELF, sw_MEL_150_10car, position_in_vehid_chain % 10) {
-    1:set_MEL_150_1F_wagon;
+    1:set_MEL_150_wagon_MTT1;
     2:set_MEL_150_panto_wagon;
-    3:set_MEL_150_1F_wagon;
+    3:set_MEL_150_wagon_MTT1;
     4:set_MEL_150_panto_wagon;
     5:sw_MEL_150_wagon_T;
     6:sw_MEL_150_wagon_T;
     7:set_MEL_150_panto_wagon;
-    8:set_MEL_150_1F_wagon;
+    8:set_MEL_150_wagon_MTT1;
     9:set_MEL_150_engineT;
     set_MEL_150_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_MEL_150_10car_r, position_in_vehid_chain % 10) {
     1:set_MEL_150_panto_wagon_r;
-    2:set_MEL_150_1F_wagon_r;
+    2:set_MEL_150_wagon_MTT1_r;
     3:sw_MEL_150_wagon_T_r;
     4:sw_MEL_150_wagon_T_r;
     5:set_MEL_150_panto_wagon_r;
-    6:set_MEL_150_1F_wagon_r;
+    6:set_MEL_150_wagon_MTT1_r;
     7:set_MEL_150_panto_wagon_r;
-    8:set_MEL_150_1F_wagon_r;
+    8:set_MEL_150_wagon_MTT1_r;
     9:set_MEL_150_engineH_r;
     set_MEL_150_engineT_r; //default
     }
@@ -146,29 +146,29 @@ switch(FEAT_TRAINS, PARENT, sw_MEL_150_10car_reversed, vehicle_is_reversed){
 // 12량
 switch (FEAT_TRAINS, SELF, sw_MEL_150_12car, position_in_vehid_chain % 12) {
     1:set_MEL_150_panto_wagon;
-    2:set_MEL_150_1F_wagon;
+    2:set_MEL_150_wagon_MTT1;
     3:set_MEL_150_panto_wagon;
-    4:set_MEL_150_1F_wagon;
+    4:set_MEL_150_wagon_MTT1;
     5:set_MEL_150_2F_wagon;
     6:set_MEL_150_2F_wagon;
-    7:set_MEL_150_1F_wagon;
-    8:set_MEL_150_1F_wagon;
+    7:set_MEL_150_wagon_MTT1;
+    8:set_MEL_150_wagon_MTT1;
     9:set_MEL_150_panto_wagon;
-    10:set_MEL_150_1F_wagon;
+    10:set_MEL_150_wagon_MTT1;
     11:set_MEL_150_engineT;
     set_MEL_150_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_MEL_150_12car_r, position_in_vehid_chain % 12) {
-    1:set_MEL_150_1F_wagon_r;
+    1:set_MEL_150_wagon_MTT1_r;
     2:set_MEL_150_panto_wagon_r;
-    3:set_MEL_150_1F_wagon_r;
-    4:set_MEL_150_1F_wagon_r;
+    3:set_MEL_150_wagon_MTT1_r;
+    4:set_MEL_150_wagon_MTT1_r;
     5:set_MEL_150_2F_wagon_r;
     6:set_MEL_150_2F_wagon_r;
-    7:set_MEL_150_1F_wagon_r;
+    7:set_MEL_150_wagon_MTT1_r;
     8:set_MEL_150_panto_wagon_r;
-    9:set_MEL_150_1F_wagon_r;
+    9:set_MEL_150_wagon_MTT1_r;
     10:set_MEL_150_panto_wagon_r;
     11:set_MEL_150_engineH_r;
     set_MEL_150_engineT_r; //default

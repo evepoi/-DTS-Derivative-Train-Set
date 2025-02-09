@@ -12,36 +12,44 @@ spriteset(set_MEL_150_engineH_r, "src/metro/MEL_150/MEL_150.png"){
     DTS_temp(80, 27)
 }
 
-spriteset(set_MEL_150_panto_wagon, "src/metro/MEL_150/MEL_150.png") {
+spriteset(set_MEL_150_panto_wagon_only_4car, "src/metro/MEL_150/MEL_150.png") {
     DTS_temp(80, 54)
 }
 
-spriteset(set_MEL_150_panto_wagon_r, "src/metro/MEL_150/MEL_150.png") {
+spriteset(set_MEL_150_panto_wagon_only_4car_r, "src/metro/MEL_150/MEL_150.png") {
     DTS_temp_r(80, 54)
 }
 
-spriteset(set_MEL_150_1F_wagon, "src/metro/MEL_150/MEL_150.png") {
+spriteset(set_MEL_150_panto_wagon, "src/metro/MEL_150/MEL_150.png") {
     DTS_temp(80, 81)
 }
 
-spriteset(set_MEL_150_1F_wagon_r, "src/metro/MEL_150/MEL_150.png") {
+spriteset(set_MEL_150_panto_wagon_r, "src/metro/MEL_150/MEL_150.png") {
     DTS_temp_r(80, 81)
 }
 
-spriteset(set_MEL_150_2F_wagon, "src/metro/MEL_150/MEL_150.png") {
+spriteset(set_MEL_150_wagon_MTT1, "src/metro/MEL_150/MEL_150.png") {
     DTS_temp(80, 108)
 }
 
-spriteset(set_MEL_150_2F_wagon_r, "src/metro/MEL_150/MEL_150.png") {
+spriteset(set_MEL_150_wagon_MTT1_r, "src/metro/MEL_150/MEL_150.png") {
     DTS_temp_r(80, 108)
 }
 
-spriteset(set_MEL_150_engineT_r, "src/metro/MEL_150/MEL_150.png"){
+spriteset(set_MEL_150_2F_wagon, "src/metro/MEL_150/MEL_150.png") {
     DTS_temp(80, 135)
 }
 
-spriteset(set_MEL_150_engineT, "src/metro/MEL_150/MEL_150.png"){
+spriteset(set_MEL_150_2F_wagon_r, "src/metro/MEL_150/MEL_150.png") {
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_MEL_150_engineT_r, "src/metro/MEL_150/MEL_150.png"){
     DTS_temp(80, 162)
+}
+
+spriteset(set_MEL_150_engineT, "src/metro/MEL_150/MEL_150.png"){
+    DTS_temp(80, 189)
 }
 
 /*--------------------------------------------------------------------
