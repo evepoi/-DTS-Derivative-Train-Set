@@ -7,7 +7,7 @@ switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineH_1966_2car, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineT_1966_2car, cargo_subtype) {
-    set_Nomal_Diesel_engine_1975_Dummy;
+    set_Nomal_Diesel_engine_1975_Dual;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineH_1974_2car, cargo_subtype) {
@@ -16,8 +16,8 @@ switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineH_1974_2car, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineT_1974_2car, cargo_subtype) {
-    2: set_Nomal_Diesel_engine_1974_O1_Dummy;
-    set_Nomal_Diesel_engine_1975_Dummy;
+    2: set_Nomal_Diesel_engine_1974_O1_Dual;
+    set_Nomal_Diesel_engine_1975_Dual;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineH_1975_2car, cargo_subtype) {
@@ -27,9 +27,9 @@ switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineH_1975_2car, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineT_1975_2car, cargo_subtype) {
-    1: set_Nomal_Diesel_engine_1975_Dummy;
-    2: set_Nomal_Diesel_engine_1974_O1_Dummy;
-    set_Nomal_Diesel_engine_1975_Dummy;
+    1: set_Nomal_Diesel_engine_1975_Dual;
+    2: set_Nomal_Diesel_engine_1974_O1_Dual;
+    set_Nomal_Diesel_engine_1975_Dual;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineH_1984_2car, cargo_subtype) {
@@ -41,11 +41,11 @@ switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineH_1984_2car, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineT_1984_2car, cargo_subtype) {
-    1: set_Nomal_Diesel_engine_1975_Dummy;
-    2: set_Nomal_Diesel_engine_1974_O1_Dummy;
-    3: set_Nomal_Diesel_engine_1984_B_Dummy;
-    4: set_Nomal_Diesel_engine_1984_B_Dummy;
-    set_Nomal_Diesel_engine_1975_Dummy;
+    1: set_Nomal_Diesel_engine_1975_Dual;
+    2: set_Nomal_Diesel_engine_1974_O1_Dual;
+    3: set_Nomal_Diesel_engine_1984_B_Dual;
+    4: set_Nomal_Diesel_engine_1984_B_Dual;
+    set_Nomal_Diesel_engine_1975_Dual;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineH_1985_2car, cargo_subtype) {
@@ -79,13 +79,13 @@ switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineH_1994_2car, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_engineT_1994_2car, cargo_subtype) {
-    1: set_Nomal_Diesel_engine_1975_Dummy;
-    2: set_Nomal_Diesel_engine_1974_O1_Dummy;
-    3: set_Nomal_Diesel_engine_1984_B_Dummy;
-    4: set_Nomal_Diesel_engine_1984_B_Dummy;
-    5: set_Nomal_Diesel_engine_1994_B1_Dummy;
-    6: set_Nomal_Diesel_engine_1994_B1_Dummy;
-    set_Nomal_Diesel_engine_1975_Dummy;
+    1: set_Nomal_Diesel_engine_1975_Dual;
+    2: set_Nomal_Diesel_engine_1974_O1_Dual;
+    3: set_Nomal_Diesel_engine_1984_B_Dual;
+    4: set_Nomal_Diesel_engine_1984_B_Dual;
+    5: set_Nomal_Diesel_engine_1994_B1_Dual;
+    6: set_Nomal_Diesel_engine_1994_B1_Dual;
+    set_Nomal_Diesel_engine_1975_Dual;
 }
 
 // 듀얼헤드 적용

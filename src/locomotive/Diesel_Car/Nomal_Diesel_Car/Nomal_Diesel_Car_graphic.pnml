@@ -13,7 +13,7 @@ spriteset(set_Nomal_Diesel_engine_1975, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
     DTS_temp(80, 54)
 }
 
-spriteset(set_Nomal_Diesel_engine_1975_Dummy, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
+spriteset(set_Nomal_Diesel_engine_1975_Dual, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
     DTS_temp(80, 81)
 }
 
@@ -25,7 +25,7 @@ spriteset(set_Nomal_Diesel_engine_1974_O1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "
     DTS_temp(80, 135)
 }
 
-spriteset(set_Nomal_Diesel_engine_1974_O1_Dummy, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
+spriteset(set_Nomal_Diesel_engine_1974_O1_Dual, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
     DTS_temp(80, 162)
 }
 
@@ -37,7 +37,7 @@ spriteset(set_Nomal_Diesel_engine_1994_B1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "
     DTS_temp(80, 216)
 }
 
-spriteset(set_Nomal_Diesel_engine_1994_B1_Dummy, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
+spriteset(set_Nomal_Diesel_engine_1994_B1_Dual, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car_32bpp.png") {
     DTS_temp(80, 243)
 }
 
@@ -53,7 +53,7 @@ spriteset(set_Nomal_Diesel_engine_1984_B, "src/locomotive/Diesel_Car/Nomal_Diese
     DTS_temp(80, 135)
 }
 
-spriteset(set_Nomal_Diesel_engine_1984_B_Dummy, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car.png") {
+spriteset(set_Nomal_Diesel_engine_1984_B_Dual, "src/locomotive/Diesel_Car/Nomal_Diesel_Car/Nomal_Diesel_Car.png") {
     DTS_temp(80, 162)
 }
 
