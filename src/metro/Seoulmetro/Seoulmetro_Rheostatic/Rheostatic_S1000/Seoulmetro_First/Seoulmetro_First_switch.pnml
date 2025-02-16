@@ -7,7 +7,7 @@ switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_cargo_subtype_text, cargo_su
     return string(STR_REFIT_LIVERY_Seoulmetro_First_Aircon);
 }
 
-// 6 & 10량
+// 6량
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_engineH, cargo_subtype) {
     1: set_Seoulmetro_First_S1000_engineH;
     set_Seoulmetro_First_S1000_Aircon_engineH;
@@ -28,7 +28,7 @@ switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_engineT, cargo_subtype) {
     set_Seoulmetro_First_S1000_Aircon_engineT;
 }
 
-// 6 & 10량 뒤집힘
+// 6량 뒤집힘
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_engineH_r, cargo_subtype) {
     1: set_Seoulmetro_First_S1000_engineH_r;
     set_Seoulmetro_First_S1000_Aircon_engineH_r;
@@ -79,29 +79,29 @@ switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_First_S1000_6car_reversed, vehicle_is_
 }
 
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_10car, position_in_vehid_chain % 10) {
-    1:sw_Seoulmetro_First_S1000_wagon;
-    2:sw_Seoulmetro_First_S1000_panto_wagon;
-    3:sw_Seoulmetro_First_S1000_wagon;
-    4:sw_Seoulmetro_First_S1000_wagon;
-    5:sw_Seoulmetro_First_S1000_panto_wagon;
-    6:sw_Seoulmetro_First_S1000_wagon;
-    7:sw_Seoulmetro_First_S1000_wagon;
-    8:sw_Seoulmetro_First_S1000_panto_wagon;
-    9:sw_Seoulmetro_First_S1000_engineT;
-    sw_Seoulmetro_First_S1000_engineH; //default
+    1:set_Seoulmetro_First_S1000_Aircon_M_wagon;
+    2:set_Seoulmetro_First_S1000_Aircon_M_panto_wagon;
+    3:set_Seoulmetro_First_S1000_Aircon_M_wagon;
+    4:set_Seoulmetro_First_S1000_Aircon_M_wagon;
+    5:set_Seoulmetro_First_S1000_Aircon_M_panto_wagon;
+    6:set_Seoulmetro_First_S1000_Aircon_M_wagon;
+    7:set_Seoulmetro_First_S1000_Aircon_M_wagon;
+    8:set_Seoulmetro_First_S1000_Aircon_M_panto_wagon;
+    9:set_Seoulmetro_First_S1000_Aircon_engineT;
+    set_Seoulmetro_First_S1000_Aircon_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_10car_r, position_in_vehid_chain % 10) {
-    1:sw_Seoulmetro_First_S1000_panto_wagon_r;
-    2:sw_Seoulmetro_First_S1000_wagon_r;
-    3:sw_Seoulmetro_First_S1000_wagon_r;
-    4:sw_Seoulmetro_First_S1000_panto_wagon_r;
-    5:sw_Seoulmetro_First_S1000_wagon_r;
-    6:sw_Seoulmetro_First_S1000_wagon_r;
-    7:sw_Seoulmetro_First_S1000_panto_wagon_r;
-    8:sw_Seoulmetro_First_S1000_wagon_r;
-    9:sw_Seoulmetro_First_S1000_engineH_r;
-    sw_Seoulmetro_First_S1000_engineT_r; //default
+    1:set_Seoulmetro_First_S1000_Aircon_M_panto_wagon_r;
+    2:set_Seoulmetro_First_S1000_Aircon_M_wagon_r;
+    3:set_Seoulmetro_First_S1000_Aircon_M_wagon_r;
+    4:set_Seoulmetro_First_S1000_Aircon_M_panto_wagon_r;
+    5:set_Seoulmetro_First_S1000_Aircon_M_wagon_r;
+    6:set_Seoulmetro_First_S1000_Aircon_M_wagon_r;
+    7:set_Seoulmetro_First_S1000_Aircon_M_panto_wagon_r;
+    8:set_Seoulmetro_First_S1000_Aircon_M_wagon_r;
+    9:set_Seoulmetro_First_S1000_Aircon_engineH_r;
+    set_Seoulmetro_First_S1000_Aircon_engineT_r; //default
     }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_First_S1000_10car_flipped, vehicle_is_flipped){
